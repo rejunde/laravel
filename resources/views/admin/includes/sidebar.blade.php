@@ -5,28 +5,29 @@
 
 		        Tip 2: you can also add an image using data-image tag
 		    -->
-
-		    <div class="logo">
+ <div class="logo">
 		    	<a href="http://www.creative-tim.com" class="simple-text">
-		    		Creative Tim
+		    		Creative Daniel Tinao
 		    	</a>
 		    </div>
 
-		    <div class="sidebar-wrapper">
-		    	<ul class="nav">
-		    		<li class="active">
-		    		
-		    			<a href="{{URL::to('/administrator/dashboard')}}">
-		    				<i class="material-icons">dashboard</i>
-		    				<p>Dashboard</p>
-		    			</a>
-		    		</li>
-		    		<li class="active">
-		    				<a href="{{URL::to('/administrator')}}">
-		    				<i class="material-icons">dashboard</i>
-		    				<p>Blank</p>
-		    			</a>
-		    		</li>
-		    	</ul>
-		    </div>
+		  
+		   <div class="sidebar-wrapper">
+				<ul class="nav">
+	                <li>
+	                   <a href="{{URL::to('/administrator/dashboard')}}">
+	                        <i class="material-icons">dashboard</i>
+	                        <p>Dashboard</p>
+	                    </a>
+	                </li>
+	            
+	                <li>
+	                  <a href="{{URL::to('/administrator')}}">
+	                        <i class="material-icons">content_paste</i>
+	                        <p>Blank</p>
+	                    </a>
+	                </li>
+	                
+	            </ul>
+	    	</div>
 		</div>

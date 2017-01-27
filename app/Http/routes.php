@@ -20,7 +20,9 @@ Route::get('/administrator/{admin?}', function ($admin = null) {
 	if(isset($admin)){
 
 		if($admin == "dashboard"){
-			  return view('admin/contents/admindashboard');
+			return view('admin/contents/admindashboard');
+		}else if($admin == "login"){
+			return view('admin/contents/adminlogin');
 		}
 
 	}
