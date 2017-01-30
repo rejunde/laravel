@@ -16,7 +16,7 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
         
-        if(auth()->user()->usertype_id == 2){
+        if(auth()->user()->usertype_id == 3){
            return $next($request);
        }else{
             abort(404);

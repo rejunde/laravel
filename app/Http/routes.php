@@ -33,6 +33,7 @@ Route::group(array('middleware'=>array('auth','admin')),function(){
 		if(isset($admin)){
 
 			if($admin == "dashboard"){
+			
 				return view('admin/contents/admindashboard');
 			}else if($admin == "login"){
 				return view('admin/contents/adminlogin');
