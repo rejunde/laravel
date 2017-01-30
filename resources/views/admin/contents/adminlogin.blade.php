@@ -35,7 +35,7 @@
 									<p class="category">Please Login to continue</p>
 	                            </div>
 	                            <div class="card-content">
-	                                <form>
+	                                {!! Form::open(['url' => '/login']) !!}
 	                               
 
 	                                    <div class="row">
@@ -61,7 +61,7 @@
 
 	                                    <button type="submit" class="btn btn-primary pull-right">Login</button>
 	                                    <div class="clearfix"></div>
-	                                </form>
+	                               {!! Form::close() !!}
 	                            </div>
 	                        </div>
 	                          @include('admin.includes.footer')

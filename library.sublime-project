@@ -9,6 +9,9 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\wamp64\\www\\moosegear"
 		}
 	]
 }
