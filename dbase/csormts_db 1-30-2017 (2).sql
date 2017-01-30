@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 30, 2017 at 04:09 AM
+-- Generation Time: Jan 30, 2017 at 04:37 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -28,17 +28,14 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `admin_user` (
   `adminuser_id` int(11) NOT NULL AUTO_INCREMENT,
-  `adminuser_email` varchar(100) NOT NULL,
-  `adminuser_password` varchar(100) NOT NULL,
+  `user_id` int(100) NOT NULL,
   `adminuser_firstname` varchar(100) NOT NULL,
   `adminuser_middlename` varchar(100) NOT NULL,
   `adminuser_lastname` varchar(100) NOT NULL,
   `adminuser_contactnumber` varchar(100) NOT NULL,
   `adminuser_homeaddress` varchar(255) NOT NULL,
-  `adminuser_datecreated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `adminuser_flag` tinyint(4) NOT NULL,
-  `adminuser_last_login` timestamp NOT NULL,
-  PRIMARY KEY (`adminuser_id`)
+  PRIMARY KEY (`adminuser_id`),
+  KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -193,15 +190,16 @@ CREATE TABLE IF NOT EXISTS `user_type` (
   `usertype_name` varchar(100) NOT NULL,
   `usertype_flag` tinyint(4) NOT NULL,
   PRIMARY KEY (`usertype_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `user_type`
 --
 
 INSERT INTO `user_type` (`usertype_id`, `usertype_name`, `usertype_flag`) VALUES
-(1, 'Faculty', 1),
-(2, 'Dealer', 1);
+(1, 'Admin', 1),
+(2, 'Faculty', 1),
+(5, 'Dealer', 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
