@@ -10,150 +10,39 @@
       </blockquote>
     </div>
   </header>
+
   <div class="container">
-  <nav class="navbar navbar-default">
+ <nav class="navbar navbar-default">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>
       </button>
-      
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar" >
-       <div class="col-lg-12"  align="center" style="margin-left: 15%;margin-right: auto">
-          <section class="col-xs-12 col-sm-4 col-md-4 col-lg-2 text-center">
-          <ul class="grid-lod " id="grid">
-            <li>
-             <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">&nbsp;</span>
-              </figure>
-             </a>
-            </li>
-            <li>
-              <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">Memo</span>
-              </figure>
-             </a>
-            </li>
 
-
-          </ul>
-
-
-        </section>
-        <section class="col-xs-12 col-sm-4 col-md-4 col-lg-2 text-center">
-          <ul class="grid-lod effect-2" id="grid">
-            <li>
-             <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">Book Refund</span>
-              </figure>
-             </a>
-            </li>
-            <li>
-              <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">Catalouge</span>
-              </figure>
-             </a>
-            </li>
-
-
-          </ul>
-          
-
-        </section>
-        <section class="col-xs-12 col-sm-4 col-md-4 col-lg-2 text-center">
-          <ul class="grid-lod effect-2" id="grid">
-            <li>
-             <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">On-Shelf</span>
-              </figure>
-             </a>
-            </li>
-            <li>
-              <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">Recent Events</span>
-              </figure>
-             </a>
-            </li>
-
-
-          </ul>
-          
-
-        </section>
-        <section class="col-xs-12 col-sm-4 col-md-4 col-lg-2 text-center">
-          <ul class="grid-lod effect-2" id="grid">
-            <li>
-             <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">Acquisition Procedures</span>
-              </figure>
-             </a>
-            </li>
-            <li>
-              <a href="">
-                <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <span style="color: white">Others</span>
-              </figure>
-             </a>
-            </li>
-
-
-          </ul>
-          
-
-        </section>
-
-       
-         
-         
-       </div>
-       </div>
-  </div>
-</nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left: 15%;margin-right: auto">
+      <ul class="nav navbar-nav" >
+        <li ><a href="#"> <img src="frontimage/logo.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+        <li><a href="{{url('bookfund')}}"> <img src="frontimage/bookfund.png" width="130"  style="border: 1px solid blue;height: 70px" alt="" class="img-responsive"/></a></li>
+        <li><a href="#"> <img src="frontimage/quotation.png" width="130" style="height: 70px" alt="" class="img-responsive"/></a></li>
+        <li><a href="#"> <img src="frontimage/philgeps.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+         <li><a href="#"> <img src="frontimage/onshelf.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+      </ul>
+          <ul class="nav navbar-nav" >
+        <li ><a href="#"> <img src="frontimage/acquisition.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+        <li><a href="#"> <img src="frontimage/memo.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+        <li><a href="#"> <img src="frontimage/catalouge.png" width="130" style="height: 70px" alt="" class="img-responsive"/></a></li>
+        <li><a href="#"> <img src="frontimage/events.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+         <li><a href="#"> <img src="frontimage/others.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+      </ul>
+     
+    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>   
 </div>   
-<!-- 
- <ul class="grid-lod effect-2" id="grid">
-  <li class="col-xs-4 col-sm-2">
-  <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <p style="color: white"> Book Refund</p>
-              </figure>
-            </li>
-             <li class="col-xs-4 col-sm-2">
-  <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <p style="color: white"> Book Refund</p>
-              </figure>
-            </li>
-             <li class="col-xs-4 col-sm-2">
-  <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <p style="color: white"> Book Refund</p>
-              </figure>
-            </li>
-             <li class="col-xs-4 col-sm-2">
-  <figure class="effect-oscar" style="background-color: blue">
-                <img src="front/images/coins.jpg" alt="" class="img-responsive"/>
-                <p style="color: white"> Book Refund</p>
-              </figure>
-            </li>
-
-           
-</ul> -->

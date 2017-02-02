@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"depart",
+				"department_id"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"c",
+				"closest"
+			],
+			[
+				"borde",
+				"border-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"col",
+				"col-xs-1"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"s",
+				"size\tAttr"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
 				"pxreque",
 				"pxrequesthdr"
 			],
@@ -216,10 +276,6 @@
 				"pxrequestque"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
 				"csv",
 				"csv_col_count"
 			],
@@ -230,10 +286,6 @@
 			[
 				"data",
 				"dataservs"
-			],
-			[
-				"c",
-				"count"
 			],
 			[
 				"serv",
@@ -268,20 +320,12 @@
 				"page_data"
 			],
 			[
-				"col",
-				"columns"
-			],
-			[
 				"sel",
 				"selected"
 			],
 			[
 				"se",
 				"selected"
-			],
-			[
-				"s",
-				"selected\tAttr"
 			],
 			[
 				"but",
@@ -416,10 +460,6 @@
 				"rxremarks"
 			],
 			[
-				"back",
-				"backup_db"
-			],
-			[
 				"tabl",
 				"table_schema"
 			],
@@ -474,51 +514,65 @@
 			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"inde",
-				"indexCompleted"
-			],
-			[
-				"d",
-				"disabled"
-			],
-			[
-				"base",
-				"base_url"
-			],
-			[
-				"L",
-				"Laboratory"
-			],
-			[
-				"array_f",
-				"array_filter"
-			],
-			[
-				"el",
-				"else"
-			],
-			[
-				"pxin",
-				"pxinfoquery"
-			],
-			[
-				"Y",
-				"Y-m-d"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/wamp64/www/moosegear/app/Config/bootstrap.php",
+			"settings":
+			{
+				"buffer_size": 5651,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/front/includes/frontfooter.blade.php",
+			"settings":
+			{
+				"buffer_size": 3073,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/front/userjs/userapp.js",
+			"settings":
+			{
+				"buffer_size": 402,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/bookfund.blade.php",
+			"settings":
+			{
+				"buffer_size": 925,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1397,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/BookFundController.php",
+			"settings":
+			{
+				"buffer_size": 2016,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -528,11 +582,27 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
+		"last_filter": "\t",
 		"selected_items":
 		[
+			[
+				"\t",
+				"Install Package Control"
+			],
+			[
+				"install Package Control",
+				"Install Package Control"
+			],
+			[
+				"instal",
+				"Install Package Control"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
 		],
-		"width": 392.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -553,10 +623,116 @@
 	"expanded_folders":
 	[
 		"/C/wamp64/www/hms",
-		"/C/wamp64/www/library_system"
+		"/C/wamp64/www/moosegear",
+		"/C/wamp64/www/moosegear/app",
+		"/C/wamp64/www/moosegear/app/Config",
+		"/C/wamp64/www/moosegear/app/Console"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/routes.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/bootstrap.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/config.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Purchaseorders/View/Elements/defaultnavbar.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/routes.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/mainnavbar.ctp",
+		"/C/wamp64/www/library_system/app/Http/routes.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/front.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/fronthead.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Sales/View/Elements/defaultnavbar.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Sales/View/Elements/shortcuts.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/defaultnavbar.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/shortcuts.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/actionlinks.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/adminnavbar.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/usernavbar.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/config.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/bootstrap.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/BookFundController.php",
+		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
+		"/C/wamp64/www/fms/public/js/controllers/dataapp.js",
+		"/C/wamp64/www/fms/public/js/controllers/app.js",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/accountinfo.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Dashboard/index.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/danger.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/adminnavbar_.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Admin/index.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Layouts/admin_.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Layouts/admin.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Layouts/main.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Layouts/user.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Layouts/default.ctp",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Accounts/show.ctp",
+		"/C/wamp64/www/moosegear/app/Config/database.php",
+		"/C/wamp64/www/moosegear11/app/Config/database.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/UserMiddleware.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/LoginController.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/AdminMiddleware.php",
+		"/C/wamp64/www/moosegear11/app/Config/bootstrap.php",
+		"/C/wamp64/www/moosegear11/app/Config/routes.php",
+		"/C/wamp64/www/webzash/app/Plugin/Sales/Controller/PromoController.php",
+		"/C/wamp64/www/webzash/app/Plugin/Sales/Controller/SalesAppController.php",
+		"/C/wamp64/bin/apache/apache2.4.23/conf/httpd.conf",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/app_settings.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/config.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/routes.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Wzusers/login.ctp",
+		"/C/wamp64/www/moosegear/app/.htaccess",
+		"/C/wamp64/www/moosegear/app/Config/bootstrap.php",
+		"/C/wamp64/www/moosegear/.htaccess",
+		"/C/wamp64/www/moosegear/app/webroot/.htaccess",
+		"/C/wamp64/www/moosegear/app/webroot/index.php",
+		"/C/wamp64/www/moosegear/app/webroot/test.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Sales/Controller/Component/PermissionComponent.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/Schema/schema_wz.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/Schema/schema.php",
+		"/C/wamp64/www/moosegear/app/Config/core.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/currency.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/bootstrap.php",
+		"/C/wamp64/www/moosegear/app/Config/routes.php",
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/MasterConfig.php",
+		"/C/wamp64/www/moosegear/app/Controller/PagesController.php",
+		"/C/wamp64/www/moosegear/app/Controller/AppController.php",
+		"/C/wamp64/www/library_system/.env",
+		"/C/wamp64/www/library_system/app/User.php",
+		"/C/wamp64/www/library_system/resources/views/front/login.blade.php",
+		"/C/wamp64/www/library_system/resources/views/admin/contents/adminlogin.blade.php",
+		"/C/wamp64/www/moosegear/lib/Cake/Config/config.php",
+		"/C/wamp64/www/library_system/resources/views/admin/includes/footer.blade.php",
+		"/C/wamp64/www/library_system/sample/frontsample/blog-details.html",
+		"/C/wamp64/www/library_system/sample/frontsample/contact.html",
+		"/C/wamp64/www/library_system/sample/frontsample/about.html",
+		"/C/wamp64/www/library_system/sample/frontsample/blog.html",
+		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php",
+		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php",
+		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php",
+		"/C/wamp64/www/library_system/app/Http/Kernel.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Auth/AuthController.php",
+		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/C/wamp64/www/library_system/resources/views/admin/contents/admindashboard.blade.php",
+		"/C/wamp64/www/library_system/resources/views/admin/contents/adminindex.blade.php",
+		"/C/wamp64/www/library_system/resources/views/admin/includes/sidebar.blade.php",
+		"/C/wamp64/www/library_system/resources/views/admin/includes/header.blade.php",
+		"/C/wamp64/www/library_system/sample/adminsample/examples/user.html",
+		"/C/wamp64/www/library_system/resources/views/admin/index.blade.php",
+		"/C/wamp64/www/library_system/sample/adminsample/examples/icons.html",
+		"/C/wamp64/www/library_system/resources/views/admin/includes/navigation.blade.php",
+		"/C/Users/user/Desktop/material-dashboard-html-v1.1.1/examples/dashboard.html",
+		"/C/wamp64/www/library_system/resources/views/admin/contents/js.blade.php",
+		"/C/wamp64/www/library_system/resources/views/admin/index.blade.php.html",
+		"/C/wamp64/www/library_system/config/app.php",
+		"/C/Users/user/Desktop/avana/index.html",
+		"/C/wamp64/www/library_system/resources/views/front/contents/index.content.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/inclusion/footer.blade.php",
+		"/C/Program Files/MySQL/MySQL Workbench 6.2 CE/python/lib/argparse.py",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/login 2.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/login.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/dashboard.php",
@@ -581,118 +757,15 @@
 		"/C/wamp64/www/testipms/application/views/laboratorist/laboratory.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin.php",
 		"/C/wamp64/www/testipms/application/views/admin/backup.php",
-		"/C/wamp64/www/testipms/application/views/admin/report.php",
-		"/C/Users/user/Desktop/1-23-2017 ipms/testipms/application/config/database.php",
-		"/C/wamp64/www/fms/application/views/masterlist.php",
-		"/C/wamp64/www/fms/application/views/main.php",
-		"/C/wamp64/www/fms/application/config/database.php",
-		"/C/wamp64/www/fms/public/js/controllers/app.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology 3.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/nurse 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/database 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/database.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/nurse.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiologist.php",
-		"/C/wamp64/www/fms/application/controllers/Main.php",
-		"/C/wamp64/www/fms/application/models/Main_model.php",
-		"/C/wamp64/www/fms/public/js/controllers/dataapp.js",
-		"/C/wamp64/www/fms/application/config/config.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php",
-		"/C/wamp64/www/ipms/application/controllers/nurse.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotelbeds.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
-		"/C/wamp64/www/fms/application/models/Product_model.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotel.php",
-		"/C/wamp64/www/ipms/application/views/admin/manage_package.php",
-		"/C/wamp64/www/fms/public/js/formden.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/DestinationController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Availabilities.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotels 3.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotels.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Search.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotels 2.php",
-		"/C/wamp64/www/fms/fms/application/config/database.php",
-		"/C/wamp64/www/fms/fms/application/config/config.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiology.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologydone.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist.php",
-		"/C/wamp64/www/ipmsn/application/views/laboratorist/laboratory.php",
-		"/C/wamp64/www/ipmsn/application/views/radiologist/radiology.php",
-		"/C/wamp64/www/ipmsn/application/controllers/admin.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/filter_box.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_script.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/FrontRoute.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/scripts.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/index.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/master.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/head.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/main.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/script.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/script 2.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/main 2.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/stars 2.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/home_footer.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/booking.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/footer.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/stars.js",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/database 2.php",
-		"/C/wamp64/www/ipmsn/application/views/admin/dropdownmaintenance.php",
-		"/C/wamp64/www/ipmsn/application/views/admin/navigation.php",
-		"/C/Users/user/Desktop/11-16-2017/testipms/application/config/database.php",
-		"/C/Users/user/Desktop/11-16-2017/testipms/application/config/config.php",
-		"/C/wamp64/www/ipmsn/application/controllers/radiologist.php",
-		"/C/wamp64/www/ipmsn/application/controllers/laboratorist.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratorist.php",
-		"/C/wamp64/www/ipmsn/application/views/admin/manage_package.php",
-		"/C/wamp64/www/ipmsn/application/views/laboratorist/dashboard.php",
-		"/C/wamp64/www/ipmsn/application/views/admin/backup.php",
-		"/C/wamp64/www/ipmsn/application/views/nurse/rme.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/admin.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/backup.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/navigation.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/dailylist.php",
-		"/C/wamp64/www/ipmsn/application/controllers/accountant.php",
-		"/C/wamp64/www/ipmsn/application/views/accountant/dashboard.php",
-		"/C/wamp64/www/ipmsn/application/controllers/medical.php",
-		"/C/wamp64/www/ipmsn/application/views/accountant/navigation.php",
-		"/C/wamp64/www/ipmsn/application/views/medical/medicaldonelist.php",
-		"/C/wamp64/www/ipmsn/application/views/medical/dashboard.php",
-		"/C/wamp64/www/ipmsn/application/views/accountant/view_payment.php",
-		"/C/wamp64/www/ipms/application/controllers/admin.php",
-		"/C/wamp64/www/ipms/application/views/nurse/physicalexam_dashboard.php",
-		"/C/wamp64/www/ipms/application/views/admin/backup.php",
-		"/C/wamp64/www/ipms/application/controllers/laboratorist.php",
-		"/C/wamp64/www/ipms/application/views/nurse/viewrme.php",
-		"/C/wamp64/www/ipms/application/views/nurse/editdailyrme.php",
-		"/C/wamp64/www/ipms/application/views/nurse/rme.php",
-		"/C/wamp64/www/ipms/application/views/medical/physicalexam.php",
-		"/C/wamp64/www/ipms/application/views/nurse/dailylist.php",
-		"/C/wamp64/www/ipms/application/views/nurse/editrme.php",
-		"/C/wamp64/www/ipms/application/views/laboratorist/laboratory.php",
-		"/C/wamp64/www/ipms/application/controllers/radiologist.php",
-		"/C/wamp64/www/ipms/application/views/radiologist/radiology.php",
-		"/C/wamp64/www/ipms/application/views/nurse/donelist.php",
-		"/C/wamp64/www/ipms/application/views/radiologist/dashboard.php",
-		"/C/wamp64/www/ipms/application/views/radiologist/radiologydone.php",
-		"/C/wamp64/www/ipms/application/views/laboratorist/navigation.php",
-		"/C/wamp64/www/ipms/application/views/laboratorist/laboratorydone.php",
-		"/C/wamp64/www/ipms/application/views/laboratorist/dashboard.php"
+		"/C/wamp64/www/testipms/application/views/admin/report.php"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -702,6 +775,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"quotation",
+			"60px",
+			"width=\"",
+			"circle",
+			"src=\"front/images/",
+			"href=\"",
+			"sales",
+			"href=\"",
+			"Sales",
+			"adminnavbar",
+			"accounts",
+			"sales",
+			"Sales",
+			"\\",
+			"mod_rewrite",
+			"mod",
+			"password",
+			"user",
+			"email",
+			"col-lg-3",
+			"col-lg-2",
+			"col-xs-6 col-sm-3 ",
+			"col-lg-2",
+			"src=\"images",
+			"blog-details.html",
+			"sign",
+			"app.",
+			"app",
+			"images/home-images/",
+			"images/",
+			"images",
+			"bootstrap.min",
+			"js",
 			"packname",
 			"anti",
 			"printablearea",
@@ -796,40 +902,7 @@
 			"search",
 			"hotelnames",
 			"typeahead",
-			"make_hotel_availabilities",
-			"typeahead",
-			"searchDestination",
-			"head",
-			"type",
-			"typeahead",
-			"typahead",
-			".js",
-			"typeahead",
-			"intestinal",
-			"print",
-			"Segmenters",
-			"printablearea1",
-			"others",
-			"mucus thread",
-			"style=\"border: 1px black solid;text-align: center;padding: 4px",
-			"order: 1px black solid;text-align: center;padding: 2px",
-			"style=\"border: 1px black solid;text-align: center;\" width=\"35%\"",
-			"printablearea",
-			"table",
-			"printablearea",
-			"uxmicmucus",
-			"amorph",
-			"id=\"3",
-			"h5",
-			"inter",
-			"Hematology",
-			"others",
-			"amorph",
-			"radiologist",
-			"<hr",
-			"printable",
-			"var_",
-			"requestdat"
+			"make_hotel_availabilities"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -847,18 +920,193 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp64/www/moosegear/app/Config/bootstrap.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3993,
+								3993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/front/includes/frontfooter.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/front/userjs/userapp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/front/contents/bookfund.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								541,
+								541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								802,
+								819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/BookFundController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -891,7 +1139,7 @@
 	"project": "library.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -25,6 +25,13 @@ Route::group(array('middleware'=>array('auth','user')),function(){
 	Route::get('/', function () {
 		return view('front/contents/indexcontent');
 	});
+
+	Route::get('/bookfund',['uses'=>'BookFundController@index']);
+	Route::get('/bookfund/getdata','BookFundController@getFundData');	
+	Route::get('/bookfund/bookfunddetails/{id}', [
+    'as'   => 'bookfund/bookfunddetails',
+    'uses' => 'BookFundController@bookFundDetails'
+	]);
 });
 
 Route::group(array('middleware'=>array('auth','admin')),function(){
