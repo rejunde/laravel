@@ -12,8 +12,6 @@
 */
 
 
-include_once 'adminRoutes.php';
-
 
 Route::group(array('middleware'=>'guest'),function(){
 	Route::get('/login', function () {
@@ -22,19 +20,22 @@ Route::group(array('middleware'=>'guest'),function(){
 	Route::post('/login', 'LoginController@login');
 });
 
-Route::group(array('middleware'=>array('auth','user')),function(){
-	Route::get('/', function () {
-		return view('front/contents/indexcontent');
+Route::group(array('middleware'=>array('auth','admin')),function(){
+	Route::get('/administrator/{admin?}', function ($admin = null) {
+
+		if(isset($admin)){
+
+			if($admin == "dashboard"){
+			
+				return view('admin/contents/admindashboard');
+			}else if($admin == "login"){
+				return view('admin/contents/adminlogin');
+			}
+
+		}
+		return view('admin/contents/adminindex');    
 	});
-
-	Route::get('/bookfund',['uses'=>'BookFundController@index']);
-	Route::get('/bookfund/getdata','BookFundController@getFundData');	
-	Route::get('/bookfund/bookfunddetails/{id}', [
-    'as'   => 'bookfund/bookfunddetails',
-    'uses' => 'BookFundController@bookFundDetails'
-	]);
 });
-
 
 
 Route::group(array('middleware'=>'auth'),function(){

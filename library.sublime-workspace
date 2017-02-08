@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"prin",
+				"printimage"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"padi",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-bottom"
+			],
+			[
+				"pxrequ",
+				"pxrequestque"
+			],
+			[
+				"req",
+				"requestdate"
+			],
+			[
+				"pxre",
+				"pxrequestque"
+			],
+			[
+				"data",
+				"datacheck"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"pxreq",
+				"pxrequesthdr"
+			],
+			[
+				"pxreqe",
+				"pxrequesthdr"
+			],
+			[
 				"depart",
 				"department_id"
 			],
@@ -30,14 +106,6 @@
 			[
 				"backgrou",
 				"background-color"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"nav",
@@ -98,10 +166,6 @@
 			[
 				"pxreques",
 				"pxrequesthdr"
-			],
-			[
-				"border",
-				"border-color"
 			],
 			[
 				"bor",
@@ -196,10 +260,6 @@
 				"file1"
 			],
 			[
-				"req",
-				"request"
-			],
-			[
 				"brea",
 				"word-break"
 			],
@@ -268,24 +328,12 @@
 				"update"
 			],
 			[
-				"var",
-				"var"
-			],
-			[
-				"pxreq",
-				"pxrequestque"
-			],
-			[
 				"csv",
 				"csv_col_count"
 			],
 			[
 				"_",
 				"_POST"
-			],
-			[
-				"data",
-				"dataservs"
 			],
 			[
 				"serv",
@@ -388,10 +436,6 @@
 				"array"
 			],
 			[
-				"pxrequ",
-				"pxreqquery"
-			],
-			[
 				"tr",
 				"trigger"
 			],
@@ -414,10 +458,6 @@
 			[
 				"file",
 				"file_name"
-			],
-			[
-				"tex",
-				"text-top"
 			],
 			[
 				"op",
@@ -448,10 +488,6 @@
 				"where"
 			],
 			[
-				"prin",
-				"printableArea"
-			],
-			[
 				"ser",
 				"servicename"
 			],
@@ -478,79 +514,16 @@
 			[
 				"add",
 				"address2"
-			],
-			[
-				"pxinfo",
-				"pxinfoquery"
-			],
-			[
-				"els",
-				"else"
-			],
-			[
-				"result",
-				"result_array"
-			],
-			[
-				"parse",
-				"parseFloat"
-			],
-			[
-				"onc",
-				"onclick"
-			],
-			[
-				"remove",
-				"removeth"
-			],
-			[
-				"patien",
-				"patientresult"
-			],
-			[
-				"manage",
-				"manage_service"
-			],
-			[
-				"font-s",
-				"font-size"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/wamp64/www/moosegear/app/Config/bootstrap.php",
-			"settings":
-			{
-				"buffer_size": 5651,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/front/includes/frontfooter.blade.php",
-			"settings":
-			{
-				"buffer_size": 3073,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "public/front/userjs/userapp.js",
 			"settings":
 			{
-				"buffer_size": 402,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/front/contents/bookfund.blade.php",
-			"settings":
-			{
-				"buffer_size": 925,
+				"buffer_size": 1405,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -559,18 +532,80 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1397,
+				"buffer_size": 1544,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/bookfund.blade.php",
+			"settings":
+			{
+				"buffer_size": 1888,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/bookfunddetails.blade.php",
+			"settings":
+			{
+				"buffer_size": 2174,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory.php",
+			"settings":
+			{
+				"buffer_size": 55935,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam.php",
+			"settings":
+			{
+				"buffer_size": 78599,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/Http/Controllers/BookFundController.php",
 			"settings":
 			{
-				"buffer_size": 2016,
+				"buffer_size": 3057,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php",
+			"settings":
+			{
+				"buffer_size": 21508,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 5061,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/includes/navigation.blade.php",
+			"settings":
+			{
+				"buffer_size": 2740,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -630,6 +665,23 @@
 	],
 	"file_history":
 	[
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/161_logo.png",
+		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
+		"/C/wamp64/www/library_system/sample/frontsample/contact.html",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam_dashboard.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory 2.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiology.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/editrme.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/medical.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist 2.php",
+		"/C/wamp64/www/moosegear/app/Config/bootstrap.php",
+		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
+		"/C/wamp64/www/library_system/app/Http/routes.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/BookFundController.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/routes.php",
@@ -638,11 +690,8 @@
 		"/C/wamp64/www/moosegear/app/Plugin/Purchaseorders/View/Elements/defaultnavbar.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/routes.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/mainnavbar.ctp",
-		"/C/wamp64/www/library_system/app/Http/routes.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/front.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/fronthead.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/View/Elements/defaultnavbar.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/View/Elements/shortcuts.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/defaultnavbar.ctp",
@@ -652,7 +701,6 @@
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/usernavbar.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/config.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/bootstrap.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/BookFundController.php",
 		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
@@ -684,7 +732,6 @@
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/routes.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Wzusers/login.ctp",
 		"/C/wamp64/www/moosegear/app/.htaccess",
-		"/C/wamp64/www/moosegear/app/Config/bootstrap.php",
 		"/C/wamp64/www/moosegear/.htaccess",
 		"/C/wamp64/www/moosegear/app/webroot/.htaccess",
 		"/C/wamp64/www/moosegear/app/webroot/index.php",
@@ -706,7 +753,6 @@
 		"/C/wamp64/www/moosegear/lib/Cake/Config/config.php",
 		"/C/wamp64/www/library_system/resources/views/admin/includes/footer.blade.php",
 		"/C/wamp64/www/library_system/sample/frontsample/blog-details.html",
-		"/C/wamp64/www/library_system/sample/frontsample/contact.html",
 		"/C/wamp64/www/library_system/sample/frontsample/about.html",
 		"/C/wamp64/www/library_system/sample/frontsample/blog.html",
 		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
@@ -739,29 +785,18 @@
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/annual_report.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/database.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/annual_report 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/medical.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory 2.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/navigation 2.php",
 		"/C/wamp64/www/testipms/application/config/database.php",
 		"/C/wamp64/www/testipms/application/views/medical/physicalexam.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam 2.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin 3.php",
 		"/C/wamp64/www/testipms/application/views/admin/manage_package.php",
 		"/C/wamp64/www/testipms/application/views/admin/navigation.php",
-		"/C/wamp64/www/testipms/application/controllers/admin.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/navigation.php",
-		"/C/wamp64/www/testipms/application/views/admin/annual_report.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory.php",
-		"/C/wamp64/www/testipms/application/views/laboratorist/laboratory.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin.php",
-		"/C/wamp64/www/testipms/application/views/admin/backup.php",
-		"/C/wamp64/www/testipms/application/views/admin/report.php"
+		"/C/wamp64/www/testipms/application/controllers/admin.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -775,6 +810,59 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hbsag",
+			"hxb",
+			"script",
+			"addImage",
+			"printimage",
+			"img",
+			"radio",
+			"radiobutton",
+			"img",
+			"HBSAG",
+			"patientresult",
+			"opacity: 0.1",
+			"logo",
+			"dinkin",
+			"<?=date('m-d-Y',strtotime($patientresult[0]['rqdate']))?>",
+			"inter",
+			"BookDetails",
+			"style=\"border:none\"",
+			"/front/",
+			"findings",
+			"inter",
+			"findings",
+			"HDL",
+			"bchdl",
+			"padding: 4px",
+			"printableArea1",
+			"sp gra",
+			"tabindex",
+			"style=\"text-align: center;font-size: 14px\"",
+			"printableArea1",
+			"printDiv",
+			"printDiv1",
+			"inter",
+			"interin",
+			"update",
+			"$this->session->set_flashdata('msg', \"You Have Successfully updated this Record!\");\n\t\t\t//redirect(base_url() . 'index.php?medical/physicalexam/'.$id, 'refresh');",
+			"update",
+			"insert",
+			"recomm",
+			"pxobp",
+			"pxobh",
+			"pxobp",
+			"save",
+			"putNormal",
+			"id=\"2",
+			"#2",
+			"radiology",
+			"romil",
+			"Hbsag",
+			"width=\"30%\" style=\"text-align: center;\"",
+			"width=\"30%\"  style=\"text-align: center;\"",
+			"10p",
+			"100px",
 			"quotation",
 			"60px",
 			"width=\"",
@@ -849,60 +937,7 @@
 			"edit",
 			"ng-click",
 			"ng-cick",
-			"HEADER",
-			"jquery",
-			"value",
-			"param",
-			"saveData",
-			"post",
-			"application",
-			"style",
-			"Total",
-			"categoryCode",
-			"getHotel",
-			"app()",
-			"guzzle",
-			"app()",
-			"hotels",
-			"MNL",
-			"categoryCode",
-			"guzzle",
-			"config",
-			"dd",
-			"app()->make(Hotels::class)",
-			"guzzle",
-			"app()->make(Hotels::class)",
-			"hotels",
-			"app()->make(Availabilities::class)",
-			"make_hotel",
-			"make_hotel_availabilities",
-			"dd",
-			"requestHotel",
-			"dd(",
-			"make_hotel_availabilities",
-			"requestHotel",
-			"reuestHotel",
-			"make",
-			"make_avail",
-			"make_hote",
-			"filter",
-			"dd(",
-			"make_hotel",
-			"hotelsingle",
-			"Make_hotel",
-			"hotelsingle",
-			"make_hotel_ava",
-			"nos",
-			"img",
-			"accounta",
-			"accountant",
-			"_login",
-			"accountant",
-			"Radiologist",
-			"search",
-			"hotelnames",
-			"typeahead",
-			"make_hotel_availabilities"
+			"HEADER"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -920,24 +955,139 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/wamp64/www/moosegear/app/Config/bootstrap.php",
+					"file": "public/front/userjs/userapp.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5651,
+						"buffer_size": 1405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3993,
-								3993
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 260.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1339,
+								1382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/front/contents/bookfund.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/front/contents/bookfunddetails.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1886,
+								1886
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 753.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28679,
+								29028
 							]
 						],
 						"settings":
@@ -945,143 +1095,57 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1425.0,
+						"translation.y": 17493.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "resources/views/front/includes/frontfooter.blade.php",
+					"buffer": 5,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3073,
+						"buffer_size": 78599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								43505,
+								43486
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/front/userjs/userapp.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/front/contents/bookfund.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 925,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								541,
-								541
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/Http/routes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1397,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								802,
-								819
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 20353.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app/Http/Controllers/BookFundController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2016,
+						"buffer_size": 3057,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								717,
-								717
+								1631,
+								1631
 							]
 						],
 						"settings":
@@ -1091,10 +1155,98 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8652,
+								8652
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5393.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "resources/views/front/login.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/views/front/includes/navigation.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1333,
+								1491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -1102,7 +1254,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -1139,7 +1291,7 @@
 	"project": "library.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
