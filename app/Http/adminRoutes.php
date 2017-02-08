@@ -21,20 +21,13 @@ Route::group(array('middleware'=>'guest'),function(){
 });
 
 Route::group(array('middleware'=>array('auth','admin')),function(){
-	Route::get('/administrator/{admin?}', function ($admin = null) {
+	Route::get('/administrator/dashboard','Admin_DashboardController@index');
 
-		if(isset($admin)){
-
-			if($admin == "dashboard"){
-			
-				return view('admin/contents/admindashboard');
-			}else if($admin == "login"){
-				return view('admin/contents/adminlogin');
-			}
-
-		}
-		return view('admin/contents/adminindex');    
-	});
+	Route::get('/administrator/request_index', 'Admin_RequestController@index');  
+	Route::get('/administrator/books_index', 'Admin_BooksController@index');  
+	Route::get('/administrator/appusers_index', 'Admin_AppUsersController@index'); 
+	Route::get('/administrator/budgetfund_index', 'Admin_BudgetFundController@index');  
+	Route::get('/administrator/reports_index', 'Admin_ReportsController@index'); 
 });
 
 

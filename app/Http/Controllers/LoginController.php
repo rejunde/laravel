@@ -16,7 +16,7 @@ class LoginController extends Controller
     		 if (Auth::attempt(['email' => $request->user_email, 'password' => $request->user_password])) {    
 
             	if(Auth::user()->usertype_id == 3){
-            		return redirect()->intended('/administrator');
+            		return redirect()->intended('/administrator/dashboard');
             	}else{
             		return redirect()->intended('/');
             	}
