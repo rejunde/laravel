@@ -28,6 +28,7 @@ Route::group(array('middleware'=>array('auth','user')),function(){
 	});
 
 	Route::get('/bookfund',['uses'=>'BookFundController@index']);
+	Route::get('/request',['uses'=>'RequestController@index']);
 	Route::get('/bookfund/getdata','BookFundController@getFundData');	
 	Route::get('/bookfund/bookfunddetails/{id}', [
     'as'   => 'bookfund/bookfunddetails',

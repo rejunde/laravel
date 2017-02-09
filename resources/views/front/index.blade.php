@@ -25,7 +25,7 @@
 
 
 
-    <body>
+    <body class="homepage">
     @include('front.includes.navigation')
 
        @yield('indexcontent')
