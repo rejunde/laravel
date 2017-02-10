@@ -17,7 +17,13 @@ class Admin_AppUsersController extends Controller
      */
     public function index()
     {
-        return view('../../admin/contents/adminappusers');
+        return view('admin/contents/adminappusers');
+      
+    }
+
+      public function add_users()
+    {
+        return view('admin/contents/adminappusers_addusers');
       
     }
 

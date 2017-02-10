@@ -10,42 +10,46 @@
 		    		CSORMTS
 		    	</a>
 		    </div>
-
-
+		    @php
+		    $url=Request::getPathInfo();
+		    $segment=explode("/",$url);
+		    $active_url=$segment[2];
+		    @endphp
+		  
 		    <div class="sidebar-wrapper">
 		    	<ul class="nav">
-		    		<li class="active">
+		    		<li class="{{ ($active_url == 'dashboard' ? 'active' : '') }}">
 		    			<a href="{{URL::to('/administrator/dashboard')}}">
 		    				<i class="material-icons">dashboard</i>
 		    				<p>Dashboard</p>
 		    			</a>
 		    		</li>
-		    		<li>
-		    			<a href="{{URL::to('/administrator/appusers_index')}}">
+		    		<li class="{{ ($active_url == 'appusers' ? 'active' : '') }}">
+		    			<a href="{{URL::to('/administrator/appusers/appusers_index')}}">
 		    				<i class="material-icons">assignment_ind</i>
 		    				<p>Application Users</p>
 		    			</a>
 		    		</li>
-		    		<li>
-		    			<a href="{{URL::to('/administrator/request_index')}}">
+		    		<li class="{{ ($active_url == 'request' ? 'active' : '') }}">
+		    			<a href="{{URL::to('/administrator/request/request_index')}}">
 		    				<i class="material-icons">content_paste</i>
 		    				<p>Request</p>
 		    			</a>
 		    		</li>
-		    		<li>
-		    			<a href="{{URL::to('/administrator/books_index')}}">
+		    		<li class="{{ ($active_url == 'books' ? 'active' : '') }}">
+		    			<a href="{{URL::to('/administrator/books/books_index')}}">
 		    				<i class="material-icons">archive</i>
 		    				<p>Books</p>
 		    			</a>
 		    		</li>
-		    		<li>
-		    			<a href="{{URL::to('/administrator/budgetfund_index')}}">
+		    		<li class="{{ ($active_url == 'budgetfund' ? 'active' : '') }}">
+		    			<a href="{{URL::to('/administrator/budgetfund/budgetfund_index')}}">
 		    				<i class="material-icons">monetization_on</i>
 		    				<p>Budget Fund</p>
 		    			</a>
 		    		</li>
-		    		<li>
-		    			<a href="{{URL::to('/administrator/reports_index')}}">
+		    		<li class="{{ ($active_url == 'reports' ? 'active' : '') }}">
+		    			<a href="{{URL::to('/administrator/reports/reports_index')}}">
 		    				<i class="material-icons">assessment</i>
 		    				<p>Reports and Statistics</p>
 		    			</a>

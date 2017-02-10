@@ -17,7 +17,17 @@ class Admin_RequestController extends Controller
      */
     public function index()
     {
-        return view('../../admin/contents/adminrequest');
+        return view('admin/contents/adminrequest');
+      
+    }
+
+     public function add_request()
+    {
+         $department = DB::table('department')
+        ->select('*')
+        ->where('department_flag','=',1)
+        ->get();
+        return view('admin/contents/adminrequest_addrequest',array('department'=>$department));
       
     }
 

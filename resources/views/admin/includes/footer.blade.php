@@ -7,10 +7,15 @@
 </footer>
 <!--   Core JS Files   -->
 	 <script type="text/javascript" src="{!! asset('adminassets/js/jquery-3.1.0.min.js') !!}"></script>
+	<script type="text/javascript" src="{!! asset('adminassets/DataTables/js/jquery.dataTables.min.js') !!}"></script>
+	 <script type="text/javascript" src="{!! asset('adminassets/DataTables/js/dataTables.bootstrap.min.js') !!}"></script>
+	  
 	<script type="text/javascript" src="{!! asset('adminassets/js/bootstrap.min.js') !!}"></script>
 	<script type="text/javascript" src="{!! asset('adminassets/js/material.min.js') !!}"></script>
 	<script type="text/javascript" src="{!! asset('adminassets/js/chartist.min.js') !!}"></script>
 	<script type="text/javascript" src="{!! asset('adminassets/js/bootstrap-notify.js') !!}"></script>
 	<script type="text/javascript" src="{!! asset('adminassets/js/material-dashboard.js') !!}"></script>
 	<script type="text/javascript" src="{!! asset('adminassets/js/demo.js') !!}"></script>
+    <script type="text/javascript" src="{!! asset('adminassets/sweetalert/dist/sweetalert.min.js') !!}"></script>
+    <script type="text/javascript" src="{!! asset('adminassets/js/admin.js') !!}"></script>
 	

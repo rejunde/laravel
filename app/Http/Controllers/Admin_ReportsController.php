@@ -17,7 +17,7 @@ class Admin_ReportsController extends Controller
      */
     public function index()
     {
-        return view('../../admin/contents/adminreports');
+        return view('admin/contents/adminreports');
       
     }
 

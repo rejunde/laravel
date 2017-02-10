@@ -17,7 +17,7 @@ class Admin_BooksController extends Controller
      */
     public function index()
     {
-        return view('../../admin/contents/adminbooks');
+        return view('admin/contents/adminbooks');
       
     }
 

@@ -17,7 +17,7 @@ class Admin_DashboardController extends Controller
      */
     public function index()
     {
-        return view('../../admin/contents/admindashboard');
+        return view('admin/contents/admindashboard');
       
     }
 

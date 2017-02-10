@@ -17,7 +17,7 @@ class Admin_BudgetFundController extends Controller
      */
     public function index()
     {
-        return view('../../admin/contents/adminbudgetfund');
+        return view('admin/contents/adminbudgetfund');
       
     }
 
