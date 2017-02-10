@@ -91,5 +91,6 @@
  <script type="text/javascript" src="{!! asset('front/js/jquery.isotope.min.js') !!}"></script>
  <script type="text/javascript" src="{!! asset('front/js/main.js') !!}"></script>
  <script type="text/javascript" src="{!! asset('front/js/wow.min.js') !!}"></script>
- <script type="text/javascript" src="{!! asset('front/userjs/userapp.js') !!}"></script>
+ <script type="text/javascript" src="{!! asset('front/sweetalert/dist/sweetalert.min.js') !!}"></script>
+ <script type="text/javascript" src="{!! asset('front/userjs/userapp.js') !!}"></script> 
 

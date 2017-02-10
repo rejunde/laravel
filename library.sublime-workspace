@@ -4,6 +4,158 @@
 		"selected_items":
 		[
 			[
+				"col",
+				"col-md-10"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"navbar",
+				"navbar-default"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"navb",
+				"navbar-default"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"front",
+				"frontimage"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"fron",
+				"frontimage"
+			],
+			[
+				"colmd-off",
+				"col-md-offset-1"
+			],
+			[
+				"col-md",
+				"col-md-8"
+			],
+			[
+				"hotel",
+				"hotel_images"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"arra",
+				"array1"
+			],
+			[
+				"array",
+				"array1"
+			],
+			[
+				"getc",
+				"getcheck"
+			],
+			[
+				"get",
+				"getcountry"
+			],
+			[
+				"loc",
+				"location_destinations"
+			],
+			[
+				"loca",
+				"location_destinations"
+			],
+			[
+				"locat",
+				"location_countries"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"count",
+				"country_name"
+			],
+			[
+				"des",
+				"destination"
+			],
+			[
+				"coun",
+				"country"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"dest",
+				"destination_code"
+			],
+			[
+				"destina",
+				"destinations"
+			],
+			[
+				"location",
+				"location_destinations"
+			],
+			[
+				"country",
+				"country_code"
+			],
+			[
+				"search",
+				"searchlike"
+			],
+			[
 				"strto",
 				"strtoupper"
 			],
@@ -14,10 +166,6 @@
 			[
 				"border",
 				"border-style"
-			],
-			[
-				"padd",
-				"padding-right"
 			],
 			[
 				"paddin",
@@ -32,10 +180,6 @@
 				"padding-left"
 			],
 			[
-				"marg",
-				"margin-left"
-			],
-			[
 				"marig",
 				"margin-left"
 			],
@@ -46,10 +190,6 @@
 			[
 				"margin",
 				"margin-left"
-			],
-			[
-				"tex",
-				"text-bottom"
 			],
 			[
 				"pxrequ",
@@ -84,10 +224,6 @@
 				"department_id"
 			],
 			[
-				"json",
-				"json_encode"
-			],
-			[
 				"c",
 				"closest"
 			],
@@ -110,10 +246,6 @@
 			[
 				"nav",
 				"navbar"
-			],
-			[
-				"col",
-				"col-xs-1"
 			],
 			[
 				"backg",
@@ -142,10 +274,6 @@
 			[
 				"com",
 				"companyname"
-			],
-			[
-				"get",
-				"getFullYear"
 			],
 			[
 				"pac",
@@ -228,28 +356,12 @@
 				"application"
 			],
 			[
-				"loc",
-				"lockedHeader"
-			],
-			[
 				"jsno",
 				"json_encode"
 			],
 			[
 				"chi",
 				"childrens"
-			],
-			[
-				"dest",
-				"destination_code"
-			],
-			[
-				"des",
-				"destination_code"
-			],
-			[
-				"for",
-				"for\tfor …"
 			],
 			[
 				"hot",
@@ -402,210 +514,68 @@
 			[
 				"new",
 				"newDate"
-			],
-			[
-				"strt",
-				"strtotime"
-			],
-			[
-				"medical_",
-				"medical_login"
-			],
-			[
-				"servi",
-				"servicetype"
-			],
-			[
-				"servie",
-				"servicetype"
-			],
-			[
-				"pack",
-				"packtype"
-			],
-			[
-				"pxrequest",
-				"pxrequestque"
-			],
-			[
-				"da",
-				"daily"
-			],
-			[
-				"arra",
-				"array"
-			],
-			[
-				"tr",
-				"trigger"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"on",
-				"on"
-			],
-			[
-				"nl2",
-				"nl2el"
-			],
-			[
-				"image",
-				"imagetaken"
-			],
-			[
-				"file",
-				"file_name"
-			],
-			[
-				"op",
-				"option\tTag"
-			],
-			[
-				"utf8_",
-				"utf8_decode"
-			],
-			[
-				"utf_d",
-				"utf8_decode"
-			],
-			[
-				"utf",
-				"utf8_encode"
-			],
-			[
-				"array",
-				"array"
-			],
-			[
-				"arr",
-				"array\t$… = array (…)"
-			],
-			[
-				"wh",
-				"where"
-			],
-			[
-				"ser",
-				"servicename"
-			],
-			[
-				"rx",
-				"rxremarks"
-			],
-			[
-				"tabl",
-				"table_schema"
-			],
-			[
-				"px",
-				"pxrayrec"
-			],
-			[
-				"email",
-				"emailadd"
-			],
-			[
-				"pho",
-				"phone1"
-			],
-			[
-				"add",
-				"address2"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "public/front/userjs/userapp.js",
+			"file": "/C/wamp64/www/ipmsn/application/controllers/nurse.php",
 			"settings":
 			{
-				"buffer_size": 1405,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/routes.php",
-			"settings":
-			{
-				"buffer_size": 1544,
+				"buffer_size": 38390,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/bookfund.blade.php",
+			"file": "/C/wamp64/www/ipmsn/application/views/nurse/dailylist.php",
 			"settings":
 			{
-				"buffer_size": 1888,
+				"buffer_size": 1787,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/requestcontent.blade.php",
+			"settings":
+			{
+				"buffer_size": 9944,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/bookfunddetails.blade.php",
+			"file": "resources/views/front/includes/frontfooter.blade.php",
 			"settings":
 			{
-				"buffer_size": 2174,
+				"buffer_size": 4849,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory.php",
+			"file": "/C/Users/user/Desktop/newfront/blog.html",
 			"settings":
 			{
-				"buffer_size": 55935,
-				"encoding": "UTF-8",
+				"buffer_size": 19380,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam.php",
+			"file": "/C/Users/user/Desktop/newfront/shortcodes.html",
 			"settings":
 			{
-				"buffer_size": 78599,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/BookFundController.php",
-			"settings":
-			{
-				"buffer_size": 3057,
-				"encoding": "UTF-8",
+				"buffer_size": 26575,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php",
+			"file": "/C/wamp64/www/ipmsn/application/views/nurse/rme.php",
 			"settings":
 			{
-				"buffer_size": 21508,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/front/login.blade.php",
-			"settings":
-			{
-				"buffer_size": 5061,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/front/includes/navigation.blade.php",
-			"settings":
-			{
-				"buffer_size": 2740,
-				"line_ending": "Windows"
+				"buffer_size": 18311,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -665,25 +635,78 @@
 	],
 	"file_history":
 	[
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/161_logo.png",
+		"/C/Users/user/Desktop/newfront/index.html",
+		"/C/wamp64/www/library_system/resources/views/front/includes/fronthead.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/requestcontent.blade.php",
+		"/C/payara41/glassfish/domains/domain1/applications/CA-PSALM/CA-PSALM-bio_war/resources/js/guidely/guidely.min.js",
+		"/C/Bitnami/wampstack-5.6.30-0/imagemagick/include/Magick++/Drawable.h",
+		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
+		"/C/Users/user/Desktop/newfront/pricing.html",
+		"/C/Users/user/Desktop/newfront/about-us.html",
+		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
+		"/C/Users/user/Desktop/newfront/blog-item.html",
+		"/C/Users/user/Desktop/newfront/portfolio.html",
+		"/C/Users/user/Desktop/newfront/services.html",
+		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
+		"/C/Users/user/Desktop/frontsample/blog-details.html",
+		"/C/Users/user/Desktop/frontsample/contact.html",
+		"/C/wamp64/www/library_system/app/Http/Controllers/BookFundController.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/RequestController.php",
+		"/C/wamp64/www/library_system/app/Http/routes.php",
+		"/C/wamp64/www/library_system/resources/views/admin/contents/admindashboard.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/login.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_script.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/HotelContentTransformer.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotels.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Availabilities.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/head.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/master.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/base.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/show.blade.php",
+		"/C/wamp64/www/library_system/public/front/slider/example/example.html",
+		"/C/wamp64/www/library_system/public/front/slider/example/script.js",
+		"/C/wamp64/www/library_system/public/front/terseBanner-2.1.0/test/test.html",
+		"/C/wamp64/www/library_system/public/front/woocommerce-FlexSlider-0690ec2/demo/thumbnail-controlnav.html",
+		"/C/wamp64/www/library_system/public/front/Simple-And-Elegant-Image-Carousel-jQuery-Plugin-terseBanner/example/example.html",
+		"/C/wamp64/www/library_system/public/front/slider/standard.html",
+		"/C/wamp64/www/library_system/public/front/slider/with-jquery.html",
+		"/C/Users/user/Desktop/patravelnew/SearchController.php",
+		"/C/Users/user/Desktop/patravelnew/search_result_blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/AboutController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/search_script.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/SearchController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/LocationCountry.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/FrontRoute.php",
+		"/C/wamp64/www/library_system/app/Http/adminRoutes.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/routes.php",
+		"/C/wamp64/www/library_system/app/Http/adminRoutes.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/sidebar.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/scripts.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/app.blade.php",
+		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfunddetails.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/161_logo.png",
 		"/C/wamp64/www/library_system/sample/frontsample/contact.html",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam_dashboard.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory 2.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiology.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/editrme.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/medical.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist 2.php",
 		"/C/wamp64/www/moosegear/app/Config/bootstrap.php",
-		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
-		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
-		"/C/wamp64/www/library_system/app/Http/routes.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/BookFundController.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/routes.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/bootstrap.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/config.php",
@@ -691,7 +714,6 @@
 		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/routes.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/mainnavbar.ctp",
 		"/C/wamp64/www/library_system/resources/views/front/front.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/fronthead.blade.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/View/Elements/defaultnavbar.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/View/Elements/shortcuts.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/defaultnavbar.ctp",
@@ -701,9 +723,6 @@
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/usernavbar.ctp",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/config.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/bootstrap.php",
-		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
 		"/C/wamp64/www/fms/public/js/controllers/dataapp.js",
 		"/C/wamp64/www/fms/public/js/controllers/app.js",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/View/Elements/accountinfo.ctp",
@@ -743,56 +762,7 @@
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/currency.php",
 		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/bootstrap.php",
 		"/C/wamp64/www/moosegear/app/Config/routes.php",
-		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/MasterConfig.php",
-		"/C/wamp64/www/moosegear/app/Controller/PagesController.php",
-		"/C/wamp64/www/moosegear/app/Controller/AppController.php",
-		"/C/wamp64/www/library_system/.env",
-		"/C/wamp64/www/library_system/app/User.php",
-		"/C/wamp64/www/library_system/resources/views/front/login.blade.php",
-		"/C/wamp64/www/library_system/resources/views/admin/contents/adminlogin.blade.php",
-		"/C/wamp64/www/moosegear/lib/Cake/Config/config.php",
-		"/C/wamp64/www/library_system/resources/views/admin/includes/footer.blade.php",
-		"/C/wamp64/www/library_system/sample/frontsample/blog-details.html",
-		"/C/wamp64/www/library_system/sample/frontsample/about.html",
-		"/C/wamp64/www/library_system/sample/frontsample/blog.html",
-		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
-		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php",
-		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
-		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php",
-		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php",
-		"/C/wamp64/www/library_system/app/Http/Kernel.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/Auth/AuthController.php",
-		"/C/wamp64/www/library_system/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
-		"/C/wamp64/www/library_system/resources/views/admin/contents/admindashboard.blade.php",
-		"/C/wamp64/www/library_system/resources/views/admin/contents/adminindex.blade.php",
-		"/C/wamp64/www/library_system/resources/views/admin/includes/sidebar.blade.php",
-		"/C/wamp64/www/library_system/resources/views/admin/includes/header.blade.php",
-		"/C/wamp64/www/library_system/sample/adminsample/examples/user.html",
-		"/C/wamp64/www/library_system/resources/views/admin/index.blade.php",
-		"/C/wamp64/www/library_system/sample/adminsample/examples/icons.html",
-		"/C/wamp64/www/library_system/resources/views/admin/includes/navigation.blade.php",
-		"/C/Users/user/Desktop/material-dashboard-html-v1.1.1/examples/dashboard.html",
-		"/C/wamp64/www/library_system/resources/views/admin/contents/js.blade.php",
-		"/C/wamp64/www/library_system/resources/views/admin/index.blade.php.html",
-		"/C/wamp64/www/library_system/config/app.php",
-		"/C/Users/user/Desktop/avana/index.html",
-		"/C/wamp64/www/library_system/resources/views/front/contents/index.content.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/inclusion/footer.blade.php",
-		"/C/Program Files/MySQL/MySQL Workbench 6.2 CE/python/lib/argparse.py",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/login 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/login.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/dashboard.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/annual_report.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/database.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/annual_report 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/navigation 2.php",
-		"/C/wamp64/www/testipms/application/config/database.php",
-		"/C/wamp64/www/testipms/application/views/medical/physicalexam.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin 3.php",
-		"/C/wamp64/www/testipms/application/views/admin/manage_package.php",
-		"/C/wamp64/www/testipms/application/views/admin/navigation.php",
-		"/C/wamp64/www/testipms/application/controllers/admin.php"
+		"/C/wamp64/www/moosegear/app/Plugin/Webzash/Config/MasterConfig.php"
 	],
 	"find":
 	{
@@ -810,6 +780,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"checkbox-inline\"",
+			"reply",
+			"input",
+			"col-sm-1",
+			"images/",
+			".js",
+			"#thumbnail",
+			"<div class=\"banner\" id=\"thumbnail\">\n    <ul>\n        <li><img src=\"img/banner-1.jpg?thumb=img/thumb-1.jpg\"></li>\n        <li><img src=\"img/banner-2.jpg?thumb=img/thumb-2.jpg\"></li>\n        <li><img src=\"img/banner-3.jpg?thumb=img/thumb-3.jpg\"></li>\n        <!-- ... -->\n    </ul>\n</div>",
+			"thumbnail",
+			"<div class=\"banner\" id=\"thumbnail\">\n    <ul>\n        <li><img src=\"img/banner-1.jpg?thumb=img/thumb-1.jpg\"></li>\n        <li><img src=\"img/banner-2.jpg?thumb=img/thumb-2.jpg\"></li>\n        <li><img src=\"img/banner-3.jpg?thumb=img/thumb-3.jpg\"></li>\n        <!-- ... -->\n    </ul>\n</div>",
+			"link",
+			"100px",
+			"defer",
+			"flexslider",
+			"slider",
+			"dd",
+			"make_hotel_availabilities",
+			"hotelSingle",
+			"hotelsingle",
+			"$hotelsingle",
+			"hotelsingle",
+			"hotelSingle",
+			"requesthotel",
+			"requestHotel",
+			"hotel_codes",
+			"occupancies",
+			"requestHotel",
+			"dd",
+			"hotelSingle",
+			"make_hotel_availabilities",
+			"GuestSearch",
+			"guestsearch",
+			"hotelSingle",
+			"searchDestination",
+			"result",
+			"join",
+			"search",
+			"RPR",
+			"VDLR",
+			"VDLR/RPR",
+			"uxmic",
+			"allerg",
+			"allergy",
+			"pxallergy",
+			"allergies",
 			"hbsag",
 			"hxb",
 			"script",
@@ -892,52 +907,7 @@
 			"app.",
 			"app",
 			"images/home-images/",
-			"images/",
-			"images",
-			"bootstrap.min",
-			"js",
-			"packname",
-			"anti",
-			"printablearea",
-			"print",
-			"resothers2",
-			"resfinding",
-			"resfing",
-			"resfinding",
-			"resothers2",
-			"resfinding",
-			"printableArea",
-			"date",
-			"resothers2",
-			"significant",
-			"class",
-			"others",
-			"remove",
-			"CBCtd",
-			"removecolumn",
-			"border-width: 1px",
-			"printableArea1",
-			"printDiv",
-			"printdiv",
-			"printDiv",
-			"printablearea",
-			"Findings",
-			"Significaat",
-			"save",
-			"img",
-			"doctors",
-			"img",
-			"doctors",
-			"doctorchange",
-			"drname",
-			"doctors",
-			"please",
-			"endpoint",
-			"Details",
-			"edit",
-			"ng-click",
-			"ng-cick",
-			"HEADER"
+			"images/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -955,52 +925,24 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/front/userjs/userapp.js",
+					"file": "/C/wamp64/www/ipmsn/application/controllers/nurse.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1405,
+						"buffer_size": 38390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								590,
-								590
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 260.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/routes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1544,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1339,
-								1382
+								21960,
+								21960
 							]
 						],
 						"settings":
@@ -1009,113 +951,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/front/contents/bookfund.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1888,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								211,
-								211
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/front/contents/bookfunddetails.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1886,
-								1886
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 753.0,
+						"translation.y": 15113.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory.php",
+					"buffer": 1,
+					"file": "/C/wamp64/www/ipmsn/application/views/nurse/dailylist.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 55935,
+						"buffer_size": 1787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28679,
-								29028
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 17493.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 78599,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43505,
-								43486
+								1424,
+								1424
 							]
 						],
 						"settings":
@@ -1125,27 +981,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 20353.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/Http/Controllers/BookFundController.php",
+					"buffer": 2,
+					"file": "resources/views/front/contents/requestcontent.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3057,
+						"buffer_size": 9944,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1631,
-								1631
+								9733,
+								9733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5673.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/front/includes/frontfooter.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1662,
+								1651
 							]
 						],
 						"settings":
@@ -1155,85 +1040,87 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 580.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8652,
-								8652
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5393.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "resources/views/front/login.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5061,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1051,
-								828
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "resources/views/front/includes/navigation.blade.php",
+					"buffer": 4,
+					"file": "/C/Users/user/Desktop/newfront/blog.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2740,
+						"buffer_size": 19380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1333,
-								1491
+								11338,
+								11338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/user/Desktop/newfront/shortcodes.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9840,
+								9840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/wamp64/www/ipmsn/application/views/nurse/rme.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1952,
+								1966
 							]
 						],
 						"settings":
@@ -1243,10 +1130,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.y": 1253.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

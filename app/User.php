@@ -24,4 +24,8 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function scopeGetdetails($query){
+        return $query->join('faculty_user','user.id','=','faculty_user.user_id')->join('department','faculty_user.faculty_department_id','=','department.department_id');
+    }
 }
