@@ -1,7 +1,71 @@
 @extends('admin.index')
 @section('admincontent')
-<div class="content">
-  <div class="container-fluid">
+<style type="text/css">
+  .tt-query,.typeahead,
+  .tt-hint {
+    width: 100% !important;
+
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  .typeahead {
+    background-color: #fff;
+  }
+
+
+  .tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+
+  .tt-hint {
+    color: #999
+  }
+
+  .tt-menu { /* UPDATE: newer versions use tt-menu instead of tt-dropdown-menu */
+    width: 422px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+
+
+  .tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .tt-suggestion.tt-is-under-cursor {
+    color: #fff;
+    background-color: #0097cf;
+  }
+
+  .tt-suggestion p {
+    margin: 0;
+  }
+
+  /** Added from this point */
+  .twitter-typeahead{
+   width: 97%;
+ }
+ .tt-dropdown-menu{
+  width: 102%;
+}
+input.typeahead.tt-query{ /* This is optional */
+  width: 300px !important;
+}
+</style>
+
     <ul class="nav nav-tabs">
       <li><a href="{{URL::to('/administrator/request/request_index')}}">Active Request</a></li>
       <li class="active"><a href="{{URL::to('/administrator/request/add_request')}}">Add Request</a></li>
@@ -28,17 +92,19 @@
             </div>
             <div class="card-content">
               <form>
+                <input type="hidden" id="csrf" value="{{ csrf_token() }}">
                 <div class="row">
                   <div class="col-md-5">
-                    <div class="form-group label-floating">
+                    <div class="form-group label-floating" >
                       <label class="control-label">Name of Faculty:</label>
-                      <input type="text" class="form-control" >
+                      <input type="text" id="faculty_name" name="faculty_name" class="form-control typeahead" >
+                      <input type="hidden" name="faculty_id" id="faculty_id" value="">
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="form-group label-floating">
                       <label class="control-label">Institute</label>
-                      <select class="form-control">
+                      <select id="institute_id" name="institute_id" class="form-control">
                         <option value=""></option>
                         @foreach($department as $key => $value)
                         <option value="{{$key}}">{{$value->department_name}}</option>
@@ -49,7 +115,7 @@
                   <div class="col-md-4">
                     <div class="form-group label-floating">
                       <label class="control-label">Email address</label>
-                      <input type="email" class="form-control" >
+                      <input id="faculty_email" name="faculty_email" type="email" class="form-control" >
                     </div>
                   </div>
                 </div>
@@ -58,7 +124,7 @@
                   <div class="col-md-6">
                     <div class="form-group label-floating">
                       <label class="control-label">Phone Number</label>
-                      <input type="text" class="form-control" >
+                      <input type="text" id="faculty_phone" name="faculty_phone" class="form-control" >
                     </div>
                   </div>                
                 </div>
@@ -145,21 +211,21 @@
 
               <div class="col-md-12">
                 <div class="card">
-                  
+
                   <div class="card-content table-responsive">
-                    <table class="table">
+                  <table class="table" id="tableBook">
                       <thead class="text-primary">
                         <th style="text-align:center;">Book Title</th>
                         <th style="text-align:center;">Author</th>
                         <th style="text-align:center;">Volume / Edition</th>
                         <th style="text-align:center;">Publisher</th>
                         <th style="text-align:center;">Year Published</th>
-                        <th style="text-align:center;">ISBN / ISBN</th>
+                        <th style="text-align:center;">ISBN / ISSN</th>
                         <th style="text-align:center;">Material Type</th>
                         <th style="text-align:center;">&nbsp;</th>
                       </thead>
                       <tbody id="list">
-                        
+
                       </tbody>
                     </table>
 
@@ -168,7 +234,7 @@
               </div>
 
 
-              <button type="submit" class="btn btn-primary pull-right">Save Request</button>
+              <button type="button" id="submit_request" class="btn btn-primary pull-right">Save Request</button>
               <div class="clearfix"></div>
             </form>
           </div>
@@ -178,7 +244,6 @@
       </div>
 
     </div>
-  </div>
-</div>
+ 
 
 @stop

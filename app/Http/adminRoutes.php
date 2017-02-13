@@ -25,6 +25,9 @@ Route::group(array('middleware'=>array('auth','admin')),function(){
 
 	Route::get('/administrator/request/request_index', 'Admin_RequestController@index');  
 	Route::get('/administrator/request/add_request', 'Admin_RequestController@add_request');
+	Route::post('/administrator/request/get_all_faculty', 'Admin_RequestController@get_all_faculty');
+	Route::post('/administrator/request/get_faculty_byname', 'Admin_RequestController@get_faculty_byname');
+	Route::post('/administrator/request/save_request', 'Admin_RequestController@save_request');
 
 	Route::get('/administrator/books/books_index', 'Admin_BooksController@index');  
 	

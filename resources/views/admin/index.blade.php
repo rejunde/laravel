@@ -7,7 +7,7 @@
 	<link href="{!! asset('adminassets/img/favicon.png') !!}" rel="icon" type="image/png" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Material Dashboard by Creative Tim</title>
+	<title>UP College of Science ORMTS</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
