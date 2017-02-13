@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class RequestController extends Controller
+class SearchController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +16,6 @@ class RequestController extends Controller
     public function index()
     {
         //
-        return view('front/contents/requestcontent');
     }
 
     /**

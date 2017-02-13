@@ -127,8 +127,48 @@ $(document).ready(function(){
 			});
 		}
 
-	
+		$('#btnsearch').on('click',function(){
+			var $search = $('#searchdata');
+			if ($search.val() == "") {
+				$('.searchbar').addClass('has-error');
+				$('#requiredsearch').show();
+				$(this).addClass('btn-danger').removeClass('btn-default');
+			}else{
+				$('.searchbar').removeClass('has-error');
+				$('#requiredsearch').hide();
+				$(this).addClass('btn-default').removeClass('btn-danger');
+			
+				$.ajax({
+					type:'GET',
+					url:$('#searchdata').data('url')+'/search/searchresult/'+$search.val(),
+					dataType:'json',
+					beforeSend: function(){
+				     $('#loading').fadeIn('slow');
+				     $('#resultfound').hide();
+				     $('#resultsearch').fadeOut('slow');
+				 },
+				 success: function(data){
+				 	jQuery("#loading").fadeOut( 1000 , function() {
+				 	if(data.data == 1){
+				 		
+					     $('#resultsearch').fadeIn('slow');
+					
+				 	}else{
+				 		$('#resultfound').html('No Result Found.');
+				 		$('#resultfound').fadeIn('slow');
+				 	}
+				 	});
+				 	  
+				     console.log(data);
+				 }
+				   // ......
+				});
+			}
 
+		});
+
+
+	
 		/*window.onbeforeunload = function() {
 			return 'You have unsaved changes!';
 		}*/

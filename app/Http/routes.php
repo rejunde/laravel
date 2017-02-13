@@ -27,12 +27,17 @@ Route::group(array('middleware'=>array('auth','user')),function(){
 		return view('front/contents/indexcontent');
 	});
 
-	Route::get('/bookfund',['uses'=>'BookFundController@index']);
-	Route::get('/request',['uses'=>'RequestController@index']);
-	Route::get('/bookfund/getdata','BookFundController@getFundData');	
+	Route::get('/bookfund',['uses'=>'Front\BookFundController@index']);
+	Route::get('/request',['uses'=>'Front\RequestController@index']);
+	Route::get('/bookfund/getdata','Front\BookFundController@getFundData');	
 	Route::get('/bookfund/bookfunddetails/{id}', [
     'as'   => 'bookfund/bookfunddetails',
-    'uses' => 'BookFundController@bookFundDetails'
+    'uses' => 'Front\BookFundController@bookFundDetails'
+	]);
+	Route::get('/search',['uses'=>'Front\SearchController@index']);
+	Route::get('/search/searchresult/{searchdata}', [
+    'as'   => 'search/searchresult',
+    'uses' => 'Front\SearchController@searchResult'
 	]);
 });
 
