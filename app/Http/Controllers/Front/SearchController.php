@@ -19,7 +19,13 @@ class SearchController extends Controller
     public function index()
     {
         //
-        return view('front/contents/search');
+        $getSteps = DB::table('book_steps')
+        ->select('*')
+        ->where('booksteps_status','=','0')
+        ->orderBy('booksteps_position','ASC')
+        ->get()
+        ;
+        return view('front/contents/search',array('steps'=>json_decode(json_encode($getSteps),true)));
     }
 
     /**
@@ -29,11 +35,16 @@ class SearchController extends Controller
      */
 
     public function searchResult($searchdata){
-
-            $searchresult = 
-
+            $searchresult = DB::table('book_details')
+            ->select('*')
+            ->join('material_request','book_details.bookrequest_id','=','material_request.materialrequest_id')
+            ->join('book_steps','material_request.booksteps_id','=','book_steps.booksteps_id')
+            ->where('bookdetails_author','like','%'.$searchdata.'%')
+            ->orwhere('bookdetails_title','like','%'.$searchdata.'%')
+            ->get();
           $response = array(
-            'data'=>$searchdata
+            'data'=>$searchresult,
+            'count'=>count($searchresult)
         );
         return \Response::json($response);
       

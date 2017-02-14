@@ -149,17 +149,40 @@ $(document).ready(function(){
 				 },
 				 success: function(data){
 				 	jQuery("#loading").fadeOut( 1000 , function() {
-				 	if(data.data == 1){
-				 		
+				 	if(data.count > 0){
+				 		var counter = 1;
+				 		$('#'+data.data[0].booksteps_position).addClass('active');
+				 		$.each(data.data,function(index,value){
+				 			if (counter == 1){
+								var checkactive ="active";
+
+							}else{
+								var checkactive ="";								
+							}
+				 			$('.searchresult').append('<li class="'+checkactive+'"><a href="#tab'+counter+'" onclick="getposition(this.id)" data-value="'+value.booksteps_position+'" id="pos'+value.booksteps_position+'" data-toggle="tab" class="analistic-0'+counter+'">'+value.bookdetails_title+'</a></li>');
+												
+							
+							$('.tab-content').append('<div class="tab-pane '+checkactive+' " id="tab'+counter+'">\
+									<div class="media">\
+										<div class="pull-left">\
+										<input type="text" value="'+value.booksteps_position+'">\
+											<img class="img-responsive" src="images/tab1.png">\
+										</div>\
+										<div class="media-body">\
+											<h4>'+value.bookdetails_author+'</h4>\
+											<p>'+value.bookdetails_title+'<p>\
+											</div>\
+									</div>\
+								</div>');
+							counter++;
+				 		});
 					     $('#resultsearch').fadeIn('slow');
-					
+							
 				 	}else{
 				 		$('#resultfound').html('No Result Found.');
 				 		$('#resultfound').fadeIn('slow');
 				 	}
 				 	});
-				 	  
-				     console.log(data);
 				 }
 				   // ......
 				});
@@ -168,7 +191,15 @@ $(document).ready(function(){
 		});
 
 
-	
+	function getposition(ele){
+		var listItems = $(".listcheckactive li");
+		listItems.each(function(idx, li) {
+			 if($(li).hasClass('active')){
+			 	$(li).removeClass('active');
+			 }
+		});
+		$('#'+$('#'+ele).data('value')).addClass('active');
+	}
 		/*window.onbeforeunload = function() {
 			return 'You have unsaved changes!';
 		}*/
