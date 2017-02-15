@@ -1,8 +1,10 @@
 @extends('front.front')
 @section('indexcontent')
+	<div class="row">
 	<div class="col-md-12 ">
 
-			<div class="container">
+			<div class="col-md-10">
+				<div class="container">
 				<div class="center">  
 					<div class="col-md-5">
 						<div class="input-group searchbar">
@@ -24,28 +26,31 @@
 					</span>
 				</div>
 			</div>
+			</div>
 			<br>
 
-			 <div class="col-xs-12">
-            <ul class="nav nav-pills nav-justified thumbnail setup-panel listcheckactive">
+			 <div class="col-md-12">
+            <ul class="nav nav-pills nav-justified thumbnail setup-panel listcheckactive" style="display: flex">
             @foreach($steps as $step)
-                <li id="{{$step['booksteps_position']}}"><a href="#step-{{$step['booksteps_position']}}">
+                <li class="disabled" style="display: flex;flex: 1"  id="{{$step['booksteps_position']}}"><a style="flex: 1"  href="#step-{{$step['booksteps_position']}}">	
                     <h4 class="list-group-item-heading">Step {{$step['booksteps_position']}}</h4>
                     <p class="list-group-item-text"><span  style="font-weight: bold;font-size: 11px">{{$step['booksteps_header']}}</span></p>
-                    <p class="list-group-item-text"><?=str_replace('-','',$step['boksteps_details'])?></p>
+                    <p class="list-group-item-text"><span style="font-weight: normal;font-size: 11px"><?=$step['boksteps_details_1']?></span><br><span style="font-weight: normal;font-size: 11px"><?=$step['boksteps_details_2']?></span></p>
                 </a></li>
              @endforeach
             </ul>
         </div>
 	</div>
+</div>
 <main role="main-home-wrapper" class="container" >
-	<div class="row" style="width: 100%">
+
+	<div class="row" >
 
   
     
    
     
-			<div class="col-md-12">
+			<div class="col-md-10 col-md-offset-1">
 				<div align="center" id="resultfound" style="height: 180px"></div>
 				<div class="tab-wrap">
 

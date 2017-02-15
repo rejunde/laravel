@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 15, 2017 at 10:21 AM
+-- Generation Time: Feb 02, 2017 at 10:36 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.25
 
@@ -58,20 +58,16 @@ CREATE TABLE `book_details` (
   `bookdetails_type` varchar(255) NOT NULL,
   `bookdetails_tobeplaced` varchar(255) NOT NULL,
   `approved_price` double NOT NULL,
-  `bookdetails_remarks` varchar(100) NOT NULL,
-  `bookstatus_id` int(11) NOT NULL,
-  `booksteps_id` int(11) NOT NULL
+  `bookstatus_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `book_details`
 --
 
-INSERT INTO `book_details` (`bookdetails_id`, `bookrequest_id`, `bookdetails_author`, `bookdetails_title`, `bookdetails_volume_edition`, `bookdetails_year_published`, `bookdetails_publisher`, `bookdetails_isbn_issn`, `bookdetails_type`, `bookdetails_tobeplaced`, `approved_price`, `bookdetails_remarks`, `bookstatus_id`, `booksteps_id`) VALUES
-(1, 1, 'George R. R. Martin', 'Game of Thrones', '7', '2017-02-03', 'George R. R. Martin', '12345678910', 'Book Print and eBook', '1', 1000, 'This book is addictive.', 1, 5),
-(2, 2, 'E. L. James', 'Grey: Fifty Shades of Grey As Told by Christian', '4', '2017-02-03', 'E. L. James', '12345678910', 'Book Print and eBook', '1', 1000, 'This book is addictive.', 1, 6),
-(3, 3, 'J.K Rowling', 'Harry Potter and the Philosopher\'s Stone', '7', '2017-02-03', 'J.K Rowling', '12345678910', 'Book Print and eBook', '1', 1000, 'This book is addictive.', 1, 2),
-(4, 4, 'Mitch Albom', 'The Five People You Meet in Heaven', '1', '2016', 'Mitch Albom', '12345678910', 'Book Print and eBook', '1', 1000, '', 0, 0);
+INSERT INTO `book_details` (`bookdetails_id`, `bookrequest_id`, `bookdetails_author`, `bookdetails_title`, `bookdetails_volume_edition`, `bookdetails_year_published`, `bookdetails_publisher`, `bookdetails_isbn_issn`, `bookdetails_type`, `bookdetails_tobeplaced`, `approved_price`, `bookstatus_id`) VALUES
+(1, 1, 'a', 'b', '1', '2017-02-03', 'c', 'c', '1', '1', 0, 1),
+(2, 1, 'b', 'c', '2', '2017-02-03', 'c', 'c', '1', '1', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -120,34 +116,6 @@ INSERT INTO `book_status` (`bookstatus_id`, `bookstatus`, `flag`) VALUES
 (1, 'On Shelf', 0),
 (2, 'For Qoutation', 0),
 (3, 'Accessible', 0);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `book_steps`
---
-
-CREATE TABLE `book_steps` (
-  `booksteps_id` int(11) NOT NULL,
-  `booksteps_header` varchar(100) NOT NULL,
-  `boksteps_details_1` varchar(100) NOT NULL,
-  `boksteps_details_2` varchar(100) NOT NULL,
-  `booksteps_position` int(11) NOT NULL,
-  `booksteps_status` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `book_steps`
---
-
-INSERT INTO `book_steps` (`booksteps_id`, `booksteps_header`, `boksteps_details_1`, `boksteps_details_2`, `booksteps_position`, `booksteps_status`) VALUES
-(1, 'CSLIB ACQUISITION SECTION\r\n', '-3 quotation', '-Direct contracting', 1, 0),
-(2, 'UP MAIN LIBRARY\r\n', '-Posting\n', '-Endorsement', 2, 0),
-(3, 'BUDGET OFFICE', '-Budget clearance\r\n', '', 3, 0),
-(4, 'ACCOUNTING \r\nOFFICE', '-For obligation\r\n', '', 4, 0),
-(5, 'SPMO', 'PhilGEPS\n', '-Prepare Purchase  Order', 5, 0),
-(6, 'COA', '-Records of \r\ndocuments', '', 6, 0),
-(7, 'CSLIB TECHNICAL SECTION\r\n', '-Accessioning\n\n', '-Cataloging', 7, 0);
 
 -- --------------------------------------------------------
 
@@ -236,9 +204,7 @@ CREATE TABLE `material_request` (
 
 INSERT INTO `material_request` (`materialrequest_id`, `user_id`, `department_id`, `materialrequest_date_requested`, `materialrequest_flag`, `bookfund_id`) VALUES
 (1, 2, 1, '2017-02-03', 1, 1),
-(2, 2, 1, '2017-02-03', 1, 1),
-(3, 2, 1, '2017-02-13', 1, 1),
-(4, 2, 1, '2017-02-15', 1, 1);
+(2, 2, 1, '2017-02-03', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -289,8 +255,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `usertype_id`, `email`, `password`, `user_datecreated`, `user_flag`, `user_update_profile`, `user_last_login`, `remember_token`, `updated_at`) VALUES
-(1, 3, 'admin', '$2y$10$818Fjjn.iMzJqHNqLh3dk.rWmDBrw7jTJvVW06LLJIFHCccQVgGnS', '2017-01-30 05:09:45', 0, 0, '0000-00-00 00:00:00', 'ghraYRId9C2uoY5M9lECHstdaGilGnZOqTAM5j4KtITHuhXQsZVpCL81otuX', '2017-02-15 03:11:10'),
-(2, 1, 'faculty', '$2y$10$a4QcfPrOl1D6BHgRNoPXPuw0dkoyinYKi8mX79JPuSrS.axX8Qcui', '2017-01-30 05:09:45', 0, 0, '0000-00-00 00:00:00', 'YB9sLdnfEGwiXNvwiiGTepiRxQkU06S7WDV14SqwbSaYdGQBvluhj92RyA2t', '2017-02-08 06:01:27');
+(1, 3, 'admin', '$2y$10$818Fjjn.iMzJqHNqLh3dk.rWmDBrw7jTJvVW06LLJIFHCccQVgGnS', '2017-01-30 05:09:45', 0, 0, '0000-00-00 00:00:00', 'OsWW4NuFAsFN9PNCb39zc6XNuR4jUQAGD8cjBCMtaWMY8WFehhHGhiTsPrZT', '2017-02-02 02:12:45'),
+(2, 1, 'faculty', '$2y$10$a4QcfPrOl1D6BHgRNoPXPuw0dkoyinYKi8mX79JPuSrS.axX8Qcui', '2017-01-30 05:09:45', 0, 0, '0000-00-00 00:00:00', 'HKUWMMZMFExUABqlBqYMh3pC7MU7OZn6EBC8glOvbOlTF185KCOIGFKD9Egn', '2017-01-30 08:54:57');
 
 -- --------------------------------------------------------
 
@@ -329,8 +295,7 @@ ALTER TABLE `admin_user`
 ALTER TABLE `book_details`
   ADD PRIMARY KEY (`bookdetails_id`),
   ADD KEY `bookrequest_id` (`bookrequest_id`),
-  ADD KEY `bookstatus_id` (`bookstatus_id`),
-  ADD KEY `booksteps_id` (`booksteps_id`);
+  ADD KEY `bookstatus_id` (`bookstatus_id`);
 
 --
 -- Indexes for table `book_fund`
@@ -345,12 +310,6 @@ ALTER TABLE `book_fund`
 --
 ALTER TABLE `book_status`
   ADD PRIMARY KEY (`bookstatus_id`);
-
---
--- Indexes for table `book_steps`
---
-ALTER TABLE `book_steps`
-  ADD PRIMARY KEY (`booksteps_id`);
 
 --
 -- Indexes for table `dealer`
@@ -412,7 +371,7 @@ ALTER TABLE `admin_user`
 -- AUTO_INCREMENT for table `book_details`
 --
 ALTER TABLE `book_details`
-  MODIFY `bookdetails_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `bookdetails_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `book_fund`
 --
@@ -423,11 +382,6 @@ ALTER TABLE `book_fund`
 --
 ALTER TABLE `book_status`
   MODIFY `bookstatus_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
---
--- AUTO_INCREMENT for table `book_steps`
---
-ALTER TABLE `book_steps`
-  MODIFY `booksteps_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `department`
 --
@@ -442,7 +396,7 @@ ALTER TABLE `faculty_user`
 -- AUTO_INCREMENT for table `material_request`
 --
 ALTER TABLE `material_request`
-  MODIFY `materialrequest_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `materialrequest_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `school_year`
 --

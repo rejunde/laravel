@@ -148,6 +148,9 @@ $(document).ready(function(){
 				     $('#resultsearch').fadeOut('slow');
 				 },
 				 success: function(data){
+
+							$('.searchresult').html('');							
+							$('.tab-content').html('');
 				 	jQuery("#loading").fadeOut( 1000 , function() {
 				 	if(data.count > 0){
 				 		var counter = 1;
@@ -158,19 +161,21 @@ $(document).ready(function(){
 
 							}else{
 								var checkactive ="";								
+
 							}
-				 			$('.searchresult').append('<li class="'+checkactive+'"><a href="#tab'+counter+'" onclick="getposition(this.id)" data-value="'+value.booksteps_position+'" id="pos'+value.booksteps_position+'" data-toggle="tab" class="analistic-0'+counter+'">'+value.bookdetails_title+'</a></li>');
+				 			$('.searchresult').append('<li class="'+checkactive+'" disabled="disabled"><a   href="#tab'+counter+'" onclick="getposition(this.id)" data-value="'+value.booksteps_position+'" id="pos'+value.booksteps_position+'" data-toggle="tab" class="analistic-0'+counter+'">'+value.bookdetails_title+'</a></li>');
 												
 							
 							$('.tab-content').append('<div class="tab-pane '+checkactive+' " id="tab'+counter+'">\
 									<div class="media">\
-										<div class="pull-left">\
-										<input type="text" value="'+value.booksteps_position+'">\
-											<img class="img-responsive" src="images/tab1.png">\
-										</div>\
 										<div class="media-body">\
-											<h4>'+value.bookdetails_author+'</h4>\
-											<p>'+value.bookdetails_title+'<p>\
+											<p><b>Requestor :</b> '+value.faculty_fullname+'<p>\
+											<p><b>Institute :</b> '+value.department_name+'<p>\
+											<p><b>Title : </b>'+value.bookdetails_title+'</p>\
+											<p><b>Author :</b> '+value.bookdetails_author+'<p>\
+											<p><b>Publisher :</b> '+value.bookdetails_publisher+'<p>\
+											<p><b>Year of Publication :</b> '+value.bookdetails_year_published+'<p>\
+											<p><b>Remarks :</b> '+value.bookdetails_remarks+'<p>\
 											</div>\
 									</div>\
 								</div>');

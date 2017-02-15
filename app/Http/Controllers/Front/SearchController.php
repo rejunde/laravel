@@ -38,9 +38,11 @@ class SearchController extends Controller
             $searchresult = DB::table('book_details')
             ->select('*')
             ->join('material_request','book_details.bookrequest_id','=','material_request.materialrequest_id')
-            ->join('book_steps','material_request.booksteps_id','=','book_steps.booksteps_id')
-            ->where('bookdetails_author','like','%'.$searchdata.'%')
-            ->orwhere('bookdetails_title','like','%'.$searchdata.'%')
+            ->join('book_steps','book_details.booksteps_id','=','book_steps.booksteps_id')
+              ->join('faculty_user','material_request.user_id','=','faculty_user.user_id')
+              ->join('department','faculty_user.faculty_department_id','=','department.department_id')
+            ->where('book_details.bookdetails_author','like','%'.$searchdata.'%')
+            ->orwhere('book_details.bookdetails_title','like','%'.$searchdata.'%')
             ->get();
           $response = array(
             'data'=>$searchresult,
