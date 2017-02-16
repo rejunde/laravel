@@ -24,19 +24,20 @@
         
                 <div class="collapse navbar-collapse " align="center" style="align-items: center;margin-left:15% ">
                  <ul class="nav navbar-nav" style="padding: 0;margin:0" >
-                  <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/logo.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+                  <li style="padding: 0;margin:0" ><a href=""> <img src="frontimage/logo.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
                   <li style="padding: 0;margin:0" ><a href="{{url('bookfund')}}"> <img src="frontimage/bookfund.png" width="130"  style="border: 1px solid blue;height: 70px" alt="" class="img-responsive"/></a></li>
                   <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/quotation.png" width="130" style="height: 70px" alt="" class="img-responsive"/></a></li>
                   <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/philgeps.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
                   <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/onshelf.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
                 </ul>
                 <ul class="nav navbar-nav"  style="padding: 0;margin:0">
-                  <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/acquisition.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+                  <li style="padding: 0;margin:0" ><a href="{{url('search')}}"> <img src="frontimage/acquisition.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
                   <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/memo.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
                   <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/catalouge.png" width="130" style="height: 70px" alt="" class="img-responsive"/></a></li>
-                  <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/events.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
+                  <li style="padding: 0;margin:0" ><a href="{{url('request')}}"> <img src="frontimage/noimage.png" width="130"  style="height: 70px" alt="" class="img-responsive"/><font color="black">Request</font></a></li>
                   <li style="padding: 0;margin:0" ><a href="#"> <img src="frontimage/others.png" width="130"  style="height: 70px" alt="" class="img-responsive"/></a></li>
                 </ul>
+
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->

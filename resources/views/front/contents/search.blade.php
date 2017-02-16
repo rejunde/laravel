@@ -1,6 +1,6 @@
 @extends('front.front')
 @section('indexcontent')
-	<div class="row">
+	<div class="row" style="width: 100%">
 	<div class="col-md-12 ">
 
 			<div class="col-md-10">
