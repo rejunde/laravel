@@ -6,10 +6,10 @@
                 1101, Philippines
             </p>
             <p class="copy-right">
-            <i class="fa fa-phone-square" aria-hidden="true"></i>   2-426-6606, 632-926-656
+            <i class="fa fa-phone-square" aria-hidden="true"></i> 632-926-6565
             </p>
             <p class="copy-right">
-           <i class="fa fa-envelope" aria-hidden="true"></i>  cslib.acquisition@gmail.com
+           <i class="fa fa-envelope" aria-hidden="true"></i>  acquisition.cslib@gmail.com
             </p>
     </footer><!--/#footer-->
 

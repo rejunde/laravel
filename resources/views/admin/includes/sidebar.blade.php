@@ -5,17 +5,20 @@
 
 		        Tip 2: you can also add an image using data-image tag
 		    -->
-		    <div class="logo">
-		    	<a href="" class="simple-text">
-		    		CSORMTS
-		    	</a>
-		    </div>
-		    @php
+		     @php
 		    $url=Request::getPathInfo();
 		    $segment=explode("/",$url);
 		    $active_url=$segment[2];
 		    @endphp
 		  
+		    <div class="logo" align="center">
+		    	<img src="{{ ($active_url == 'dashboard' ? '../frontimage/logo5.PNG' : '../../frontimage/logo5.PNG') }}" style="width:130px;height:80px;">
+		    	<br>
+		    	<span><strong>CS Library Resource Material</strong></span>
+		    	<br>
+		    	<span><strong>Tracking System</strong></span>
+		    </div>
+		   
 		    <div class="sidebar-wrapper">
 		    	<ul class="nav">
 		    		<li class="{{ ($active_url == 'dashboard' ? 'active' : '') }}">
@@ -39,7 +42,7 @@
 		    		<li class="{{ ($active_url == 'books' ? 'active' : '') }}">
 		    			<a href="{{URL::to('/administrator/books/books_index')}}">
 		    				<i class="material-icons">archive</i>
-		    				<p>Books</p>
+		    				<p>Quotations</p>
 		    			</a>
 		    		</li>
 		    		<li class="{{ ($active_url == 'budgetfund' ? 'active' : '') }}">

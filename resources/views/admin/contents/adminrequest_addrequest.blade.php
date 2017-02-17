@@ -131,7 +131,7 @@ input.typeahead.tt-query{ /* This is optional */
 
                 <div class="row">
                   <div class="col-md-12" align="center">
-                   <h4 class="text-success"><--- Book Details ---></h4>
+                   <h4 class="text-success"><--- Material Details ---></h4>
                  </div>                
                </div>
 
@@ -244,6 +244,5 @@ input.typeahead.tt-query{ /* This is optional */
       </div>
 
     </div>
- 
 
 @stop

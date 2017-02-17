@@ -1,6 +1,10 @@
 
 
-$('#example').DataTable();
+$('#example').dataTable({	
+	responsive: true
+	
+
+});
 
 
 $('#add_to_list').on('click',function(){
@@ -14,11 +18,11 @@ $('#add_to_list').on('click',function(){
 	var book_medium = $('#book_medium').val();
 	if(title ==''||author ==''||volume_edition ==''||publisher==''||year_published ==''||isbn_issn ==''||book_type ==''||book_medium =='')
 	{
-		Prevent('Please fill up all book details');
+		Prevent('Please fill up all material details');
 	}
 	else
 	{
-		Success('Book Added');
+		Success('Material Added');
 		$('#list').append('<tr>\
 			<td style="text-align:center;">'+title+'</td>\
 			<td style="text-align:center;">'+author+'</td>\
@@ -53,7 +57,7 @@ $("body").on("click", ".rem", function() {
 	var clear=$(this);	
 	swal({
 		title: "Are you sure?",
-		text: "Your removing a book in the listt",
+		text: "Your removing a material in the list",
 		type: "warning",
 		showCancelButton: true,
 		confirmButtonClass: "btn-warning",
@@ -239,7 +243,7 @@ $("#submit_request").on("click", function() {
 					{
 						Success_no_confirm('Request has been added');
 					}
-						window.location.href = base_url+'/administrator/request/add_request'
+					window.location.href = base_url+'/administrator/request/add_request'
 					
 				}
 			});
@@ -250,3 +254,53 @@ $("#submit_request").on("click", function() {
 	
 });
 
+$(".mymodal").click( function(){
+	var id = $(this).parent().find('.for_edit').val();
+	$.ajax({
+		type: "POST",
+		url: base_url+'/administrator/request/get_bookdetails',
+		data:{_token:$('#csrf').val(),bookd_id:id},
+		dataType: "json",
+		success:function(data){
+			console.log(data);
+			$('#mod_bookid').val(data.book[0].bookdetails_id);
+			$('#mod_title').text(data.book[0].bookdetails_title);
+			$('#mod_author').text(data.book[0].bookdetails_author);
+			$('#mod_pub').text(data.book[0].bookdetails_publisher);
+			$('#mod_ypub').text(data.book[0].bookdetails_year_published);
+			$('#mod_vol').text(data.book[0].bookdetails_volume_edition);
+			$('#mod_isbn').text(data.book[0].bookdetails_isbn_issn);
+			$('#mod_type').text(data.book[0].bookdetails_type);
+
+			$('#mod_requestor').text(data.book[0].faculty_fullname);
+			$('#mod_institute').text(data.book[0].department_name);
+			$('#mod_contact').text(data.book[0].faculty_contact_no);
+			$('#mod_processed').text(data.book[0].materialrequest_date_requested);
+			$('#mod_current').text(data.book[0].booksteps_position+' '+data.book[0].booksteps_header+'('+data.book[0].boksteps_details_1+' '+data.book[0].boksteps_details_2+")");
+		    $('#mod_remarks').val(data.book[0].bookdetails_remarks);
+		    $('#opt_steps option[value="'+data.book[0].booksteps_id+'"]').attr('selected', 'selected');
+		}
+	});	
+	$('#bookmodal').appendTo("body").modal('show');
+}); 
+
+$('#update_book').click(function(){
+var bookID=$('#mod_bookid').val();
+var remarks=$('#mod_remarks').val();
+var steps=$('#opt_steps').val();
+$.ajax({
+		type: "POST",
+		url: base_url+'/administrator/request/update_bookdetails',
+		data:{_token:$('#csrf').val(), bookID:bookID, remarks:remarks, steps:steps },
+		dataType: "json",
+		success:function(data){
+			console.log(data);
+			if(data==1)
+			{
+				Success_no_confirm('Material Updated!');
+			}
+			window.location.href = base_url+'/administrator/request/request_index'
+			
+		}
+	});
+});

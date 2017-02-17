@@ -9,8 +9,7 @@
 
 
 <script type="text/javascript" src="{!! asset('adminassets/js/jquery-3.1.0.min.js') !!}"></script>
-<script type="text/javascript" src="{!! asset('adminassets/DataTables/js/jquery.dataTables.min.js') !!}"></script>
-<script type="text/javascript" src="{!! asset('adminassets/DataTables/js/dataTables.bootstrap.min.js') !!}"></script>
+<script type="text/javascript" src="{!! asset('adminassets/datatables/datatables.js') !!}"></script>
 <script type="text/javascript" src="{!! asset('adminassets/js/typeahead.js') !!}"></script>
 <script type="text/javascript" src="{!! asset('adminassets/js/bootstrap.min.js') !!}"></script>
 <script type="text/javascript" src="{!! asset('adminassets/js/material.min.js') !!}"></script>

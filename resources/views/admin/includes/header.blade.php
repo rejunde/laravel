@@ -11,5 +11,5 @@
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"> -->
     <!--  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'/> -->
     <link href="{!! asset('adminassets/css/roboto.css') !!}" rel='stylesheet' type='text/css'/>
-    <link href="{!! asset('adminassets/DataTables/css/dataTables.bootstrap.min.css') !!}" rel='stylesheet' type='text/css'/>
+    <link href="{!! asset('adminassets/datatables/datatables.css') !!}" rel='stylesheet' type='text/css'/>
     <link href="{!! asset('adminassets/sweetalert/dist/sweetalert.css') !!}" rel='stylesheet' type='text/css'/>

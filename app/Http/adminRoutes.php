@@ -28,6 +28,8 @@ Route::group(array('middleware'=>array('auth','admin')),function(){
 	Route::post('/administrator/request/get_all_faculty', 'Admin_RequestController@get_all_faculty');
 	Route::post('/administrator/request/get_faculty_byname', 'Admin_RequestController@get_faculty_byname');
 	Route::post('/administrator/request/save_request', 'Admin_RequestController@save_request');
+	Route::post('/administrator/request/get_bookdetails', 'Admin_RequestController@get_book_details');
+	Route::post('/administrator/request/update_bookdetails', 'Admin_RequestController@update_book_details');
 
 	Route::get('/administrator/books/books_index', 'Admin_BooksController@index');  
 	
