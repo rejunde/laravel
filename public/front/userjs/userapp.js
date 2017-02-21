@@ -61,22 +61,30 @@ $(document).ready(function(){
 			var volume = $('#volume').val() !== "" ? $('#volume').val() : "";
 			var published = $('#published').val() !== "" ? $('#published').val() : "";
 			var isbn = $('#isbn').val() !== "" ? $('#isbn').val() : "";
-			var materialtype = $('input[name="materialtype[]"]:checked').val() !== undefined ? $('input[name="materialtype[]"]:checked').val() : "";
+			var materialclass = $('#classbook').val() !== null ? $('#classbook').val() : "";
+			var materialtype = $('#typebook').val() !== null ? $('#typebook').val() : "";
 			var section = $('input[name="section[]"]:checked').val() !== undefined ? $('input[name="section[]"]:checked').val() : "";
 			var date = $('#date').val() !== "" ? $('#date').val() : "";
-			$('#addbook').append('<tr>\
+			if(author == "" || title == "" || volume == "" || published == "" || isbn == "" || materialclass == "" || materialtype == "" || section == "" || date == "")
+				{
+				
+			alertsuccess('warning','<br>Please fill up all book details.');
+		}else{
+				$('#addbook').append('<tr>\
 				<td>'+author+'</td>\
 				<td>'+title+'</td>\
 				<td>'+volume+'</td>\
 				<td>'+published+'</td>\
 				<td>'+isbn+'</td>\
-				<td>'+materialtype+'</td>\
+				<td>'+materialclass+' - '+materialtype+'</td>\
 				<td>'+section+'</td>\
 				<td>'+date+'</td>\
 				<td><i class="fa fa-times btn btn-primary removerow" data-value="'+count+'"></i></td>\
 				</tr>');	
 			alertsuccess('success','<br>Successfully added to list.');
-			$('#bookForm').trigger("reset");			
+			$('#bookForm').trigger("reset");
+		}
+						
 		});
 
 		$('body').on('click','.removerow',function(){
@@ -129,64 +137,89 @@ $(document).ready(function(){
 
 		$('#btnsearch').on('click',function(){
 			var $search = $('#searchdata');
+			var $filter = $('#filter');
 			if ($search.val() == "") {
 				$('.searchbar').addClass('has-error');
 				$('#requiredsearch').show();
 				$(this).addClass('btn-danger').removeClass('btn-default');
+				if($filter.val() == "" || $filter.val() == null){
+					$('.filter').addClass('has-error');
+					$('#requiredfilter').show();
+				}else{
+					$('.filter').removeClass('has-error');
+					$('#requiredfilter').hide();
+				}
+			}else if($filter.val() == "" || $filter.val() == null){
+				$('.filter').addClass('has-error');
+				$('#requiredfilter').show();
+
+				if($search.val() != ""){
+					$('.searchbar').removeClass('has-error');
+					$('#requiredsearch').hide();
+				}
+				
 			}else{
 				$('.searchbar').removeClass('has-error');
 				$('#requiredsearch').hide();
+				$('.filter').removeClass('has-error');
+				$('#requiredfilter').hide();
 				$(this).addClass('btn-default').removeClass('btn-danger');
 			
 				$.ajax({
 					type:'GET',
-					url:$('#searchdata').data('url')+'/search/searchresult/'+$search.val(),
+					url:$('#searchdata').data('url')+'/search/searchresult/'+$search.val()+'/'+$filter.val(),
 					dataType:'json',
 					beforeSend: function(){
-				     $('#loading').fadeIn('slow');
-				     $('#resultfound').hide();
-				     $('#resultsearch').fadeOut('slow');
+					$('#steps').fadeIn('slow');
+				    $('#loading').fadeIn('slow');
+				    $('#resultfound').hide();
+				    $('#resultsearch').fadeOut('slow');
 				 },
 				 success: function(data){
-
-							$('.searchresult').html('');							
-							$('.tab-content').html('');
+				 	$('.searchresult').html('');							
+				 	$('.tab-content').html('');
+				 	var listItems = $(".listcheckactive li");
+				 	listItems.each(function(idx, li) {
+				 		if($(li).hasClass('active')){
+				 			$(li).removeClass('active');
+				 		}
+				 	});
 				 	jQuery("#loading").fadeOut( 1000 , function() {
-				 	if(data.count > 0){
-				 		var counter = 1;
-				 		$('#'+data.data[0].booksteps_position).addClass('active');
-				 		$.each(data.data,function(index,value){
-				 			if (counter == 1){
-								var checkactive ="active";
+				 		if(data.count > 0){
+				 			var counter = 1;
+				 			$('#'+data.data[0].booksteps_position).addClass('active');
+				 			$.each(data.data,function(index,value){
+				 				if (counter == 1){
+				 					var checkactive ="active";
 
-							}else{
-								var checkactive ="";								
+				 				}else{
+				 					var checkactive ="";								
 
-							}
-				 			$('.searchresult').append('<li class="'+checkactive+'" disabled="disabled"><a   href="#tab'+counter+'" onclick="getposition(this.id)" data-value="'+value.booksteps_position+'" id="pos'+value.booksteps_position+'" data-toggle="tab" class="analistic-0'+counter+'">'+value.bookdetails_title+'</a></li>');
-												
-							
-							$('.tab-content').append('<div class="tab-pane '+checkactive+' " id="tab'+counter+'">\
-									<div class="media">\
-										<div class="media-body">\
-											<p><b>Requestor :</b> '+value.faculty_fullname+'<p>\
-											<p><b>Institute :</b> '+value.department_name+'<p>\
-											<p><b>Title : </b>'+value.bookdetails_title+'</p>\
-											<p><b>Author :</b> '+value.bookdetails_author+'<p>\
-											<p><b>Publisher :</b> '+value.bookdetails_publisher+'<p>\
-											<p><b>Year of Publication :</b> '+value.bookdetails_year_published+'<p>\
-											<p><b>Remarks :</b> '+value.bookdetails_remarks+'<p>\
-											</div>\
-									</div>\
-								</div>');
-							counter++;
-				 		});
-					     $('#resultsearch').fadeIn('slow');
-							
-				 	}else{
-				 		$('#resultfound').html('No Result Found.');
-				 		$('#resultfound').fadeIn('slow');
-				 	}
+				 				}
+				 				$('.searchresult').append('<li class="'+checkactive+'" disabled="disabled"><a   href="#tab'+counter+'" onclick="getposition(this.id)" data-value="'+value.booksteps_position+'" id="pos'+value.booksteps_position+'" data-toggle="tab" class="analistic-0'+counter+'">'+value.bookdetails_title+'</a></li>');
+
+
+				 				$('.tab-content').append('<div class="tab-pane '+checkactive+' " id="tab'+counter+'">\
+				 					<div class="media">\
+				 					<div class="media-body">\
+				 					<p><b>Requestor :</b> '+value.faculty_fullname+'<p>\
+				 					<p><b>Institute :</b> '+value.department_name+'<p>\
+				 					<p><b>Title : </b>'+value.bookdetails_title+'</p>\
+				 					<p><b>Author :</b> '+value.bookdetails_author+'<p>\
+				 					<p><b>Publisher :</b> '+value.bookdetails_publisher+'<p>\
+				 					<p><b>Year of Publication :</b> '+value.bookdetails_year_published+'<p>\
+				 					<p><b>Remarks :</b> '+value.bookdetails_remarks+'<p>\
+				 					</div>\
+				 					</div>\
+				 					</div>');
+				 				counter++;
+				 			});
+				 			$('#resultsearch').fadeIn('slow');
+
+				 		}else{
+				 			$('#resultfound').html('No Result Found.');
+				 			$('#resultfound').fadeIn('slow');
+				 		}
 				 	});
 				 }
 				   // ......

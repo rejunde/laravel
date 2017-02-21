@@ -13,12 +13,13 @@
             </p>
     </footer><!--/#footer-->
 
- <script type="text/javascript" src="{!! asset('front/js/jquery.js') !!}"></script>
+        <script type="text/javascript" src="{!! asset('front/js/jquery.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('front/js/bootstrap.min.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('front/js/jquery.prettyPhoto.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('front/js/jquery.isotope.min.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('front/js/main.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('front/js/wow.min.js') !!}"></script>
+        <script type="text/javascript" src="{!! asset('front/userjs/userapp.js') !!}"></script> 
        
 
 

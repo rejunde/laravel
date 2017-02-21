@@ -18,7 +18,7 @@
       body {
         width: 98%;
         height: 80%;
-        background-image: url('frontimage/images.png');
+        background-image: url('front/images/bg.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -56,6 +56,7 @@
 
                     <div class="col-md-7" >
                         <br>
+
                         <div class="slides" style="padding-bottom: 20px">
                             <ul class="pgwSlideshow">
                                 <li><img src="frontimage/book/1.jpg" alt="San Francisco, USA" data-description="Golden Gate Bridge"></li>
@@ -68,11 +69,11 @@
                     </div>
                     <div class="col-md-5"  >
                         <div class="card">
-                            <div class="card-header" data-background-color="blue">
+                            <div class="card-header" data-background-color="orange">
                                 <span>Login</span>
                                 <p class="category">Please Login to continue</p>
                             </div>
-                            <div class="card-content">
+                            <div class="card-content" >
                                 {!! Form::open(['url' => '/login']) !!}
 
 
@@ -132,9 +133,11 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $('.pgwSlideshow').pgwSlideshow({
-           maxHeight : 350,
+           maxHeight : 450,
+           maxHeight : 450,
            autoSlide : true,
            displayControls : false,
+           displayList :false,
 
        });
     });

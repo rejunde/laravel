@@ -4,16 +4,92 @@
 		"selected_items":
 		[
 			[
+				"quart",
+				"quarter_year"
+			],
+			[
+				"qu",
+				"quarter_year"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fu",
+				"fruitList"
+			],
+			[
+				"jsone",
+				"json_decode"
+			],
+			[
+				"owner",
+				"owner_brgy"
+			],
+			[
+				"city",
+				"city_code"
+			],
+			[
+				"province",
+				"province_code"
+			],
+			[
+				"cit",
+				"city_code"
+			],
+			[
+				"bookde",
+				"bookdetails_author"
+			],
+			[
+				"book",
+				"book_details"
+			],
+			[
+				"locator",
+				"locator_enterprise_name"
+			],
+			[
+				"see",
+				"select2"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"result",
+				"result_array"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"colum",
+				"column_name"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
 				"col-md",
 				"col-md-10"
 			],
 			[
 				"col",
 				"col-md-offset-1"
-			],
-			[
-				"book",
-				"book_steps"
 			],
 			[
 				"booksteps",
@@ -42,10 +118,6 @@
 			[
 				"array",
 				"array"
-			],
-			[
-				"result",
-				"resultfound"
 			],
 			[
 				"remove",
@@ -118,10 +190,6 @@
 			[
 				"navb",
 				"navbar-default"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"wid",
@@ -232,10 +300,6 @@
 				"printimage"
 			],
 			[
-				"border",
-				"border-style"
-			],
-			[
 				"paddin",
 				"padding-right"
 			],
@@ -298,10 +362,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"mar",
-				"margin-right"
 			],
 			[
 				"backgrou",
@@ -454,119 +514,42 @@
 			[
 				"bcblood",
 				"bcbloodun"
-			],
-			[
-				"bcbloo",
-				"bcbloodua"
-			],
-			[
-				"table",
-				"table-bordered"
-			],
-			[
-				"top",
-				"text-top"
-			],
-			[
-				"fn",
-				"font-size"
-			],
-			[
-				"_s",
-				"_POST"
-			],
-			[
-				"butt",
-				"button"
-			],
-			[
-				"sele",
-				"selectvalue"
-			],
-			[
-				"selec",
-				"selectvalue"
-			],
-			[
-				"fx",
-				"fxmaccol"
-			],
-			[
-				"stat",
-				"status"
-			],
-			[
-				"He",
-				"Hematology"
-			],
-			[
-				"upd",
-				"update"
-			],
-			[
-				"csv",
-				"csv_col_count"
-			],
-			[
-				"_",
-				"_POST"
-			],
-			[
-				"service",
-				"servicetype"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "resources/views/front/contents/search.blade.php",
+			"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
 			"settings":
 			{
-				"buffer_size": 2684,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/front/userjs/userapp.js",
-			"settings":
-			{
-				"buffer_size": 6895,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Front/SearchController.php",
-			"settings":
-			{
-				"buffer_size": 2763,
+				"buffer_size": 12744,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/app/Http/routes.php",
+			"file": "/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
 			"settings":
 			{
-				"buffer_size": 1959,
+				"buffer_size": 8470,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/app/Http/moduleroutes.php",
+			"file": "/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
 			"settings":
 			{
-				"buffer_size": 3328,
+				"buffer_size": 19085,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/app/Http/pageroutes.php",
+			"file": "/C/wamp64/www/peza/app/Models/Smr.php",
 			"settings":
 			{
-				"buffer_size": 2244,
+				"buffer_size": 532,
 				"line_ending": "Unix"
 			}
 		},
@@ -574,7 +557,7 @@
 			"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
 			"settings":
 			{
-				"buffer_size": 82216,
+				"buffer_size": 88420,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -588,48 +571,64 @@
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 13185,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/ipmstest/application/controllers/admin.php",
-			"settings":
-			{
-				"buffer_size": 52763,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/ipmstest/application/views/admin/annual_report.php",
-			"settings":
-			{
-				"buffer_size": 16494,
+				"buffer_size": 6341,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/app/Http/Controllers/Controller.php",
+			"file": "resources/views/front/contents/indexcontent.blade.php",
 			"settings":
 			{
-				"buffer_size": 20753,
+				"buffer_size": 3981,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
+			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 8470,
+				"buffer_size": 1473,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Front/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 2785,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/front/userjs/userapp.js",
+			"settings":
+			{
+				"buffer_size": 7698,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Front/SearchController.php",
+			"settings":
+			{
+				"buffer_size": 2763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/search.blade.php",
+			"settings":
+			{
+				"buffer_size": 2704,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -689,8 +688,50 @@
 	],
 	"file_history":
 	[
-		"/C/wamp64/www/ipmstest/application/config/database.php",
+		"/C/wamp64/www/peza/app/Models/Sximo/Menu.php",
+		"/C/wamp64/www/peza/app/Models/Sximo/Module.php",
+		"/C/wamp64/www/peza/app/Models/Smr.php",
+		"/C/wamp64/www/peza/app/Models/Locator.php",
+		"/C/wamp64/www/peza/app/Http/pageroutes.php",
+		"/C/Users/user/Desktop/patravelnew/SearchController.php",
+		"/C/Users/user/Desktop/patravelnew/search_result_blade.php",
+		"/C/wamp64/www/peza/resources/views/haulercompany/public/form.blade.php",
+		"/C/wamp64/www/peza/app/Http/moduleroutes.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/search.blade.php",
+		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/SearchController.php",
+		"/C/wamp64/www/peza/app/Http/routes.php",
+		"/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
+		"/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
+		"/C/wamp64/www/ipmstest/application/views/admin/downloadexcel.php",
+		"/C/wamp64/www/ipmstest/application/controllers/admin.php",
 		"/C/wamp64/www/ipmstest/application/views/admin/annual_report.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
+		"/C/wamp64/www/ipmstest/application/views/nurse/rme.php",
+		"/C/wamp64/www/ipmstest/application/views/includes.php",
+		"/C/wamp64/www/ipmstest/application/views/index.php",
+		"/C/wamp64/www/peza/app/Http/Controllers/Controller.php",
+		"/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/report-acknowledgement-receipt.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/report-acknowledgement-receipt-excel.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Pmis.php",
+		"/C/wamp64/www/ipmstest/application/config/config.php",
+		"/C/wamp64/www/ipmstest/template/datatables/media/css/css1.min.css",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery2.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery9.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery8.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery7.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery6.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery5.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery4.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery3.js",
+		"/C/wamp64/www/ipmstest/application/views/admin/jquery2.js",
+		"/C/wamp64/www/ipmstest/template/datatables/media/js/jquery1.js",
+		"/C/wamp64/www/ipmstest/application/views/footer.php",
+		"/C/wamp64/www/ipmstest/application/views/header.php",
+		"/C/wamp64/www/ipmstest/application/config/database.php",
 		"/C/wamp64/bin/apache/apache2.4.23/conf/extra/httpd-vhosts.conf",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/wamp64/www/peza/.env",
@@ -724,23 +765,18 @@
 		"/C/wamp64/www/ipmsn/application/views/medical/physicalexam.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/database.php",
 		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/search.blade.php",
 		"/C/Users/user/Desktop/newfront/index.html",
 		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
-		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
 		"/C/wamp64/www/library_system/app/Http/Controllers/Front/BookFundController.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/Front/SearchController.php",
 		"/C/wamp64/www/library_system/resources/views/front/contents/requestcontent.blade.php",
 		"/C/wamp64/www/library_system/app/Http/routes.php",
 		"/C/Users/user/Desktop/newfront/shortcodes.html",
-		"/C/Users/user/Desktop/patravelnew/search_result_blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_script.blade.php",
 		"/C/wamp64/www/ipmsn/application/views/accountant/dashboard.php",
 		"/C/wamp64/www/ipmsn/application/views/accountant/view_payment.php",
 		"/C/wamp64/www/ipmsn/application/controllers/accountant.php",
 		"/C/wamp64/www/library_system/resources/views/front/front.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
 		"/C/Users/user/Desktop/newfront/pricing.html",
 		"/C/Users/user/Desktop/newfront/blog-item.html",
 		"/C/Users/user/Desktop/newfront/services.html",
@@ -748,7 +784,6 @@
 		"/C/wamp64/www/library_system/app/Http/Controllers/Front/RequestController.php",
 		"/C/wamp64/www/library_system/app/User.php",
 		"/C/wamp64/www/library_system/app/Http/Controllers/RequestController.php",
-		"/C/Users/user/Desktop/patravelnew/SearchController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/search_script.blade.php",
 		"/C/wamp64/www/library_system/public/front/sweetalert/dist/sweetalert2.css",
 		"/C/wamp64/www/library_system/public/front/sweetalert/dist/sweetalert2.min.css",
@@ -766,9 +801,7 @@
 		"/C/payara41/glassfish/domains/domain1/applications/CA-PSALM/CA-PSALM-bio_war/resources/js/guidely/guidely.min.js",
 		"/C/Bitnami/wampstack-5.6.30-0/imagemagick/include/Magick++/Drawable.h",
 		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
 		"/C/Users/user/Desktop/newfront/portfolio.html",
-		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
 		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
 		"/C/Users/user/Desktop/frontsample/blog-details.html",
 		"/C/Users/user/Desktop/frontsample/contact.html",
@@ -782,41 +815,7 @@
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/head.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/master.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/base.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/show.blade.php",
-		"/C/wamp64/www/library_system/public/front/slider/example/example.html",
-		"/C/wamp64/www/library_system/public/front/slider/example/script.js",
-		"/C/wamp64/www/library_system/public/front/terseBanner-2.1.0/test/test.html",
-		"/C/wamp64/www/library_system/public/front/woocommerce-FlexSlider-0690ec2/demo/thumbnail-controlnav.html",
-		"/C/wamp64/www/library_system/public/front/Simple-And-Elegant-Image-Carousel-jQuery-Plugin-terseBanner/example/example.html",
-		"/C/wamp64/www/library_system/public/front/slider/standard.html",
-		"/C/wamp64/www/library_system/public/front/slider/with-jquery.html",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/AboutController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/SearchController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/LocationCountry.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/FrontRoute.php",
-		"/C/wamp64/www/library_system/app/Http/adminRoutes.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/routes.php",
-		"/C/wamp64/www/library_system/app/Http/adminRoutes.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/sidebar.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/scripts.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/app.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/bookfunddetails.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/161_logo.png",
-		"/C/wamp64/www/library_system/sample/frontsample/contact.html",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam_dashboard.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiology.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/editrme.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/medical.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiologist 2.php",
-		"/C/wamp64/www/moosegear/app/Config/bootstrap.php",
-		"/C/wamp64/www/moosegear/app/Plugin/Sales/Config/routes.php",
-		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/bootstrap.php",
-		"/C/wamp64/www/moosegear/app/Plugin/Disbursement/Config/config.php"
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/base.blade.php"
 	],
 	"find":
 	{
@@ -834,6 +833,88 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"facility_brg",
+			"quarter ",
+			"quarter_year",
+			"$this->model",
+			"validatePost",
+			"savepublic",
+			"console.log",
+			"savepublic",
+			"save",
+			"form",
+			"ajax",
+			"savepublic",
+			"form",
+			"postSmrsave",
+			"save",
+			"$this->model",
+			"save",
+			"smr_main_id",
+			"id",
+			"street",
+			"beforetarget",
+			"menu",
+			"wiz",
+			"id",
+			"name='id",
+			"name=\"id",
+			"\t\n",
+			"session",
+			"facility_id",
+			"facil",
+			"json_encode",
+			"json",
+			"jsone",
+			"timer",
+			"facility_id",
+			"owner_province",
+			"menu1_owner_province",
+			"owner_name",
+			"owner_b",
+			"jcombo",
+			"{!! Form::text('owner_brgy', $row['owner_brgy'], array('class' => 'form-control', 'placeholder' => '')) !!}",
+			"getDetails",
+			"savepublic",
+			"smr.public",
+			"public.form",
+			"public ",
+			"getdetail",
+			"getview",
+			"getcrea",
+			".form",
+			"form.",
+			"form",
+			"facility_id",
+			"wiz",
+			"<button type=\"submit\" name=\"apply\" class=\"btn btn-info btn-sm\" ><i class=\"fa  fa-check-circle\"></i> {{ Lang::get('core.sb_apply') }}</button>",
+			"insertRow",
+			"ID",
+			"'))",
+			"locator_psic_description",
+			"locator_psic",
+			"locator_psic_description",
+			"acq",
+			"var",
+			"soliare",
+			"view",
+			"return",
+			"printbypackage",
+			"package",
+			"var",
+			"form",
+			"id=\"submit",
+			"permitted",
+			"$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\\-\\=';",
+			"compname",
+			"excel",
+			"dvData3",
+			"data3",
+			"';?>\n",
+			"download",
+			"ReportAcknowledgementReceipt",
+			"printdiv",
+			"ReportAcknowledgementReceipt",
 			"annual",
 			"psic",
 			"region",
@@ -879,89 +960,7 @@
 			"id",
 			"resclass",
 			"resnotes",
-			"resclass",
-			"col-md-1",
-			"animation-name: fadeInDown;",
-			"wow fadeInDown animated",
-			"services",
-			"ajax",
-			"paymentdetails",
-			"sum",
-			"packamt",
-			"totalamt",
-			"packamt",
-			"resnotes",
-			"search",
-			"APP_URL",
-			"btn",
-			"btn-success",
-			"btn",
-			"btn-info",
-			"btn",
-			"body",
-			"unload",
-			"removerow",
-			"data-value",
-			"social_icons",
-			"3",
-			"radio",
-			"inline\"",
-			"checkbox\"",
-			"checkbox",
-			"addrow",
-			"laboratory",
-			"laborator",
-			"radiology",
-			"radiologist",
-			"laboratory",
-			"addrow",
-			"foreach",
-			"removero",
-			"class=\"checkbox-inline\"",
-			"reply",
-			"input",
-			"col-sm-1",
-			"images/",
-			".js",
-			"#thumbnail",
-			"<div class=\"banner\" id=\"thumbnail\">\n    <ul>\n        <li><img src=\"img/banner-1.jpg?thumb=img/thumb-1.jpg\"></li>\n        <li><img src=\"img/banner-2.jpg?thumb=img/thumb-2.jpg\"></li>\n        <li><img src=\"img/banner-3.jpg?thumb=img/thumb-3.jpg\"></li>\n        <!-- ... -->\n    </ul>\n</div>",
-			"thumbnail",
-			"<div class=\"banner\" id=\"thumbnail\">\n    <ul>\n        <li><img src=\"img/banner-1.jpg?thumb=img/thumb-1.jpg\"></li>\n        <li><img src=\"img/banner-2.jpg?thumb=img/thumb-2.jpg\"></li>\n        <li><img src=\"img/banner-3.jpg?thumb=img/thumb-3.jpg\"></li>\n        <!-- ... -->\n    </ul>\n</div>",
-			"link",
-			"100px",
-			"defer",
-			"flexslider",
-			"slider",
-			"dd",
-			"make_hotel_availabilities",
-			"hotelSingle",
-			"hotelsingle",
-			"$hotelsingle",
-			"hotelsingle",
-			"hotelSingle",
-			"requesthotel",
-			"requestHotel",
-			"hotel_codes",
-			"occupancies",
-			"requestHotel",
-			"dd",
-			"hotelSingle",
-			"make_hotel_availabilities",
-			"GuestSearch",
-			"guestsearch",
-			"hotelSingle",
-			"searchDestination",
-			"result",
-			"join",
-			"search",
-			"RPR",
-			"VDLR",
-			"VDLR/RPR",
-			"uxmic",
-			"allerg",
-			"allergy",
-			"pxallergy",
-			"allergies"
+			"resclass"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -979,24 +978,53 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/front/contents/search.blade.php",
+					"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2684,
+						"buffer_size": 12744,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								991,
-								98
+								12052,
+								12052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 333.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
 							]
 						],
 						"settings":
@@ -1008,53 +1036,140 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/front/userjs/userapp.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5273,
-								5273
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 79.0,
-						"translation.y": 2760.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/Http/Controllers/Front/SearchController.php",
+					"file": "/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2763,
+						"buffer_size": 19085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1465,
-								1465
+								7778,
+								7778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6979.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp64/www/peza/app/Models/Smr.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75278,
+								75278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 49373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1527,
+								1527
 							]
 						],
 						"settings":
@@ -1064,27 +1179,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/wamp64/www/peza/app/Http/routes.php",
+					"buffer": 7,
+					"file": "resources/views/front/contents/indexcontent.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1959,
+						"buffer_size": 3981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								907,
-								907
+								1293,
+								1293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1220,
+								1220
 							]
 						],
 						"settings":
@@ -1100,265 +1245,121 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/wamp64/www/peza/app/Http/moduleroutes.php",
+					"buffer": 9,
+					"file": "app/Http/Controllers/Front/HomeController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3328,
+						"buffer_size": 2785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								900,
+								900
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 5,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/front/userjs/userapp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5586,
+								5586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/Http/Controllers/Front/SearchController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								761,
+								1638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/views/front/contents/search.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/wamp64/www/peza/app/Http/pageroutes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1538,
-								1538
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 313.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 82216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								72701,
-								72701
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 48253.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2575,
-								2576
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 840.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13185,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12840,
-								12840
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7193.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/wamp64/www/ipmstest/application/controllers/admin.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 52763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5649,
-								5649
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3713.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/C/wamp64/www/ipmstest/application/views/admin/annual_report.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14894,
-								14894
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6053.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/wamp64/www/peza/app/Http/Controllers/Controller.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2258,
-								2258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1386.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8454,
-								8454
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5273.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]

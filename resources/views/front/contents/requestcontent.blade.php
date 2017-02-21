@@ -1,4 +1,4 @@
-@extends('front.front')
+@extends('front.index')
 @section('indexcontent')
 	<div class="row" style="width: 100%">	
 		<div class="col-md-11 col-md-offset-1">
@@ -156,27 +156,28 @@
 					<label for="isbn">Type of material  :</label>	
 					<br>
 						<br>
-				</div>
-				<div class="col-md-2">					
-					
-					<label class="checkbox-inline"><b>Book</b><input type="checkbox" id="materialtype[]" value="Book" name="materialtype[]" ></label>
-
-				</div>
+				</div>			
 			
-				<div class="col-md-2">
-					
-					<label class="checkbox-inline"><b>Print</b><input type="checkbox" id="materialtype[]" value="Print" name="materialtype[]" ></label>
+				<div class="col-md-4">
+					<select class="form-control" name="classbook" id="classbook">
+						<option value="" selected="selected" disabled="disabled"></option>
+						<option value="Book">Book</option>
+						<option value="Journal">Journal</option>
+
+					</select>
 				</div>
-				
-				<div class="col-md-2">
-				
-					<label class="checkbox-inline"><b>eBook</b><input type="checkbox" id="materialtype[]" value="eBook" name="materialtype[]" ></label>
-					
-				</div>
-				
-				<div class="col-md-2">
-				
-					<label class="checkbox-inline"><b>Print & eBook</b><input type="checkbox" id="materialtype[]" value="Print & eBook" name="materialtype[]" ></label>
+				<div class="col-md-4">
+					<select class="form-control" name="typebook" id="typebook">
+
+						<option value="" selected="selected" disabled="disabled"></option>
+						<option value="Print">Print</option>
+						<option value="eBook">eBook</option>
+						<option value="Online">Online</option>
+						<option value="DVD">DVD</option>						
+						<option value="Print & eBook">Print & eBook</option>
+						<option value="Print & Online">Print & Online</option>
+						
+					</select>
 				</div>
 				</div>
 				
@@ -218,9 +219,7 @@
 				 <div class="col-md-11 col-md-offset-1">
                 <div class="features">
                  <div class="col-md-4 col-sm-6 col wow">
-                          <div class="feature-wrap" style="vertical-align: middle;">
-                            <i class="fa  fa-floppy-o"></i><br><h3><b>Save Request</b></h3>
-                        </div>
+                      
 
                     </div><!--/.col-md-4-->
                     <div class="col-md-4 col-sm-6 col wow">
@@ -233,10 +232,8 @@
 
                    
                     <div class="col-md-4 col-sm-6  wow" >
-                        <div class="feature-wrap">
-                            <i class="fa fa-envelope-o"></i><br>
-                            <h3><b>Send Email</b></h3>
-                           
+                          <div class="feature-wrap" style="vertical-align: middle;">
+                            <i class="fa  fa-floppy-o"></i><br><h3><b>Submit</b></h3>
                         </div>
                     </div><!--/.col-md-4-->
                 

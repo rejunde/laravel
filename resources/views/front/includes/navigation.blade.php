@@ -1,17 +1,28 @@
 
        <header id="header">
        <div class="top-bar" style="background-color: white;padding-top: 0;border-bottom-color: #f8f8f8">
-          <div  style="height:50px;background-color: #031369"> </div>
+          <div  style="height:50px;background-color: #020C44"> </div>
           <div  style="height:10px;background-color: #FCF340"></div>
           <div class="container">
-            <blockquote> 
+           <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-8" style="padding: 0">               
+               <blockquote> 
               <h1 style="color: #FB5350;font-size: 48px">College of Science Library </h1>
               <h3>Library Resource Material Tracking System</h3>    
             </blockquote>
+              </div>
+              <div class="col-md-4 pull-right" style="padding: 0;">               
+               <img src="frontimage/logo2.png" height="10" class="img-responsive pull-right">
+              </div>
+            </div>
+            
+        </div>
+            
           </div>
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-inverse" style="background-color: #f8f8f8;" role="banner">
+       <!--  <nav class="navbar navbar-inverse" style="background-color: #f8f8f8;" role="banner">
             <div class="container">
                 <div class="navbar-header navbar-default">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -39,7 +50,7 @@
                 </ul>
 
                 </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
+            </div>
+        </nav> -->
     
     </header><!--/header-->

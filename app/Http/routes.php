@@ -23,9 +23,8 @@ Route::group(array('middleware'=>'guest'),function(){
 });
 
 Route::group(array('middleware'=>array('auth','user')),function(){
-	Route::get('/', function () {
-		return view('front/contents/indexcontent');
-	});
+	
+	Route::get('/',['uses'=>'Front\HomeController@index']);
 
 	Route::get('/bookfund',['uses'=>'Front\BookFundController@index']);
 	Route::get('/request',['uses'=>'Front\RequestController@index']);
@@ -35,9 +34,9 @@ Route::group(array('middleware'=>array('auth','user')),function(){
     'uses' => 'Front\BookFundController@bookFundDetails'
 	]);
 	Route::get('/search',['uses'=>'Front\SearchController@index']);
-	Route::get('/search/searchresult/{searchdata}', [
+	Route::get('/search/searchresult/{searchdata}/{filterdata}', [
     'as'   => 'search/searchresult',
-    'uses' => 'Front\SearchController@searchResult'
+    'uses' => 'Front\HomeController@searchResult'
 	]);
 });
 

@@ -1,4 +1,4 @@
-@extends('front.front')
+@extends('front.index')
 @section('indexcontent')
 <main role="main-home-wrapper" class="container">
 	<div class="clearfix"></div>

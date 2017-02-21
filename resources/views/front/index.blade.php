@@ -30,7 +30,7 @@
 
        @yield('indexcontent')
 
-     @include('front.includes.footer')
+     @include('front.includes.frontfooter')
 
 
     </body>
