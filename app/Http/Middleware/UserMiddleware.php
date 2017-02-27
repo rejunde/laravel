@@ -15,9 +15,12 @@ class UserMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if(auth()->user()->usertype_id == 1 || auth()->user()->usertype_id == 2){
+       
+        if(auth()->user()->usertype_id == 1){
+           
            return $next($request);
        }else{
+
             abort(404);
        }
     }

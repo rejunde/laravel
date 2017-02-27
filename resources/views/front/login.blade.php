@@ -30,7 +30,6 @@
 
 
     <div class="wrapper" >     
-
         <div class="content" >
             <header role="header">
              <div class="row header">
@@ -69,13 +68,21 @@
                     </div>
                     <div class="col-md-5"  >
                         <div class="card">
+                              @if(session()->has('sesserror'))
+                            <div class="card-header" data-background-color="red">
+                                <span>Login</span>
+                                <p class="category">{!! 
+                    session('sesserror')['msg'] !!}</p>
+                            </div>
+                       
+                            @else
                             <div class="card-header" data-background-color="orange">
                                 <span>Login</span>
                                 <p class="category">Please Login to continue</p>
                             </div>
+                            @endif
                             <div class="card-content" >
                                 {!! Form::open(['url' => '/login']) !!}
-
 
                                 <div class="row">
                                     <div class="col-md-8 col-sm-offset-2">

@@ -40,6 +40,15 @@ Route::group(array('middleware'=>array('auth','user')),function(){
 	]);
 });
 
+Route::group(array('middleware'=>array('auth','dealer')),function(){
+	Route::get('/dealer',['uses'=>'Front\DealerController@index']);
+		Route::get('/profile',['uses'=>'Front\DealerController@dealerProfile']);
+		Route::post('/dealer/updateprofile', [
+    'as'   => '/dealer/updateprofile',
+    'uses' => 'Front\DealerController@updateProfile'
+	]);
+
+});
 
 
 Route::group(array('middleware'=>'auth'),function(){

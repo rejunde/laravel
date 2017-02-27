@@ -6,4 +6,4 @@
         <link href="{!! asset('front/css/main.css') !!}" media="all" rel="stylesheet" type="text/css" />
         <link href="{!! asset('front/css/responsive.css') !!}" media="all" rel="stylesheet" type="text/css" />
           <link href="{!! asset('front/sweetalert/dist/sweetalert.css') !!}" media="all" rel="stylesheet" type="text/css" />
-        
+         <script type="text/javascript" src="{!! asset('front/sweetalert/dist/sweetalert.min.js') !!}"></script>

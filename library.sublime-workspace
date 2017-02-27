@@ -4,6 +4,142 @@
 		"selected_items":
 		[
 			[
+				"dest",
+				"destination_code"
+			],
+			[
+				"hot",
+				"hotel_imagess"
+			],
+			[
+				"hotels",
+				"hotels"
+			],
+			[
+				"hotel",
+				"hotel_code"
+			],
+			[
+				"url",
+				"urldecode"
+			],
+			[
+				"destin",
+				"destinations"
+			],
+			[
+				"data",
+				"datahotel"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"im",
+				"image_type_code"
+			],
+			[
+				"countr",
+				"country_code"
+			],
+			[
+				"loca",
+				"location_destinations"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"locat",
+				"location_destinations"
+			],
+			[
+				"get",
+				"getcodes"
+			],
+			[
+				"des",
+				"destinations"
+			],
+			[
+				"dealer",
+				"dealer_flag"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"upd",
+				"updateprofile"
+			],
+			[
+				"deal",
+				"dealer_contact_fullname"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"dealer_",
+				"dealer_name"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"user",
+				"user_email"
+			],
+			[
+				"fac",
+				"facility_street"
+			],
+			[
+				"fa",
+				"facility_brgy"
+			],
+			[
+				"faci",
+				"facility_name"
+			],
+			[
+				"tbl",
+				"tbl_locator_company"
+			],
+			[
+				"facil",
+				"facility_id"
+			],
+			[
+				"smr",
+				"smr_main_id"
+			],
+			[
+				"sm",
+				"smr_main_id"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"mat",
+				"materialtype"
+			],
+			[
+				"s",
+				"selected\tAttr"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
 				"quart",
 				"quarter_year"
 			],
@@ -112,10 +248,6 @@
 				"json_encode"
 			],
 			[
-				"get",
-				"getSteps"
-			],
-			[
 				"array",
 				"array"
 			],
@@ -216,20 +348,8 @@
 				"col-md-offset-1"
 			],
 			[
-				"hotel",
-				"hotel_images"
-			],
-			[
 				"array_ke",
 				"array_key_exists"
-			],
-			[
-				"url",
-				"urlencode"
-			],
-			[
-				"for",
-				"foreach\tforeach …"
 			],
 			[
 				"con",
@@ -248,14 +368,6 @@
 				"location_destinations"
 			],
 			[
-				"loca",
-				"location_destinations"
-			],
-			[
-				"locat",
-				"location_countries"
-			],
-			[
 				"js",
 				"json_encode"
 			],
@@ -264,16 +376,8 @@
 				"country_name"
 			],
 			[
-				"des",
-				"destination"
-			],
-			[
 				"coun",
 				"country"
-			],
-			[
-				"dest",
-				"destination_code"
 			],
 			[
 				"destina",
@@ -328,14 +432,6 @@
 				"pxrequestque"
 			],
 			[
-				"req",
-				"requestdate"
-			],
-			[
-				"data",
-				"datacheck"
-			],
-			[
 				"date",
 				"datepicker"
 			],
@@ -380,10 +476,6 @@
 				"background-color"
 			],
 			[
-				"s",
-				"size\tAttr"
-			],
-			[
 				"mari",
 				"margin-top"
 			],
@@ -422,168 +514,116 @@
 			[
 				"bor",
 				"border-style"
-			],
-			[
-				"btn",
-				"btn-primary"
-			],
-			[
-				"resu",
-				"result_array"
-			],
-			[
-				"Re",
-				"ReceivedQty"
-			],
-			[
-				"main",
-				"mainController"
-			],
-			[
-				"i",
-				"inline-grid"
-			],
-			[
-				"in",
-				"inline"
-			],
-			[
-				"inline",
-				"inline-block"
-			],
-			[
-				"st",
-				"style\tAttr"
-			],
-			[
-				"subcon",
-				"subcontractors"
-			],
-			[
-				"resul",
-				"result_array"
-			],
-			[
-				"finished",
-				"finisheditemheaders"
-			],
-			[
-				"check",
-				"checkStatus"
-			],
-			[
-				"a",
-				"alert"
-			],
-			[
-				"app",
-				"application"
-			],
-			[
-				"jsno",
-				"json_encode"
-			],
-			[
-				"chi",
-				"childrens"
-			],
-			[
-				"hot",
-				"hotelfilter"
-			],
-			[
-				"fil",
-				"file1"
-			],
-			[
-				"brea",
-				"word-break"
-			],
-			[
-				"word",
-				"word-break"
-			],
-			[
-				"bcoh",
-				"bcothers"
-			],
-			[
-				"bcc",
-				"bccholesterol"
-			],
-			[
-				"bcblood",
-				"bcbloodun"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
+			"contents": "<?php\n\nnamespace App\\Http\\Controllers\\Front;\n\nuse Illuminate\\Http\\Request;\n\nuse App\\Http\\Requests;\nuse App\\Http\\Controllers\\Controller;\nuse App\\Models\\LocationDestination;\nuse Patravel\\Usecase\\Search\\Hotels;\nuse Patravel\\Usecase\\Search\\Availabilities;\nuse Session;\nuse Auth;\nuse DB;\n\nuse GuzzleHttp\\Client as GuzzleClient;\nuse Patravel\\Config;\n\n\nclass SearchController extends Controller\n{\n    public function index(Request $request)\n    {\n       \n\n        $hotels = $this->search($request);\n\n        if ($request->ajax())\n            return $hotels;\n\n        if ($request->ajax())\n            return $hotels;\n\n        for ($i=1; $i<=5; $i++)\n        {\n            $rooms[$i] = $i;\n            $guests[$i] = $i;\n        }\n\n        for ($i=0; $i<=5; $i++) {\n            \n            $kids[$i] = $i;\n        }\n/*\n$currentpage = ( ($request->page - 1 ) * 10 );\n            $collection = collect($hotels);\n$chunk = $collection->forPage($currentpage, 10);\n\n$hotels = $chunk->all();*/\n        $data = array(\n            'hotels' => $hotels,\n            'rooms' => $rooms,\n            'guests' => $guests,\n            'kids' => $kids,\n            'title' => 'Search Result'\n            );\n            $hotels = ($hotels == null)? [] : $hotels;\n        if(array_key_exists(0, $hotels)){\n            if($hotels[0] == 1)\n            {\n                 $data['status'] = \"Referral Code doesn't exist. Please Sign up.\";\n            }elseif($hotels[0] == 2){\n                $data['status'] = \"Referral Code is already use.\";\n            }\n           \n        }\n\n        if(empty($hotels)){\n             $data['status'] = \"No result found.\";\n        }\n    \n        return view('front.search.index', $data);\n    }\n\n    public function destination_filter(Request $request, LocationDestination $destination)\n    {\n\n        if(! $request->ajax())\n            return [];\n\n        $query = $request->get('query');\n\n        $result = $destination\n        ->with(['country'])\n        ->get();\n\n        if ($result)\n        {\n            $destinations = $result->toArray();\n\n            foreach ($destinations as & $destination)\n            {\n                $country_name = ucwords(strtolower($destination['country']['name']));\n                $destination['destination_display_name'] = $destination['name'].', '.$country_name;\n\n                unset (\n                    $destination['id']\n                    );\n            }\n\n            return $destinations;\n        }\n\n        return $result;\n    }\n\n\n    public function getHotels(Request $request)\n    {\n      \n        foreach (explode('`',  $request->get('query')) as $key => $value) {\n              if($key == 0){\n                $searchlike = $value;\n              }\n              if($key == 1){\n                $dc = $value;\n              }\n        }\n        $result = DB::table('hotels')\n          ->select('*')\n        ->where('name', 'like', '%'.$searchlike.'%')\n        ->where('destination_code','=',''.$dc.'')\n        \n        ->get();\n\n          \n        if($result){\n            foreach ($result as $key => $value) {\n                 $data[]= $value;\n            }\n           return $data;\n        }\n\n        return $result;\n    }\n\n    public function hotel_filter(Request $request)\n    {\n        if(! $request->ajax())\n            return [];\n\n        $destination_code = $request->get('dc');\n\n        $name = $request->get('name');\n        $hotels = app()->make(Hotels::class)\n        ->hotels([\n            'name' => $name,\n            'destination_code' => $destination_code\n            ], null);\n\n        return $hotels;\n    }\n\n    private function search(Request $request)\n    {\n        \n        if(Auth::Guest()){\n            if($request->get('ref_code') != \"\"){ \n\n             $checkRef = DB::table('referral_code')\n                            ->select('*')\n                            ->where('referral_code','=',$request->get('ref_code'))\n                            ->get();        \n                           \n                    if(count($checkRef) == 1){\n                        if($checkRef[0]->status == 0){\n                              return  $this->GuestSearch($request);\n                        }else{\n                            return [2];\n                        }\n                    }else{\n                       return [1];\n                    }              \n            }\n        }else{\n            if($request->get('ref_code') != \"\"){   \n             $checkRef = DB::table('referral_code')\n                            ->select('*')\n                            ->where('referral_code','=',$request->get('ref_code'))\n                            ->get();        \n                                         \n                    if(count($checkRef) == 1){\n                        if($checkRef[0]->status == 0){\n                              return  $this->GuestSearch($request);\n                        }else{\n                            return [2];\n                        }\n                    }else{\n                       return [1];\n                    }     \n            }else{\n                 return  $this->GuestSearch($request);\n            }\n\n\n         }       \n            \n                    \n \n         \n         \n\n}\n\nprivate function make_hotel_availabilities($hotels, $availabilities)\n{\n    $data = [];\n    $filterdata = [];\n    if(!empty($availabilities)){\n         foreach ($hotels as $hotel)\n    {\n        foreach ($availabilities as $availability)\n        {\n            if (isset($availability['code']) && $hotel['code'] == $availability['code'])\n            {\n                $hotel['availability'] = $availability;\n                break;\n            }\n        }\n\n        if (array_key_exists('availability', $hotel))\n            $data[] = $hotel;\n    }\n\n    }\n\n  \n\n    return $data;\n}\n\npublic function requestHotel(Request $request, $hotel_codes,$hotels){\n    $destination_code = $request->get('dc', null);\n\n    $hotel_code = $request->get('hc', null);\n    $country_code = $request->country_code;\n    if($country_code == null || $country_code == \"\"){\n    \t$country_code = $_GET['country_code'];\n    }\n    $page = $request->get('page', null);\n    $refer_code = $request->get('ref_code');\n    $rooms = $request->get('rooms');\n    $adults = $request->get('adults');\n    $childrens = $request->get('childrens');\n    $check_in = $request->get('check_in', date('Y-m-d'));\n    $check_out = $request->get('check_out',  date('Y-m-d', strtotime(date('Y-m-d') . ' +1 day')));\n   \n            $keys = Config::get()['key'];\n            $secrets = Config::get()['secret'];\n            $clients = new GuzzleClient(['base_uri' => 'https://api.hotelbeds.com/hotel-content-api/1.0/hotels?fields=all&codes='.urlencode(implode(',', $hotel_codes)).'&destinationCode='.$destination_code.'&countryCode='.$country_code.'&language=ENG&from=1&to=1000&useSecondaryLanguage=false']);\n\n            $responses = $clients->request('GET', '',[\n               \"headers\" => [\"Accept\" => \"application/json\",\n               \"Api-Key\" => $keys,\n               \"X-Signature\" =>  hash(\"sha256\", $keys.$secrets.time()),\n               'Content-Type' => 'application/json',\n               'Accept-Encoding' =>'application/gzip'\n               ]  \n\n               ]);\n\n            $results = json_decode($responses->getBody()->getContents());\n\n            foreach ($results->hotels as $key => $value) {\n\n             $hotelss[] = collect($value)->toArray();\n         }\n         foreach ($hotelss as $key => $value) {\n                        //$hotelsss[$key][] = $value;\n            $hotelss[$key]['name'] = $value['name']->content;\n            if(array_key_exists('description', $hotelss[$key])){\n                $hotelss[$key]['description'] = $value['description']->content;  \n            }\n            $address = ucwords(strtolower($value['address']->content));\n            $address.= ucwords(strtolower($value['city']->content));\n              $hotelss[$key]['rating'] = $this->rating($value['categoryCode']);\n\n            $hotelss[$key]['address'] = $address;\n            if (array_key_exists(\"images\", $hotelss[$key])){\n\n                $hotelss[$key]['images'] = $this->images($value['images']);\n            }\n\n             $hotelss[$key]['_self'] = [\n            'href' => route('destination.show', [\n                'code' => $value['code'],\n                'slug' => str_slug($value['name']->content)\n            ])\n        ];\n        }\n\n\n                 \n\n    if(strstr($destination_code, \"MNL\",0)){\n        $destination_code = \"MNL\";\n\n    }\n    foreach ($hotels as $hotel)\n        $hotel_codes[] = $hotel['code'];\n    $availabilities = app()->make(Availabilities::class)\n    ->hotel_codes($hotel_codes)\n    ->stay($check_in, $check_out)\n    ->occupancies($rooms, $adults, $childrens)\n    ->availabilities();\n\n    session([\n        \"query_check_in\" => $check_in,\n        \"query_check_out\" => $check_out,\n        \"query_rooms\" => $rooms,\n        \"query_adults\" => $adults,\n        \"query_children\" => $childrens,\n        \"query_refer\" =>   $refer_code,\n        \"query_dc\" => $destination_code,\n        \"query_hotel\" => $hotel_code\n\n        ]);\n\n   \n    return $hotelss;                  \n}\n\nprivate function images($hotel_images)\n    {\n        $images = [];\n        $images['thumbnail'] = null;\n            foreach ($hotel_images as $key => $value) {\n                 $hotel_imagess[] = collect($value)->toArray();\n            }\n        \n        foreach ($hotel_imagess as & $image)\n        {\n                 $image['sd'] = 'http://photos.hotelbeds.com/giata/' . $image['path'];\n            $image['hd'] = 'http://photos.hotelbeds.com/giata/bigger/' . $image['path'];\n            $image['sm'] = 'http://photos.hotelbeds.com/giata/small/' . $image['path'];\n\n\n            if ($image['imageTypeCode'] == 'GEN')\n                $images['thumbnail'] = $image['sd'];\n\n            unset ($image['path']);\n\n            $images['images'][] = $image;\n           \n        }\n        if (! $images['thumbnail'])\n            foreach ($images['images'] as $image)\n                if ($image['order'] == 1)\n                {\n                    $images['thumbnail'] = $image['sd'];\n                    break;\n                }\n\n        return $images;\n    }\n\nprivate function rating($category_code)\n    {\n        return [\n            'rating' => (int) $category_code,\n            'rating_text' => (int) $category_code . ' stars'\n        ];\n    }\n\npublic function hotelSingle(Request $request, $hotel_codes){\n    $destination_code = $request->get('dc', null);\n    $hotel_code = $request->get('hc', null);\n\n    $page = $request->get('page', null);\n    $refer_code = $request->get('ref_code');\n    $rooms = $request->get('rooms');\n    $adults = $request->get('adults');\n    $childrens = $request->get('childrens');\n    $check_in = $request->get('check_in', date('Y-m-d'));\n    $check_out = $request->get('check_out',  date('Y-m-d', strtotime(date('Y-m-d') . ' +1 day')));\n $keys = Config::get()['key'];\n            $secrets = Config::get()['secret'];\n            $clients = new GuzzleClient(['base_uri' => 'https://api.hotelbeds.com/hotel-content-api/1.0/hotels?fields=all&codes='.urlencode(implode(',', $hotel_codes)).'&destinationCode=MNL&countryCode=PH&language=ENG&from=1&to=1000&useSecondaryLanguage=false']);\n\n            $responses = $clients->request('GET', '',[\n               \"headers\" => [\"Accept\" => \"application/json\",\n               \"Api-Key\" => $keys,\n               \"X-Signature\" =>  hash(\"sha256\", $keys.$secrets.time()),\n               'Content-Type' => 'application/json',\n               'Accept-Encoding' =>'application/gzip'\n               ]  \n\n               ]);\n            $results = json_decode($responses->getBody()->getContents());\n\n            foreach ($results->hotels as $key => $value) {\n\n             $hotelss[] = collect($value)->toArray();\n         }\n\n         foreach ($hotelss as $key => $value) {\n                        //$hotelsss[$key][] = $value;\n            $hotelss[$key]['name'] = $value['name']->content;\n            if(array_key_exists('description', $hotelss[$key])){\n                $hotelss[$key]['description'] = $value['description']->content;  \n            }\n            $address = ucwords(strtolower($value['address']->content));\n            $address.= ucwords(strtolower($value['city']->content));\n              $hotelss[$key]['rating'] = $this->rating($value['categoryCode']);\n\n            $hotelss[$key]['address'] = $address;\n            if (array_key_exists(\"images\", $hotelss[$key])){\n\n                $hotelss[$key]['images'] = $this->images($value['images']);\n            }\n\n             $hotelss[$key]['_self'] = [\n            'href' => route('destination.show', [\n                'code' => $value['code'],\n                'slug' => str_slug($value['name']->content)\n            ])\n        ];\n        }\n\n/*    $availabilities = app()->make(Availabilities::class)\n    ->hotel_codes($hotel_codes)\n    ->stay($check_in, $check_out)\n    ->occupancies($rooms, $adults, $childrens)\n    ->availabilities();*/\n\n    session([\n        \"query_check_in\" => $check_in,\n        \"query_check_out\" => $check_out,\n        \"query_rooms\" => $rooms,\n        \"query_adults\" => $adults,\n        \"query_children\" => $childrens,\n        \"query_refer\" =>   $refer_code,\n        \"query_dc\" => $destination_code,\n        \"query_hotel\" => $hotel_code\n\n        ]);\n    return $hotelss;\n}\n\n\n\npublic function getCurrency(){\n $from   = 'PHP'; \n $to     = 'USD';\n $url = 'http://finance.yahoo.com/d/quotes.csv?e=.csv&f=sl1d1t1&s='. $from . $to .'=X';\n $handle = fopen($url, 'r');\n\n if ($handle) {\n    $result = fgets($handle, 4096);\n    fclose($handle);\n}\n\n$allData = explode(',',$result); \n$currencyValue = $allData[1];\n\nreturn $currencyValue;\n\n}\n\npublic function getSearchResult(Request $request){\n     \n\n       if(Auth::Guest()){             \n        if($request->ref_code == 1){\n\n\n\n   }else{\n      dd(\"no\");\n  }\n}else{      \n    $hotels = app()->make(Hotels::class)\n    ->hotels([\n        'destination_code' => $destination_code,\n        'hotel_code' => $hotel_code,\n        ], $page);\n\n    $hotel_codes = [];\n    foreach ($hotels as $key) {\n        if($request->hotel != \"\" || $request->hotel != null){\n            if($request->hotel == $key['name']){\n                $hotel_codes[] = $key['code'];\n                $availabilities = app()->make(Availabilities::class)\n                ->hotel_codes($hotel_codes)\n                ->stay($check_in, $check_out)\n                ->occupancies($rooms, $adults, $childrens)\n                ->availabilities();\n                session([\n                    \"query_check_in\" => $check_in,\n                    \"query_check_out\" => $check_out,\n                    \"query_rooms\" => $rooms,\n                    \"query_adults\" => $adults,\n                    \"query_children\" => $childrens,\n                    \"query_refer\" =>   $refer_code,\n                    \"query_dc\" => $destination_code,\n                    \"query_hotel\" => $hotel_code\n\n                    ]);\n                return $this->make_hotel_availabilities($hotels, $availabilities);\n            }\n        }else{ \n\n\n           return $this->make_hotel_availabilities($hotels,  $this->requestHotel($request,$hotel_codes,$hotels));\n       }\n   }\n}\n}\n\n    public function GuestSearch(Request $request){\n            $destination_code = $request->get('dc', null);\n      \n       $hotel_code = $request->get('hc', null);\n       $zone_code = $request->zone;\n\n       $page = $request->get('page', null);\n       $refer_code = $request->get('ref_code');\n       $rooms = $request->get('rooms');\n       $adults = $request->get('adults');\n       $childrens = $request->get('childrens');\n       $check_in = $request->get('check_in', date('Y-m-d'));\n       $check_out = $request->get('check_out',  date('Y-m-d', strtotime(date('Y-m-d') . ' +1 day')));\n       \n        if($zone_code != 0){\n             $getcodes = DB::table('hotel')\n                   ->select('code')\n                   ->where('destination_code', $destination_code)\n                   ->where('zone_code', $zone_code)\n                   ->get();\n                    $resultArray = json_decode(json_encode($getcodes), true);\n                    $prefix = $codeList = '';\n        }else{\n             $getcodes = DB::table('hotel')\n                   ->select('code')\n                   ->where('destination_code', $destination_code)\n                   ->get();\n                    \n        }\n        $resultArray = json_decode(json_encode($getcodes), true);\n                    $prefix = $codeList = '';\n            foreach ($resultArray as  $value) {\n               $codeList .= $prefix . '' . $value['code'] . '';\n                 $prefix = ', ';\n            }\n\n       \n           /* $hotels = app()->make(Hotels::class)\n            ->hotels([\n                'destination_code' => $destination_code,\n                'hotel_code' => $hotel_code,\n                ], $page);*/\n\n              $data = '{\n  \"stay\": {\n    \"checkIn\": \"'.$check_in.'\",\n    \"checkOut\": \"'.$check_out.'\",\n    \"shiftDays\": \"2\"\n  },\n  \"occupancies\": [\n    {\n      \"rooms\": '.$rooms.',\n      \"adults\": '.$adults.',\n      \"children\": '.$childrens.'\n    \n    }\n  ],\n  \"hotels\": {\n    \"hotel\":  ['.$codeList.']\n  }\n}';\n\n     $key = Config::get()['key'];\n            $secret = Config::get()['secret'];\n            $client = new GuzzleClient(['base_uri' => 'https://api.hotelbeds.com/hotel-api/1.0/hotels']);\n            $response = $client->request('POST', '',[\n                                 \"headers\" => [\"Accept\" => \"application/json\",\n                                            \"Api-Key\" => $key,\n                                            \"X-Signature\" =>  hash(\"sha256\", $key.$secret.time()),\n                                            'Content-Type' => 'application/json',\n                                            'Accept-Encoding' =>'application/gzip'\n                                            ],\n                                         'body' =>$data   \n                                           \n                                             ]);\n           \n          $result = json_decode($response->getBody()->getContents());\n           \n            foreach ($result->hotels->hotels as $key => $value) {\n               $hotel[] = collect($value)->toArray();\n            }\n            //dd($hotel);\n            $codes = array();\n            foreach ($hotel as $key => $value) {\n                $codes[] = $value['code'];\n            }\n      // dd(implode(',', $codes));\n            $hotel_codes = [];\n            $hotel_code = [];\n            foreach ($hotel as $key) {\n                if($request->hotel != \"\" || $request->hotel != null){\n                        //dd($request->hotel.'.'.$key['name']);\n\n                    if(strcasecmp($request->hotel,$key['name']) == 0){\n                        $hotel_codes[] = $key['code'];\n                     \n                        return $this->make_hotel_availabilities($hotel,  $this->hotelSingle( $request, $hotel_codes));\n                    }\n                }else if($request->rating_check != \"\" AND $request->price_check !=\"\")\n                {   \n\n                    $price = explode(' ',trim($request->price_check));\n                    $rate = $request->rating_check;\n                    foreach ($hotels as $getRates) {\n                        $hotelsCodes[] = $getRates['code'];\n                    }\n                    $hotelfilter =[];\n                    foreach ($this->hotelSingle( $request, $hotelsCodes) as $value) {\n                      \n                        if(($value['minRate'] >= $price[0] AND $value['maxRate'] <=  $price[2] AND $value['maxRate'] > $price[0]) AND $rate == $value['categoryCode'][0]){\n                            $hotelfilter[] = $value['code'];  \n                        }         \n                    }\n                      if(empty($hotelfilter)){\n                   $data = \"\";\n                }else{\n                    $data =    $this->hotelSingle( $request, $hotelfilter);\n                }\n                    return   $this->make_hotel_availabilities($hotels, $data);\n                    \n\n                }elseif($request->rating_check != \"\" AND $request->price_check ==\"\"){\n\n\n                    $rate = $request->rating_check;\n                    foreach ($hotels as $getRates) {\n                        $hotelsCodes[] = $getRates['code'];\n                    }\n                    $hotelfilter =[];\n                    foreach ($this->hotelSingle( $request, $hotelsCodes) as $value) {\n                      \n                        if($rate == $value['categoryCode'][0]){\n                            $hotelfilter[] = $value['code'];  \n                        }         \n                    }\n                     if(empty($hotelfilter)){\n                   $data = \"\";\n                }else{\n                    $data =   $this->hotelSingle($request, $hotelfilter);\n                }\n                    return   $this->make_hotel_availabilities($hotels,  $data);\n\n\n\n                }elseif ($request->rating_check == \"\" AND $request->price_check !=\"\"){\n                 $price = explode(' ',trim($request->price_check));\n                 foreach ($hotels as $getRates) {\n                    $hotelsCodes[] = $getRates['code'];\n                }\n                $hotelfilter =[];\n                $hotel = [];\n                foreach ($this->hotelSingle( $request, $hotelsCodes) as $value) {\n             \n                    if($value['minRate'] >= $price[0] AND $value['maxRate'] <=  $price[2] AND $value['maxRate'] > $price[0]){\n                        $hotelfilter[] = $value['code'];  \n                       \n                    }         \n                }\n                foreach ($hotelfilter as  $value) {\n                    foreach ($hotels as $key ) {\n                        if($value == $key['code'] ){\n                            $hotel[] = $key;\n                        }\n                    }\n                }\n                if(empty($hotelfilter)){\n                   $data = \"\";\n                }else{\n                    $data =   $this->hotelSingle( $request, $hotelfilter);\n                }\n                return   $this->make_hotel_availabilities($hotel,$data);\n                \n            }else{          \n\n               return $this->make_hotel_availabilities($hotel,  $this->requestHotel($request,$codes,$hotel));\n           }\n       }\n\n\n    }\n\n\n\n}\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/SearchController.php",
+			"file_size": 23108,
+			"file_write_time": 131324037456859944,
 			"settings":
 			{
-				"buffer_size": 12744,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
-			"settings":
-			{
-				"buffer_size": 8470,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
-			"settings":
-			{
-				"buffer_size": 19085,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/peza/app/Models/Smr.php",
-			"settings":
-			{
-				"buffer_size": 532,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
-			"settings":
-			{
-				"buffer_size": 88420,
+				"buffer_size": 22415,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
+			"contents": "@extends('front.destination.base')\n\n@section('destinationContent')\n\n<!--<pre>\n  <?php print_r($hotel);?>\n</pre>\n-->\n    <div class=\"destination-info-box\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 destination-description destination-detail\">\n                <div class=\"row\">\n                    <div class=\"col-xs-8 title-area\">\n                        <div class=\"destination-name\">\n                            <h3 class=\"green-color\"><a href=\"#\">{{ $hotel['name']['content'] }}</a></h3>\n                        </div>\n                        <div class=\"destination-rating\">\n                            <i class=\"fa fa-star rating\"></i>\n                            <i class=\"fa fa-star rating\"></i>\n                            <i class=\"fa fa-star rating\"></i>\n                            <i class=\"fa fa-star rating\"></i>\n                        </div>\n                        <div class=\"destination-location\">\n                            {{ $hotel['address']['content'] }}\n                        </div>\n                        <div class=\"destination-item\">\n                   <div class=\"wifi\">\n                               @foreach($facilities as $facility => $value)\n                            @foreach($value as $key => $descvalue)\n                              <?php\n                                if($descvalue == \"Internet access\"){\n                                    echo '<i class=\"fa fa-wifi green-color\"></i> FREE WIFI';\n                                    break;\n                                }\n\n                              ?>\n                                  @endforeach\n                            \n                           @endforeach  \n                            </div> \n                             <div class=\"breakfast\">\n                              \n                               @foreach($facilities as $facility => $value)\n                            @foreach($value as $key => $descvalue)\n                            <?php\n                                if($descvalue == \"Breakfast\"){\n                                    echo \" Breakfast Included\";\n                                    break;\n                                }\n                            ?>\n                               \n                               @endforeach\n                           @endforeach  \n                               \n                            </div> \n                        </div>\n                    </div>\n                    <div class=\"col-xs-4 text-right booking-area\">\n                        <a href=\"{{ route('destination.book', ['code' => $hotel['code']]) }}\" class=\"btn btn-lg btn-primary \"> Book Now!</a>\n                    </div>\n                </div>\n           <!--      <div class=\"row destination-detail-picture\">\n                    <div class=\"col-sm-12\">\n                        <div class=\"\">\n                            {!!isset($data['images'][1]) ? HTML::image('http://photos.hotelbeds.com/giata/'.$data['images'][1]['path'], '', array('class'=>'img-square img-responsive','id'=> 'imgCenter')) : \"\"  !!}\n                        \n                        </div>\n                    </div>\n                </div> -->\n\n                   <ul class=\"pgwSlideshow\" >\n                    @for ($i = 1; $i < count($data['images']) ; $i++)\n                           @if(isset($data['images'][$i]))\n                          <li> <img src=\"http://photos.hotelbeds.com/giata/{{$data['images'][$i]['path']}}\" id=\"imgthumb{{$i}}\" class=\"img-square img-responsive\"></li>\n                           @endif                     \n                      \n\n                    @endfor\n                      \n</ul>\n               \n                <div class=\"row destination-detail-picture destination-detail-picture-thumbnail\">\n                    <ul class=\"nav nav-tabs\" role=\"tablist\">\n                        <li role=\"presentation\" class=\"active\"><a href=\"#description\" aria-controls=\"description\" role=\"tab\" data-toggle=\"tab\">Description</a></li>\n                        <li role=\"presentation\"><a href=\"#facilities\" aria-controls=\"facilities\" role=\"tab\" data-toggle=\"tab\">Facilities</a></li>\n                       \n                    </ul>\n                    <div class=\"tab-content\">\n                        <div role=\"tabpanel\" class=\"tab-pane active\" id=\"description\">\n                            {{(array_has($data,\"description\")) ? $data['description']['content']  : \" \" }}\n                        </div>\n                        <div role=\"tabpanel\" class=\"tab-pane\" id=\"facilities\">\n\n                          @if (isset($facilities))\n                          <ul>\n                           @foreach($facilities as $facility => $value)\n                              {!!$value['facgroup']!!}\n\n                            @foreach(array_except($value,'facgroup') as $key => $descvalue)                          \n                                \n                             <li> {!!$descvalue!!}</li>\n                               \n                               @endforeach\n                              \n                            \n                           @endforeach\n                          </ul>\n                          @else\n                              No Facilities Found\n                          @endif\n                        </div>\n                \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n@stop\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/show.blade.php",
+			"file_size": 5565,
+			"file_write_time": 131323996537649343,
 			"settings":
 			{
-				"buffer_size": 6392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
-			"settings":
-			{
-				"buffer_size": 6341,
+				"buffer_size": 5447,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/indexcontent.blade.php",
+			"contents": "@extends('front.destination.book.base')\n@section('destinationContent')\n    <div class=\"row\">\n        <div class=\"col-sm-12\">\n            <h3 class=\"green-color\"><b>Check availability</b></h3>\n            <hr/>\n        </div>\n    </div>\n    <div class=\"well well-white-dark\">\n        {!!Form::open(array('url'=>URL::current(), 'method'=>'GET'))!!}\n            <div class=\"row\">\n                <div class=\"col-lg-6\">\n                    <div class=\"form-group\">\n                        <label for=\"checkInDate\">Check-in Date</label>\n                        {!!Form::text('checkIn', $check_in, array('class'=>'form-control', 'placeholder'=> 'Enter Check-in Date', 'id'=>'checkInDate'))!!}\n                    </div>\n                </div>\n                <div class=\"col-lg-6\">\n                    <div class=\"form-group\">\n                        <label for=\"checkOutDate\">Check-out Date</label>\n                        {!!Form::text('checkOut', $check_out, array('class'=>'form-control', 'placeholder'=> 'Enter Check-in Date', 'id'=>'checkOutDate'))!!}\n                    </div>\n                </div>\n                <div class=\"col-lg-6\"></div>\n                  <div class=\"col-lg-4\">\n                    <div class=\"form-group\">\n                        <label for=\"searchByDate\">&nbsp;</label><br/>\n                        {!!Form::submit(\"See what's available\", array('class'=>'btn btn-default btn-block', 'id'=>'searchByDate','style'=>'background-color:#D5D2D1;color:white'))!!}\n                    </div>\n                </div>\n            </div>\n        {!!Form::close()!!}\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-lg-12\">\n            <table class=\"table table-booking\">\n                <thead>\n                    <tr>\n                        <th>Room Type</th>\n                        <th>Max</th>\n                        <th class=\"text-center\">Price</th>\n                        <th class=\"text-center\">No. of Rooms</th>\n                        <th></th>\n                    </tr>\n                </thead>\n                <tbody>\n            \n                   \n<?php  $x = 1;\n$j = 0;\n$h = 1;\n?>\n                   @if(array_key_exists('rooms',$availability))\n                    @foreach($availability['rooms'] as $room)  \n\n                        {!!Form::open(array('url'=>route('destination.book', [\n                                'code' => $availability['code'],\n                                'step' => 2,\n                                'key' => $room['rates'][0]['rateKey']\n                            ]), 'method'=>'POST', 'class'=>'form-horizontal'))!!}\n                        <tr>\n                            <td>\n\n                                <h4 class=\"green-color\"><b><a href=\"\" id=\"roomname\">{{ $room['name'] }} </a></b></h4>\n\n                            @if(array_key_exists( $room['code'], $images))\n                               @foreach($images as $key => $value)\n                                    @if($room['code'] == $key)\n                                         <a href=\"\" name=\"imgDetails\" id =\"imgDetails{{$x}}\"  data-id=\"{{$room['name']}}\">\n                                    {!!HTML::image('http://photos.hotelbeds.com/giata/'.$value, '', array('class'=>'img-square img-responsive', 'width'=>'100px', 'id' => 'baseimg'))!!}</a> \n                                    @endif\n\n                               @endforeach\n                            @else\n                                  <a href=\"\" name=\"imgDetails\"  id =\"imgDetails{{$x}}\"  data-id=\"{{$room['name']}}\">\n                                    {!!HTML::image('http://team.patravel.club/frontend/images/image.jpg', '', array('class'=>'img-square img-responsive', 'width'=>'100px', 'id' => 'baseimg'))!!}</a>\n                            @endif\n                            </td>\n                            <td class=\"middle text-center\" width=\"50px\">\n                            <?php $countperson = $room['rates'][0][adults] + $room['rates'][0][children];?>\n                              @for ($i = 1; $i <= $countperson; $i++)\n                                <i class=\"fa fa-user\"></i>\n                                @endfor\n                            </td>\n                            <td class=\"middle text-center\" width=\"180px\">\n                                {{ $availability['currency'] }} {{ $room['rates'][0]['net'] }}\n                                <br/>\n                               \n                              <!--   <span><small> <a href=\"\">Special Offers</a> </small> </span> -->\n                            </td>\n                            <td class=\"middle text-center\" width=\"70px\">\n                             <select name=\"number\" class=\"form-control\">\n                              @for ($i = 1; $i <= $room['rates'][0]['allotment']; $i++)\n                               <option value=\"{{$i}}\">{{$i}}</option>\n                               @endfor                                  \n                              </select>                           \n                            </td>\n                         \n                        \n                            <td class=\"middle text-center booking-area\" width=\"250px\">\n                           {!!Form::hidden('hotel_name',$room['name'])!!}\n                                  <button type=\"submit\" class=\"btn btn-lg btn-book-table btn-default green-color\" style=\"background-color:#D5D2D1\">Book Now!</button>\n                              @if($room['rates'][0]['allotment'] <= 10)\n                                <h5 class=\"heading-without-margin text-danger\">\n                                    <b>Limited Rooms Available!</b>\n                                </h5>\n                              @endif\n                            </td>\n                        </tr>\n\n             \n\n<!-- <script type=\"text/javascript\">\n$(document).ready(function(){\n\n\n    if(window.location.href.indexOf('?data') != -1){\n   $('#roomDetails').modal('show');\n}\n\n});\n\n</script> -->\n\n <script type=\"text/javascript\">\n        $('#imgDetails<?php echo $x; ?>').on('click',function(e){\n            e.preventDefault();\n                $('#roomDetails').modal();\n                $('.modal-title').text('{{ $room[\"name\"] }}');\n                $('.net').append(\"{{ $availability['currency'] }}  {{$room['rates'][0]['net']}}\");\n                $('.ratetype').append(\"  {{$room['rates'][0]['rateType']}}\");\n                $('.paymenttype').append(\" {{$room['rates'][0]['paymentType']}}\");\n                $('.boardname').append(\" {{$room['rates'][0]['boardName']}}\");  \n                $('.adults').append(\" {{$room['rates'][0]['adults']}}\");\n                $('.child').append(\"  {{$room['rates'][0]['children']}}\");\n              $('#img').attr('src', $('#baseimg').prop('src'));\n              $.each(<?php echo json_encode($room['rates'][0]['cancellationPolicies']);?>, function(index, value){\n                    $.each(value, function(key,val){                  \n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];          if(key == \"amount\"){\n                                  $('.cancel').append(\n                                '<span> '+ key +' : USD'+ ' ' + val +'</span><br>' \n                                );\n                        }\n                        else if(key == \"from\"){\n                            var date = new Date(val);\n                            $('.cancel').append(\n                                '<span>'+ key +' : '+ monthNames[date.getMonth()] +' '+ date.getDay() + ', ' + date.getFullYear() +'</span><br>' \n\n                                );\n                        }\n                    });\n              });   \n               var php_var = <?php echo json_encode($room['rates'][0]); ?>;\n              if('promotions' in php_var){\n                $.each(php_var['promotions'], function(prkey,prvalue){\n                        $.each(prvalue,function(prom,promval){\n                            if(prom == \"name\"){\n                                $('.promotions').append('<span>'+promval + '</span>')\n                            }\n                        });\n\n                });\n              }else{\n                 $('.promotions').append('<span> No Promotion/s </span>')\n              }\n\n\n        });\n\n    </script> \n    <?php\n$x++;\n?>\n                                {!!Form::close()!!}\n               \n\n\n\n                       \n                    @endforeach\n                   @endif\n                </tbody>\n            </table>\n        </div>\n    </div>\n   \n\n@stop",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/choose_room.blade.php",
+			"file_size": 8814,
+			"file_write_time": 131324031948526774,
 			"settings":
 			{
-				"buffer_size": 3981,
+				"buffer_size": 8624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace App\\Http\\Controllers;\n\nrequire_once public_path('mpdf60/mpdf.php');\nrequire_once public_path('PHPMailer/PHPMailerAutoload.php');\n\nuse Illuminate\\Http\\Request;\nuse App\\Http\\Controllers\\Controller;\n\nuse Patravel\\Usecase\\Hotel\\Details as HotelDetails;\nuse Patravel\\Usecase\\Hotel\\Availability as HotelAvailability;\nuse Patravel\\Usecase\\Hotel\\Room\\Rate as HotelRoomRate;\nuse Patravel\\Usecase\\Hotel\\Booking as HotelBooking;\nuse Patravel\\Config;\n\nuse Patravel\\Usecase\\Search\\Hotels;\nuse Patravel\\Usecase\\Search\\Availabilities;\nuse GuzzleHttp\\Client as GuzzleClient;\nuse Session;\nuse Auth;\nuse DB;\nuse mPDF;\n\n\nclass DestinationController extends Controller\n{\n\n    public $num_rooms;\n    public function show($code, $slug, HotelDetails $details, Request $request)\n    {\n  \n\n for ($i=1; $i<=5; $i++)\n        {\n            $rooms[$i] = $i;\n            $guests[$i] = $i;\n        }\n\n        for ($i=0; $i<=5; $i++) {\n            \n            $kids[$i] = $i;\n        }\n            $keys = Config::get()['key'];\n            $secrets = Config::get()['secret'];\n            $clients = new GuzzleClient(['base_uri' => 'https://api.hotelbeds.com/hotel-content-api/1.0/hotels/1?language=ENG']);\n\n            $responses = $clients->request('GET', '',[\n               \"headers\" => [\"Accept\" => \"application/json\",\n               \"Api-Key\" => $keys,\n               \"X-Signature\" =>  hash(\"sha256\", $keys.$secrets.time()),\n               'Content-Type' => 'application/json',\n               'Accept-Encoding' =>'application/gzip'\n               ]  \n\n               ]);\n\n            $results = json_decode($responses->getBody()->getContents());\n      \n        $hotel_details = $details->details($code);\n     \n        $data = array(\n            'data'=> $hotel_details,\n            'rooms'=> $rooms,\n            'guests'=> $guests,\n            'kids' => $kids,\n            'convertion' => $this->getCurrency(),\n            'facilities' => $this->getFacilities($hotel_details['facilities']),\n            'title' => $hotel_details->name->content,\n            'destination_choose' => $hotel_details->name->content,\n            'hotel' => $hotel_details,\n            'hotel_images' => (isset($hotel_details->images) ? $hotel_details->images : array())\n        );\n\n        return view('front.destination.show', $data);\n    }\n\n    public function book($code, Request $request,\n        HotelAvailability $availability,\n        HotelRoomRate $rate,\n        HotelBooking $booking,\n        HotelDetails $details)\n    {\n        $data = [\n            'title' => 'Book Destination'\n        ];\n        $step = $request->get('step', 1);\n\n\n        if ($step == 1)\n        {\n/*        $mail = new \\PHPMailer(true);\n$mail->isSMTP();                                      // Set mailer to use SMTP\n$mail->Host = 'mail.intelliwebapps.com';  // Specify main and backup SMTP servers\n$mail->SMTPAuth = true;                               // Enable SMTP authentication\n$mail->Username = 'mailer.patravel';                 // SMTP username\n$mail->Password = 'Em@1Ler';                           // SMTP password\n$mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted\n$mail->Port = 587;                                    // TCP port to connect to\n\n$mail->setFrom('mailer@patravel.club', 'Mailer');\n$mail->addAddress('danieltinao@gmail.com', 'Joe User');     // Add a recipient\n$mail->addAddress('ellen@example.com');               // Name is optional\n$mail->addReplyTo('info@example.com', 'Information');\n$mail->addCC('cc@example.com');\n$mail->addBCC('bcc@example.com');   // Optional name\n$mail->isHTML(true);                                  // Set email format to HTML\n\n$mail->Subject = 'Here is the subject';\n$mail->Body    = 'This is the HTML message body <b>in bold!</b>';\n$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';\n\nif(!$mail->send()) {\n    echo 'Message could not be sent.';\n    echo 'Mailer Error: ' . $mail->ErrorInfo;\n} else {\n    echo 'Message has been sent';\n}*/\n            $check_in = $request->get('checkIn', session('query_check_in'));\n            $check_out = $request->get('checkOut', session('query_check_out'));\n            if(Session::get('query_children') == 0 || Session::get('query_children') == null){\n                 $occupancies = '1~'.Session::get('query_adults').'~'.Session::get('query_children').'~AD-30';\n\n             }else{\n                $child = \"\";\n                for($i = 0; $i< Session::get('query_children');$i++){\n                         $child .= \";CH-8\";\n                }\n                     $occupancies = '1~'.Session::get('query_adults').'~'.Session::get('query_children').'~AD-30'.$child;\n                    \n\n             }\n        \n\n            $availability_details = $availability->availability(\n                $code,\n                $check_in,\n                $check_out,\n                $occupancies\n\n            );\n          \n            $roomimagecheck = [];\n           \n            foreach ($this->getHotel($code) as  $value) {\n                if(isset($value['roomCode'])){\n                   \n                     $roomimagecheck[$value['roomType'].'.'.$value['characteristicCode']] = $value['path'];\n                }\n                \n            }\n\n            $data['images'] = $roomimagecheck;\n            $data['availability'] = $availability_details;\n            $data['check_in'] = $check_in;\n            $data['check_out'] = $check_out;\n\n\n        }\n        else if ($step == 2)\n        { \n            $country_name = DB::table('location_countries')->where('code', $this->getData($code)['countryCode'])->pluck('name');\n    \n\n            $postal = (!array_has($this->getData($code),\"postalCode\")) ? \" \": $this->getData($code)['postalCode'];\n                             \n            $country = $this->getData($code)['address'] .\" \". $country_name . \" \" .  $postal ;\n             if(Auth::user()['attributes']['mobile_number'] != null || Auth::user()['attributes']['mobile_number'] != \"\"){\n          $datanums = substr(Auth::user()['attributes']['mobile_number'], strpos(Auth::user()['attributes']['mobile_number'], \" \") + 1);  \n        preg_match('/\\W(.*?)\\s/', Auth::user()['attributes']['mobile_number'], $match);\n\n        $data['nums'] = (!empty($match[1])) ? \"+\" .$match[1]  : \"\";\n\n            \n        }\n           \n            $data['country'] = $country;\n            $data['room_num'] = $request->get('number');    \n            $room_rate = $rate->rate($request->get('key'));\n            $data['room_rate'] = $room_rate;\n\n            $data['rate_key'] = $request->get('key');\n\n             $check_in = $request->get('checkIn', session('query_check_in'));\n            $check_out = $request->get('checkOut', session('query_check_out'));\n\n         $interval = date_diff(date_create($check_out),date_create($check_in));\n\n         $data['interval'] = $interval->d;\n         session(['referrer' => $_SERVER[\"HTTP_REFERER\"]]);\n\n        \n        }\n        else if ($step == 3)\n        {\n        \t\t\n\n            $data['booking'] = $booking->booking($request->get('ref'));\n           \n            $interval = date_diff(date_create($data['booking']['check_out']),date_create($data['booking']['check_in']));\n               \n            $data['interval'] = $interval->days;\n            $data['booking']['audit'] = json_decode($data['booking']['audit'], true);\n\n            $data['hotel'] = $details->details($code);\n           \n        \tif (Session::has('referrer'))\n\t\t\t{\n\t\t\t\t$this->makepdfRec($data);\n\t\t\t\tSession::forget('referrer');\n\t  \n\t\t\t}\n\t\t\t\n   \n        }\n\n\n        $views = [\n            1 => 'choose_room',\n            2 => 'booking_details',\n            3 => 'booking_complete',\n        ];\n        return view('front.destination.book.'.$views[$step], $data);\n    }\n\n    public function book_confirm($code, Request $request, HotelBooking $booking)\n    {\n\n        date_default_timezone_set('Asia/Manila');\n        $customer = [\n            'firstname' => $request->get('firstname'),\n            'middlename' => $request->get('middlename'),\n            'lastname' => $request->get('lastname'),\n            'email' => $request->get('email'),\n            'address' => \"\",\n            'mobile_number' => $request->get('mobileNo'),\n            'telephone_number' => $request->get('telephoneNo'),\n        ];\n\n       \n       if($this->checkRefCode($request->session()->get('query_refer')) == 1)\n       {\n         return redirect()->action('Front\\HomeController@index')->with('sessmsg', ['msg' => 'Sorry Referral code is already in used.']);\n       }else{\n\n        $customer_id = $booking->customer_make($customer);\n\n        \n        $booking_details = $booking->confirm($request->get('rate_key'));\n    \n        $this->inserRefCode($request->session()->get('query_refer'), $booking_details['reference'], $booking_details['creationDate']);\n        $booking_details['customer_id'] = $customer_id;\n        $booking->booking_make($booking_details);\n         if(!Auth::guest()){\n          if($request->guest == \"No\"){\n             $intervals = date_diff(date_create($booking_details['hotel']['checkOut']),date_create($booking_details['hotel']['checkIn']));\n               $rebates = DB::table('rebates')->select('guest_rebates')->get();\n               $totalneta  =  $booking_details['totalNet'] ;\n               $rebate =   $totalneta *  floatval('.0'.$rebates[0]->guest_rebates);\n\n                 DB::table('bookings')\n                  ->where('reference', $booking_details['reference'])\n                  ->update(['is_guest' =>1]);\n\n\n\n          }else{\n             $intervals = date_diff(date_create($booking_details['hotel']['checkOut']),date_create($booking_details['hotel']['checkIn']));\n             $rebates = DB::table('rebates')->select('member_rebates')->get();\n              $totalnetaa  =  $booking_details['totalNet'];\n             $rebate =   $totalnetaa *  floatval('.0'.$rebates[0]->member_rebates);\n            \n          }         \n               $inters = date_diff(date_create($booking_details['hotel']['checkOut']),date_create($booking_details['hotel']['checkIn']));\n              $totaltransact  =  $booking_details['totalNet'];\n\n                  $getLast = DB::table('TransactionMember')\n             ->select('*')\n             ->where('member_id','=',$request->get('getAuth'))\n             ->where('Codetransact','!=', \"MF\") \n             ->where('Codetransact','!=', \"R\")  \n             ->orderBy('id', 'desc')\n              ->first();\n\n              if(count($getLast) > 0 || $getLast != null){\n                $totalbalance = $getLast->Balance - $totaltransact;  \n                $totalbalances = $totalbalance + $rebate;\n\n              }\n              else{\n                  $totalbalance = $totaltransact;\n                  $totalbalances = $totalbalance + $rebate;\n              }\n                DB::table('TransactionMember')->insert([\n            'member_id' => $request->get('getAuth'), 'Totaltransact' => $totaltransact,\n             'Balance' => $totalbalance, 'Codetransact' => 'B','booking_id' => $booking_details['reference'], 'datetransact' => date(\"Y-m-d H:i:s\")\n          ]);\n\n                  DB::table('TransactionMember')->insert([\n            'member_id' => $request->get('getAuth'), 'Totaltransact' => $rebate, 'Balance' => $totalbalances,\n              'Codetransact' => 'R', 'datetransact' =>  date(\"Y-m-d H:i:s\")\n          ]);\n           \n              DB::table('bookings')\n                  ->where('customer_id', $customer_id)\n                  ->update(['member_id' => $request->get('getAuth')]);\n              DB::table('member_rebates')->insert(\n                    ['member_id' => $request->get('getAuth'), 'booking_id' => $booking_details['reference'],\n                     'rebates' => $rebate\n                    ]\n                );\n        }else{\n           $intervals = date_diff(date_create($booking_details['hotel']['checkOut']),date_create($booking_details['hotel']['checkIn']));\n           $totalnets =  $booking_details['totalNet'];\n         $getID = DB::table('referral_code')->select('member_id')\n          ->where('referral_code','=',$request->session()->get('query_refer'))->get();\n\n            $rebates = DB::table('rebates')->select('guest_rebates')->get();\n            $rebate =   $totalnets *  floatval('.0'.$rebates[0]->guest_rebates);\n             DB::table('member_rebates')->insert(\n                    ['member_id' => $getID[0]->member_id, 'booking_id' => $booking_details['reference'],\n                    'rebates' => $rebate\n                    ]\n                );\n\n             DB::table('bookings')\n                  ->where('customer_id', $customer_id)\n                  ->where('reference',$booking_details['reference'])\n                  ->update(['member_id' => $getID[0]->member_id,'referral_code' =>$request->session()->get('query_refer')]);\n\n                            $getLast = DB::table('TransactionMember')\n             ->select('*')\n             ->where('member_id','=', $getID[0]->member_id)  \n             ->where('Codetransact','!=', \"MF\") \n             ->where('Codetransact','!=', \"R\")  \n             ->orderBy('id', 'desc')\n              ->first();\n\n              if(count($getLast) > 0 || $getLast != null){\n                $totalbalance = $getLast->Balance - $totalnets; \n                $totalbalances = $totalbalance + $rebate; \n              }else{\n                  $totalbalance = $totalnets;\n                  $totalbalances = $totalbalance + $rebate;\n              }\n                DB::table('TransactionMember')->insert([\n            'member_id' => $getID[0]->member_id, 'Totaltransact' => $totalnets,\n             'Balance' => $totalbalance, 'Codetransact' => 'B', 'booking_id' => $booking_details['reference'], 'datetransact' =>  date(\"Y-m-d H:i:s\")\n          ]);\n\n                  DB::table('TransactionMember')->insert([\n            'member_id' => $getID[0]->member_id, 'Totaltransact' => $rebate,'Balance' => $totalbalances,\n              'Codetransact' => 'R', 'datetransact' =>  date(\"Y-m-d H:i:s\")\n          ]);\n           \n\n\n               \n        }\n\n               $intervals = date_diff(date_create($booking_details['hotel']['checkOut']),date_create($booking_details['hotel']['checkIn']));\n               $totalnet =  $booking_details['totalNet'];\n        DB::table('bookings')\n        ->where('reference',$booking_details['reference'])\n        ->update([\n          'HotelName' => $booking_details['hotel']['name'],\n          'checkIn' => $booking_details['hotel']['checkIn'],\n          'checkOut' => $booking_details['hotel']['checkOut'],\n          'adults' => $request->session()->get('query_adults'), \n          'children' => $request->session()->get('query_children'), \n          'roomType' => $booking_details['hotel']['rooms'][0]['name'],\n          'room' =>  $request->session()->get('query_rooms'),\n           'Total' => $totalnet\n          ]);\n\n\n\n        return redirect(route('destination.book', [\n            'code' => $code,\n            'step' => 3,\n            'ref' => $booking_details['reference']\n        ]));\n       }\n    }\n    public function getData($code){\n        $destination_code = Session::get('query_dc');\n        $hotel_code = $code;\n        $refer_code = Session::get('ref_code');\n        $rooms = Session::get('query_rooms');\n        $adults = Session::get('query_adults');\n        $childrens = Session::get('query_children');\n        $check_in = Session::get('query_check_in');\n        $check_out = Session::get('query_check_out');\n\n       /*   $hotels = app()->make(Hotels::class)\n            ->hotels([\n                'destination_code' => $destination_code,\n                'hotel_code' => $hotel_code,\n            ]);\n*/\n        $hotel_codes = [];\n\n        //foreach ($hotels as $hotel)\n            $hotel_codes[] = $code;\n\n        $availabilities = app()->make(Availabilities::class)\n            ->hotel_codes($hotel_codes)\n            ->stay($check_in, $check_out)\n            ->occupancies($rooms, $adults, $childrens)\n            ->availabilities();\n\n             \n            return $hotel;\n    }\n\n\n\npublic function makepdfRec($data){\ndate_default_timezone_set('Asia/Manila');\n       $breakfast = (stristr($data['audit']['hotel']['rooms'][0]['rates'][0]['boardName'],\"breakfast\") == \"\") ? \"Not included\":\"Included\";\n      \n       $inter = $data['interval'];\n       if(Auth::guest()){\n\n             $getDetails = DB::table('referral_code')\n             ->select('*')\n             ->join('members', 'referral_code.member_id','=','members.id' )\n             ->where('referral_code','=',Session::get('query_refer'))\n             ->get();\n           }\n\n\n\n\n           $var = (!Auth::guest()) ? Auth::user()['attributes']['first_name'] .' '. Auth::user()['attributes']['surname']  : $data['booking']['customer']['firstname'] . $data['booking']['customer']['lastname'];\n   \n            $var1 = (!Auth::guest()) ? Auth::user()['attributes']['email'] : $data['booking']['customer']['email'];\n             $var2 = (!Auth::guest()) ? Auth::user()['attributes']['mobile_number'] : $data['booking']['customer']['mobile_number'];\n$pdfDataReceipt = \"<html><head></head><body>\";\n       $pdfDataReceipt .= '\n           \n      <div style=\"width:100%;margin:0\">\n             <div style=\"float:left;margin:0;width:50%;\">\n       \n              <h1>RECEIPT</h1>\n           </div>\n       <div style=\"float:left;margin:0;width:50%;\">\n        <img src=\"http://team.patravel.club/logo1.jpg\" >  \n       </div>\n      </div>\n      <br><br><br>\n        <h3>CUSTOMER DETAILS</h3>\n       <table>\n        <thead>\n        \n        </thead>\n        <tbody>\n        <tr>\n        <td> Name :<b> '.$var.'</b></td>       \n        </tr>\n        <tr>\n            <td style=\"width:440 px;float:left\">Email : <b>'.$var1.'</b></td>\n            \n            <td>Booking Number : </td>\n            <td ><b>'.$data['booking']['reference'].'</b></td>\n        </tr>\n        <tr>\n              <td style=\"width:440 px;float:left\">Phone :<b> '.$var2.'</b></td>\n              \n              <td>Transaction Date : </td>\n               <td><b>'.date(\"Y-m-d\").'</b></td>\n        </tr>\n        \n        </tbody>\n        </table>\n        <h3>GUESTS</h3>\n        <b>'.$data['booking']['customer']['firstname'] . $data['booking']['customer']['lastname'].'</b>\n        <h3>HOTEL DETAILS</h3>\n        '.$data['booking']['HotelName'].'<br>\n        '.$data['hotel']['category']['description']['content'].' Hotel<br>\n        '.$data['hotel']['address']['content'] . $data['hotel']['city']['content'].'<br>\n        '.$data['hotel']['phones'][0]['phoneNumber'].'<br>\n        \n        <b color=\"  #2b624c\">Arrival Date:</b>  '.$data['booking']['check_in'].'<br>\n        <b color=\"  #2b624c\">Departure Date:</b>  '.$data['booking']['check_out'].'<br><br><br>\n       \n\n       <table>\n                <thead>\n                    <tr style=\"background-color:#C0C0C0 \">\n                        <th style=\"width:50px\">No </th>\n                          <th style=\"width:150px\">Type of Item</th>\n                            <th style=\"width:250px\">Item Description </th>\n                            <th style=\"width:50px\">Qty </th>\n                            <th style=\"width:110px\">Price per unit USD </th>\n                            <th style=\"width:90\"> Total</th>\n\n                    </tr>\n                </thead>\n                <tbody>\n                    \n                       <tr>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">1</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">Hotel Room</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$data['booking']['HotelName'].'</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">1</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$data['booking']['Total'].'</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$data['booking']['Total'].'</td>\n\n                       </tr>\n                            \n                       \n                   \n                </tbody>\n                <tfoot>\n                <tr>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td style=\"border:1px solid #C0C0C0;\" align=\"center\">Total</td>\n                <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$data['booking']['Total'].'</td>\n                </tr>\n                </tfoot>\n            </table>\n\n</body></html>\n\n<br>\n <label style=\"background-color:#B8B8B8 \">Bookable and Payable by PaTravel.club/P&T Travel & Tours 117-00-2016-0504100 </label>\n\n       ';\n\n\n\n        $inter = $request->interval;\n       $pdfData ='\n       <html><head></head><body>\n      <div style=\"margin-left:300px\">\n           <img src=\"http://team.patravel.club/logo1.jpg\" >  </div>\n   \n      </table>\n       <table>\n        <thead>\n        </thead>\n        <tbody>\n        <tr >\n            <td> Name :</td>\n        <td>'.$data['booking']['customer']['firstname'] . $data['booking']['customer']['lastname'].' </td>\n        </tr>\n        \n        </tbody>\n        </table>\n\n        <table style=\"margin-left:60%\">\n        <thead>\n        </thead>\n        <tbody>\n        <tr >\n        <td>Booking Number : </td>\n        <td>'.$data['booking']['reference'].'</td>\n        </tr>\n          <tr >\n        <td>Transaction Date : </td>\n        <td>'.date(\"Y-m-d\").'</td>\n        </tr>\n        </tbody>\n        </table>\n\n       <table class=\"table table-booking booking-complete\" style=\"border:1px solid #C0C0C0;\">\n                <thead>\n                    <tr style=\"background-color:#C0C0C0 \">\n                        <th colspan=\"2\" ><h3 class=\"heading-without-margin\"><b>Booking Confirmation</b></h3></th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr><td><b>Customer Details</b></td></tr>\n                        <tr><td style=\"width:50%\">                            \n                             <b>Lead Guest :</b>\n                            </td>\n                           <td>'.$data['booking']['customer']['firstname'] . $data['booking']['customer']['lastname'].'</td>\n                             </tr> \n                             <tr><td>\n                                <b>Telephone:</b>   \n                            </td> \n                             <td>'.$data['booking']['customer']['mobile_number'].'</td>\n\n                            </tr>\n                            <tr><td>\n                                <b>Email:</b>   \n                            </td> \n                             <td>'.$data['booking']['customer']['email'].'</td>\n\n                            </tr>\n                            <tr><td><br></td></tr>\n                              <tr><td><b>Accomodation</b></td></tr>\n                            <tr><td>\n                                <b>Hotel Name:</b>   \n                            </td> \n                             <td>'.$data['booking']['HotelName'].'</td>\n\n                            </tr>\n                            <tr><td>\n                                <b>Hotel Rating:</b>   \n                            </td> \n                             <td>'.$data['hotel']['category']['description']['content'].' Hotel</td>\n\n                            </tr>\n                             <tr><td>\n                                <b>Telephone:</b>   \n                            </td> \n                             <td>'.$data['hotel']['phones'][0]['phoneNumber'].'</td>\n\n                            </tr>\n                             <tr><td>\n                                <b>Email:</b>   \n                            </td> \n                             <td>'.$data['hotel']['email'].'</td>\n\n                            </tr>\n                               <tr><td>\n                                 <b>Address :</b>\n                                  </td>\n                                 <td> '.$data['hotel']['address']['content'] . $data['hotel']['city']['content'].'</td>\n                                  </tr>\n                                    <tr><td><br></td></tr>\n                            \n                              <tr><td>\n                            \n                                 <b>Arrival Date :</b>\n                            </td><td>'.$data['booking']['check_in'].'</td> </tr>\n                              <tr><td>\n                                <b>Departure Date :</b>\n                                 </td><td>'.$data['booking']['check_out'].'</td> </tr>\n                            <tr><td>\n\n                             <tr><td>\n                            \n                              <tr><td><br></td></tr>\n                                 <b>City/Country :</b> \n                                  </td>\n                                  <td>'.$data['hotel']['country']['description']['content'].'</td> </tr>\n                            \n                               <b>No. of Nights :</b>\n                                </td> <td>'.$data['interval'].'</td></tr> \n                            <tr><td>\n                            \n                                <b>No. of Rooms :</b> \n                                 </td><td>'.$data['booking']['room'].'</td> </tr>\n                               \n                            <tr><td>\n                            \n                                <b>No. of Adults :</b> \n                            </td> <td>'.$data['booking']['adults'].'</td></tr>\n                             <tr><td>\n                                <b>No. of Children : </b>\n                                 </td><td>'.$data['booking']['children'].'</td> </tr>\n                            \n                               <tr><td>             \n                                <b>Breakfast : </b>\n                                 </td><td>  '.$breakfast.'  </td> </tr> \n                                                     \n                            <tr><td> \n                             \n                            <b>Room Type:</b>                            \n                                </td>\n                                 <td>'.$data['booking']['roomType'].'</td></tr>\n                            <tr><td>\n                            \n                                <b>Remarks :</b>\n                            </td> \n                            <td>'.$data['booking']['audit']['hotel']['rooms'][0]['rates'][0]['rateComments'].'</td>\n                            </tr>\n                            <tr>\n                            \n                       \n                   \n                </tbody>\n                \n            </table>\n            \n</body></html>\n<br>\n <label style=\"background-color:#B8B8B8 \">Bookable and Payable by PaTravel.club/P&T Travel & Tours 117-00-2016-0504100 </label>\n       ';\n       if(Auth::user()){    \n\n             if($data['booking']['is_guest'] == 1){\n              $to = \"\".Auth::user()['attributes']['email'].\", \".$data['booking']['customer']['email'].\"\" ;  \n                \n             }else{\n              \n              $to = \"\".Auth::user()['attributes']['email'].\"\";\n             }\n            $subject = \"Inquiry\";\n            $headers = \"MIME-Version: 1.0\\r\\n\";\n            $headers .= \"Content-Type: text/html; charset=UTF-8\\r\\n\";\n\n            $body = $pdfData;\n            $from = $request->email;\n            $result = mail($to,$subject,$body,$headers);\n\n              $subject = \"Inquiry\";\n            $headers = \"MIME-Version: 1.0\\r\\n\";\n            $headers .= \"Content-Type: text/html; charset=UTF-8\\r\\n\";\n             $headers .='X-Mailer: PHP/' . phpversion();\n            $body = $pdfDataReceipt;\n            $from = $request->email;\n            $result = mail(Auth::user()['attributes']['email'],$subject,$body,$headers);\n\n             \n       }else{\n\n             $getDetails = DB::table('referral_code')\n             ->select('*')\n             ->join('members', 'referral_code.member_id','=','members.id' )\n             ->where('referral_code','=',$data['booking']['referral_code'])\n             ->get(); \n          $to = \"\".$data['booking']['customer']['email'].\", \".$getDetails[0]->email.\"\" ;\n            $subject = \"Inquiry\";\n            $headers = \"MIME-Version: 1.0\\r\\n\";\n            $headers .= \"Content-Type: text/html; charset=UTF-8\\r\\n\";\n             $headers .='X-Mailer: PHP/' . phpversion();\n            $body = $pdfData;\n            $from = $request->email;\n            $result = mail($to,$subject,$body,$headers);\n\n             $subject = \"Inquiry\";\n            $headers = \"MIME-Version: 1.0\\r\\n\";\n            $headers .= \"Content-Type: text/html; charset=UTF-8\\r\\n\";\n             $headers .='X-Mailer: PHP/' . phpversion();\n            $body = $pdfDataReceipt;\n            $from = $request->email;\n            $result = mail($getDetails[0]->email,$subject,$body,$headers);\n       }\n\n\n            \n          \n\n}\n   \n\n    public function makePDF(Request $request){\ndate_default_timezone_set('Asia/Manila');\n       $breakfast = (stristr($request->breakfast,\"breakfast\") == \"\") ? \"Not included\":\"Included\";\n       $total = $request->total / 2;\n       $inter = $request->interval;\n       $pdfData ='\n      <div style=\"margin-left:300px\">\n           <img src=\"'.public_path('logo1.jpg').'\" >  </div>\n   \n      </table>\n       <table>\n        <thead>\n        </thead>\n        <tbody>\n        <tr >\n          \n        <td>Name : '.$request->firstname.' </td>\n        </tr>\n        \n        </tbody>\n        </table>\n\n        <table style=\"margin-left:60%\">\n        <thead>\n        </thead>\n        <tbody>\n        <tr >\n        <td>Booking Number : </td>\n        <td>'.$request->book_id.'</td>\n        </tr>\n          <tr >\n        <td>Transaction Date : </td>\n        <td>'.date(\"Y-m-d\").'</td>\n        </tr>\n        </tbody>\n        </table>\n\n       <table class=\"table table-booking booking-complete\" style=\"border:1px solid #C0C0C0;\">\n                <thead>\n                    <tr style=\"background-color:#C0C0C0 \">\n                        <th colspan=\"2\" ><h3 class=\"heading-without-margin\"><b>Booking Confirmation</b></h3></th>\n                    </tr>\n                </thead>\n                <tbody>\n                      <tr>  <td style=\"color: #2b624c\"><b>Customer Details</b></td></tr>\n                        <tr>\n                        <td style=\"width:50%;color: #2b624c\">                            \n                             <b>Lead Guest :</b>\n                            </td>\n                           <td>'.$request->firstname.'</td>\n                             </tr> \n\n                            <tr><td style=\"color: #2b624c\">\n                                <b>Email:</b>   \n                            </td> \n                             <td>'.$request->emailcust.'</td>\n\n                            <tr><td style=\"color: #2b624c\">\n                                <b>Phone:</b>   \n                            </td> \n                             <td>'.$request->phonecust.'</td>\n                            <tr><td><br></td></tr>\n                              <tr>  <td style=\"color: #2b624c\"><b>Accomodation</b></td></tr>\n                        <tr>\n                            <tr><td style=\"color: #2b624c\">\n                                <b>Hotel Name:</b>   \n                            </td> \n                             <td>'.$request->hotel_name.'</td>\n\n                            </tr>\n                            <tr><td style=\"color: #2b624c\">\n                                <b>Hotel Rating:</b>   \n                            </td> \n                             <td>'.$request->hotelrating.' Hotel</td>\n\n                            </tr>\n                               <tr><td style=\"color:  #2b624c\">\n                                 <b>Address :</b>\n                                  </td>\n                                 <td> '.$request->address.'</td>\n                                  </tr>\n                                  <tr><td><br></td></tr>\n                                   <tr><td style=\"color:  #2b624c\">\n                                 <b>Telephone :</b>\n                                  </td>\n                                 <td> '.$request->hotelphone.'</td>\n                                  </tr>\n                                   <tr><td style=\"color:  #2b624c\">\n                                 <b>Email :</b>\n                                  </td>\n                                 <td> '.$request->hotelemail.'</td>\n                                  </tr>\n                                    <tr>\n                        <td style=\"width:50%;color: #2b624c\">                            \n                             <b>Guest :</b>\n                            </td>\n                           <td>'.$request->firstname.'</td>\n                             </tr> \n                               <tr><td><br></td></tr>\n                                <tr><td  style=\"color:  #2b624c\">\n                            \n                                 <b >Arrival Date :</b>\n                            </td><td>'.$request->check_in.'</td> </tr>\n                              <tr><td style=\"color: #2b624c\">\n                                <b>Departure Date :</b>\n                                 </td><td>'.$request->check_out.'</td> </tr>\n                          <tr><td><br></td></tr>\n\n\n\n                             <tr><td style=\"color:  #2b624c\">\n                             \n                                 <b style=\"color: #2b624c\">City/Country :</b> \n                                  </td>\n                                  <td>'.$request->country.'</td> </tr>\n                             \n                            <tr><td style=\"color: #2b624c\">\n                            \n                               <b >No. of Nights :</b>\n                                </td> <td>'.$inter.'</td></tr> \n                            <tr><td style=\"color: #2b624c\">\n                            \n                                <b>No. of Rooms :</b> \n                                 </td><td>'.$request->rooms.'</td> </tr>\n                               \n                            <tr><td style=\"color: #2b624c\">\n                            \n                                <b>No. of Adults :</b> \n                            </td> <td>'.$request->adults.'</td></tr>\n                             <tr><td style=\"color:  #2b624c\">\n                                <b>No. of Children : </b>\n                                 </td><td>'.$request->kids.'</td> </tr>\n                            \n                               <tr><td style=\"color:  #2b624c\">             \n                                <b>Breakfast : </b>\n                                 </td><td>  '.$breakfast.'  </td> </tr> \n                                                     \n                            <tr><td style=\"color: #2b624c\"> \n                             \n                            <b>Room Type:</b>                            \n                                </td>\n                                 <td>'.$request->room_type.'</td></tr>\n                            <tr><td style=\"color: #2b624c\">\n                            \n                                <b>Remarks :</b>\n                            </td>\n                            <td>'.$request->specialnotes.'</td>\n                             </tr>\n                            <tr>\n                            \n                       \n                   \n                </tbody>\n            </table>\n            \n\n       ';\n        /*dd(Auth::user());*/\n         \n\n            $mpdf=new mPDF();\n            $mpdf->showImageErrors = true;\n            $mpdf->debug = true;\n            $mpdf->setHTMLFooter('<label style=\"background-color:#B8B8B8 \">Bookable and Payable by PaTravel.club/P&T Travel & Tours 117-00-2016-0504100 </label>');\n            $mpdf->WriteHTML($pdfData);\n            $mpdf->Output();\n    }\n\n     public function makePDFReceipt(Request $request){\ndate_default_timezone_set('Asia/Manila');\n       $breakfast = (stristr($request->breakfast,\"breakfast\") == \"\") ? \"Not included\":\"Included\";\n       $total = $request->total / 2;\n       $inter = $request->interval;\n     \n          if(Auth::guest()){\n\n             $getDetails = DB::table('referral_code')\n             ->select('*')\n             ->join('members', 'referral_code.member_id','=','members.id' )\n             ->where('referral_code','=',Session::get('query_refer'))\n             ->get();\n           }\n\n\n\n           $var = (!Auth::guest()) ? Auth::user()['attributes']['first_name'] .' '. Auth::user()['attributes']['surname']  : $getDetails[0]->first_name . $getDetails[0]->surname;\n            $var1 = (!Auth::guest()) ? Auth::user()['attributes']['email'] : $getDetails[0]->email;\n             $var2 = (!Auth::guest()) ? Auth::user()['attributes']['mobile_number'] : $getDetails[0]->mobile_number;\n\n       $pdfData = '\n           \n      <div style=\"width:100%;margin:0\">\n             <div style=\"float:left;margin:0;width:50%;\">\n       \n              <h1>RECEIPT</h1>\n           </div>\n       <div style=\"float:left;margin:0;width:50%;\">\n        <img src=\"'.public_path('logo1.jpg').'\" >  \n       </div>\n      </div>\n      <br><br><br>\n        <h3>CUSTOMER DETAILS</h3>\n       <table>\n        <thead>\n        \n        </thead>\n        <tbody>\n        <tr>\n        <td> Name :<b> '.$var.'</b></td>       \n        </tr>\n        <tr>\n            <td style=\"width:440 px;float:left\">Email : <b>'.$var1.'</b></td>\n            \n            <td>Booking Number : </td>\n            <td ><b>'.$request->book_id.'</b></td>\n        </tr>\n        <tr>\n              <td style=\"width:440 px;float:left\">Phone :<b> '.$var2.'</b></td>\n              \n              <td>Transaction Date : </td>\n               <td><b>'.date(\"Y-m-d\").'</b></td>\n        </tr>\n        \n        </tbody>\n        </table>\n        <h3>GUESTS</h3>\n        <b>'.$request->firstname.'</b>\n        <h3>HOTEL DETAILS</h3>\n        '.$request->hotel_name.'<br>\n        '.$request->hotelrating.' Hotel<br>\n        '.$request->address.'<br>\n        '.$request->phonenum.'<br>\n        <b color=\"  #2b624c\">Arrival Date:</b>  '.$request->check_in.'<br>\n        <b color=\"  #2b624c\">Departure Date:</b>  '.$request->check_out.'<br><br><br>\n       \n\n       <table>\n                <thead>\n                    <tr style=\"background-color:#C0C0C0 \">\n                        <th style=\"width:50px\">No </th>\n                          <th style=\"width:150px\">Type of Item</th>\n                            <th style=\"width:250px\">Item Description </th>\n                            <th style=\"width:50px\">Qty </th>\n                            <th style=\"width:110px\">Price per unit USD </th>\n                            <th style=\"width:90\"> Total</th>\n\n                    </tr>\n                </thead>\n                <tbody>\n                    \n                       <tr>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">1</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">Hotel Room</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$request->hotel_name.'</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">1</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$request->total.'</td>\n                       <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$request->total.'</td>\n\n                       </tr>\n                            \n                       \n                   \n                </tbody>\n                <tfoot>\n                <tr>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td></td>\n                <td style=\"border:1px solid #C0C0C0;\" align=\"center\">Total</td>\n                <td style=\"border:1px solid #C0C0C0;\" align=\"center\">'.$request->total.'</td>\n                </tr>\n                </tfoot>\n            </table>\n\n\n\n       ';\n\n       $mpdf=new mPDF();\n            $mpdf->showImageErrors = true;\n            $mpdf->debug = true;\n               $mpdf->setHTMLFooter('<label style=\"background-color:#B8B8B8 \">Bookable and Payable by PaTravel.club/P&T Travel & Tours 117-00-2016-0504100 </label>');\n            $mpdf->WriteHTML($pdfData);\n            $mpdf->Output();\n    }\n\n\n    public function getFacilities($hoteldescription){\n\n        $key = Config::get()['key'];\n        $secret = Config::get()['secret'];\n\n    $client = new GuzzleClient(['base_uri' => 'https://api.hotelbeds.com/']);\n   $response = $client->request('GET', 'hotel-content-api/1.0/types/facilitygroups?fields=all&language=ENG&from=1&to=1000&useSecondaryLanguage=false',[\n                                 \"headers\" => [\"Accept\" => \"application/json\",\n                                            \"Api-Key\" => $key,\n                                            \"X-Signature\" =>  hash(\"sha256\", $key.$secret.time()),\n                                            'Accept-Encoding' => 'application/gzip'\n                                            ], \n                                             ]);\n \n $cancelResult = json_decode($response->getBody());\n $codeDesc = array();\n $descarray = array();\n $codeDesc = \"\";\n $descarray = \"\";\n\n/*foreach ($cancelResult->facilities as $key) {\n   \n    $codeDesc[$key->code][] = $key->description->content ;\n}\n\n\nforeach ($codeDesc as $key => $value) {\n   foreach ($hoteldescription as  $hotelkey => $hotelvalue) { \n     if($key == $hotelvalue['facilityCode']){\n        foreach ($value as $hoteldesc => $hoteldescvalue) {            \n              $descarray[$key][] .=  $hoteldescvalue;\n        }\n  \n               }\n            }     \n        }*/\n\n        for ($i=0; $i < count($cancelResult->facilityGroups); $i++) { \n          $codeDesc[$cancelResult->facilityGroups[$i]->code] .= $cancelResult->facilityGroups[$i]->description->content;\n        }\n     \n            \n\n         for ($i=0; $i < count($hoteldescription); $i++) { \n\n             if(array_key_exists(\"description\", $hoteldescription[$i]) || array_key_exists(\"indFee\", $hoteldescription[$i])){\n\n\n                if(array_key_exists(\"indFee\", $hoteldescription[$i])){\n                   if($hoteldescription[$i]['indFee'] == true){\n                    $descarray[$hoteldescription[$i]['facilityGroupCode']][] .= $hoteldescription[$i]['description']['content'] . \" (<label style='color:red'>has extra fee</label>)\";\n                  }else{\n                    $descarray[$hoteldescription[$i]['facilityGroupCode']][] .= $hoteldescription[$i]['description']['content'];\n                  }\n\n\n\n                }else{\n                    $descarray[$hoteldescription[$i]['facilityGroupCode']][] .= $hoteldescription[$i]['description']['content'];\n                  }\n\n          }else{\n            $descarray[1] = \"No Facility found.\";\n          }\n         }\n\n         foreach ($descarray as $key => $value) {\n           if(array_key_exists($key, $codeDesc)){\n                $descarray[$key]['facgroup'] .= \"<h5 style='text-decoration: underline; font-weight: bold;'>\".$codeDesc[$key].\"</h5>\";\n           }\n         }\n        \n\n        return $descarray;\n    }\n\n    public function getCurrency(){\n           $from   = 'USD'; \n    $to     = 'PHP';\n    $url = 'http://finance.yahoo.com/d/quotes.csv?e=.csv&f=sl1d1t1&s='. $from . $to .'=X';\n    $handle = fopen($url, 'r');\n \n    if ($handle) {\n        $result = fgets($handle, 4096);\n        fclose($handle);\n    }\n\n    $allData = explode(',',$result); \n    $currencyValue = $allData[1];\n \nreturn $currencyValue;\n\n    }\n    public function getUserDetails(){\n     if(!Auth::guest()){\n          return Auth::user()['attributes'];\n     }\n    }\n\n     public function getHotel($codes)\n    {\n\n            $key = Config::get()['key'];\n            $secret = Config::get()['secret'];\n            $client = new GuzzleClient(['base_uri' => 'https://api.hotelbeds.com/']);\n\n            $response = $client->request('GET', 'hotel-content-api/1.0/hotels/?fields=all&codes='.$codes.'&language=ENG&from=1&to=1000&useSecondaryLanguage=false',[\n                                 \"headers\" => [\"Accept\" => \"application/json\",\n                                            \"Api-Key\" => $key,\n                                            \"X-Signature\" =>  hash(\"sha256\", $key.$secret.time()),\n                                            'Content-Type' => 'application/json',\n                                            'Accept-Encoding' =>'application/gzip'\n                                            ]\n                                           \n                                             ]);\n   \n          $result = json_decode($response->getBody());\n      \n          $check = array_key_exists('hotels',  $result);\n          if($check === true){    \n             $hotels = $array = json_decode(json_encode($result->hotels), true);\n              \n               return $hotels[0]['images'];       \n          }  \n         \n    }\n\n    public function checkRefCode($query_refer){\n          $checkRef = DB::table('referral_code')\n                      ->select('status')\n                      ->where('referral_code','=',$query_refer)\n                      ->get();\n\n              if($checkRef[0]->status == 0){\n                   return 0;\n              }else{\n                return 1;\n              }\n\n    }\n    public function inserRefCode($query_refer,$booking_id,$date){\n        $insertRef = DB::table('referral_code')\n                      ->where('referral_code', $query_refer)\n                      ->update(['status' => 1,'booking_id' =>$booking_id, 'DateUsed' => $date]);\n         \n    }\n\n    \n\n\n    \n}\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/DestinationController.php",
+			"file_size": 46923,
+			"file_write_time": 131324004893180820,
+			"settings":
+			{
+				"buffer_size": 45740,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@extends('front.destination.book.base')\n@section('destinationContent')\n    <div class=\"row\">\n        <div class=\"col-sm-12\">\n            <h3 ><b>Your Booking Details</b></h3>\n            <hr/>\n        </div>\n    </div>\n     @if(session()->has('sessmsg'))\n                                         \n                   <input type=\"hidden\" value=\"1\" id=\"checkerror\">\n               \n              \n                @endif  \n    <button class=\"btn btn-primary\" id=\"test\" data-toggle=\"modal\" data-target=\"#checkBalance\">Large modal</button>\n\n    \n    <div class=\"well well-white-dark\">\n        <div class=\"row\">\n            <div class=\"col-sm-6\">\n                <h2 class=\"green-color heading-without-margin\" style=\"display: block;\n    float: left;\"><a href=\"#\">{{ $room_rate['name'] }}</a> &nbsp;</h2>\n               \n                <h4  style=\"display: block;\n    float: left;\">\n                    @for ($i = 0; $i < (int) $room_rate['categoryCode'] ; $i++)\n                        <i class=\"fa fa-star rating\"></i>\n                    @endfor\n                </h4>\n\n            </div>\n\n        </div>\n          <div class=\"row\">\n            <div class=\"col-md-6\">\n            <small><b>{{ $country }}</b></small>\n        </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-lg-6\">\n                <br/>\n                <table class=\"booking-details\">\n                    <tr>\n                        <td  class=\"label\" style=\"color:black\">Location: &nbsp;</td>\n                        <td>{{ $room_rate['destinationName'] }}</td>\n                    </tr>\n                    <tr>\n                        <td  class=\"label\" style=\"color:black\">Check-in:  &nbsp;</td>\n                        <td>{{ date(\"D j M, Y\", strtotime($room_rate['checkIn'])) }}</td>\n                    </tr>\n                    <tr>\n                        <td class=\"label\" style=\"color:black\">Check-out:  &nbsp;</td>\n                        <td>{{ date(\"D j M, Y\", strtotime($room_rate['checkOut'])) }}</td>\n                    </tr>\n                    <tr>\n                        <td  class=\"label\" style=\"color:black\">Stay:  &nbsp;</td>\n\n                    \n\n                        <td>@if($interval > 1) {{$interval}} Nights @else {{$interval}} Night @endif,@if($room_num > 1) {{$room_num}} Rooms @else {{$room_num}} Room @endif, Max 1 Adult (s)</td>\n                    </tr>\n                </table>\n            </div>\n            <div class=\"col-lg-6 text-right \">\n                <br/>\n                <table class=\"booking-details\">\n                    <tr>\n                        <td width=\"40%\" class=\"text-left\">@if($interval > 1) {{$interval}} Nights @else {{$interval}} Night @endif x @if($room_num > 1) {{$room_num}} Rooms @else {{$room_num}} Room @endif</td>\n                         <td colspan=4></td>   \n                        <td class=\"label\" style=\"color:black\">{{ $room_rate['currency'] }} {{ $room_rate['totalNet']  * $room_num }}</td>\n                    </tr>\n                    <tr>\n                        <td class=\"text-left\">Total Price</td> \n                        <td colspan=4></td>               \n                            <td class=\"label\" style=\"color:black\">\n                            {{ $room_rate['currency'] }} {{ $room_rate['totalNet'] * $room_num}}\n                        </td>\n                    </tr>\n                </table>\n            </div>\n        </div>\n    </div>\n   \n    {!!Form::open(array('url'=>route('destination.book.confirm', ['code' => $room_rate['code']]), 'method'=>'POST'))!!}\n {!!Form::hidden('country',$country) !!}\n    <div class=\"well well-white-dark booking-information-form\">\n            <input type=\"hidden\" name=\"rate_key\" value=\"{{ $rate_key }}\">\n            <div class=\"modal-body\">\n             <div class=\"row\">\n                <div class=\"col-sm-12\">\n                    <h4 ><b>Your Information</b></h4>            \n                </div>\n\n                <div class=\"col-sm-2 guestlabel\">\n                   <h5 class=\"color-green\"><b > Are you the guest?</b></h5> \n                </div>\n               <div class=\"col-sm-4 guestdiv\" >  \n               <label style=\"margin-top:7%\"></label>\n               {!! Form::checkbox('guest', 'Yes',true, array('id'=>'guest')) !!}  Yes \n               {!! Form::checkbox('guest', 'No', false, array('id'=>'guest')) !!}  No\n               \n                   </div>       \n            \n            </div>\n             {!!Form::hidden('getAuth', Auth::user()['attributes']['id'], array('class'=>'form-control', 'id'=>'getAuth'))!!}\n          <div class=\"row\">\n              <div class=\"col-sm-12\">\n                   <label for=\"firstname\">Name</label>\n                        {!!Form::text('firstname', null, array('class'=>'form-control', 'placeholder'=>'Lastname / Given name / Middle name', 'id'=>'firstname'))!!}\n              </div>\n          </div>\n           <div class=\"row\">\n               <div class=\"col-sm-12 text-center\" style=\"font-size:10px\">\n                   Lastname / Given name / Middle name\n               </div>\n           </div>\n      \n           <div class=\"row\">\n              <div class=\"col-sm-5\">\n                   <label for=\"lastname\">Email Address</label>\n                        {!!Form::text('email', null, array('class'=>'form-control', 'placeholder'=>'email address', 'id'=>'email'))!!}\n              </div>\n\n\n              <div class=\"col-sm-7\">\n                     <div class=\"row \">\n\n\n                          <div class=\"col-sm-3\">\n            <label for=\"mobilenumber\" style=\"margin-bottom:0%;padding-bottom:0%\" >Mobile No.</label>              \n                               {!!Form::text('mobilenumber',$nums, array('class'=>'form-control', 'placeholder'=>'e.g. +1 702 123 4567', 'id'=>'mobile-number','style'=> 'margin-top:-11%;padding-top:0%'))!!} \n                                \n                        </div>\n                        \n                        <div class=\"col-sm-8\" >\n                          <label for=\"mobileNo\" style=\"margin-bottom:0%;padding-bottom:0%\" ></label> \n                            {!!Form::text('mobileNo', null, array('class'=>'form-control', 'placeholder'=>'Enter Mobile Number', 'id'=>'mobileNo','style'=> 'margin-top:1.3%;padding-top:0%'))!!}\n                        </div>\n\n                     </div>\n                       \n              </div>\n          </div>\n           <div class=\"row\">\n              <div class=\"col-sm-5\">\n                   <label for=\"lastname\">Confirm Email Address</label>\n                        {!!Form::text('email', null, array('class'=>'form-control', 'placeholder'=>'email address', 'id'=>'emailconfirm'))!!}\n              </div>\n          </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-sm-12\">\n            <h3 ><b>Room Information</b></h3>\n            <hr/>\n        </div>\n    </div>\n    <div class=\"well well-white-dark booking-information-form\">\n        <div class=\"row\">\n            <div class=\"col-sm-6\">\n                <ul>\n                    <li>Room Type : {{ $room_rate['rooms'][0]['name'] }}</li>                 \n                    <li>Board Type : {{ $room_rate['rooms'][0]['rates'][0]['boardName'] }}</li>  \n                    <?php\n                        $result =  explode(PHP_EOL,$room_rate['rooms'][0]['rates'][0]['rateComments']);\n                        foreach ($result as $key ) {\n                        echo \"<li>\". preg_replace(\"/(?![$])\\p{P}/u\", \"\", $key). \"</li>\";\n                        }\n\n                    ?>\n                </ul>\n            </div>\n            <div class=\"col-sm-6 text-right vertical-bottom\">\n                <br/>\n                <button type=\"submit\" id=\"submit\" name=\"submit\" class=\"btn btn-lg btn-primary\">Continue</a>\n            </div>\n        </div>\n    </div>\n    </div>\n    {!!Form::close()!!}\n       <script>\n       $(document).ready(function(){\n        $('#test').hide();\n      /* if($('#checkerror').length > 0){\n         $(\"#test\").trigger(\"click\");\n        console.log(1);\n       }else{\n        console.log(2);\n       }*/\n\n\n\n\n         if ($('#guest:checked').val() == \"Yes\") {\n     $('#firstname').prop('required', true);\n     $('#firstname').prop('required', true);\n     $('#email').prop('required', true);\n     $('#mobileNo').prop('required', true);\n }\n\n\n if ($('#getAuth').val() == null || $('#getAuth').val() == \"\"){\n$('.guestdiv').hide();\n         $('.guestlabel').hide();\n }\n if ($('#guest:checked').val() == \"Yes\") {\n     if ($('#getAuth') != null || $('#getAuth') != \"\") {\n         getData();\n     } \n   }\n\n     $('.guestdiv input:checkbox').click(function() {\n         $('.guestdiv input:checkbox').not(this).prop('checked', false);\n         if ($('#getAuth').val() != null || $('#getAuth').val() != \"\") {\n             if ($('#guest:checked').val() == \"No\") {\n                 $('#firstname').prop('required', true);\n                 $('#email').prop('required', true);\n                 $('#mobileNo').prop('required', true);\n                 $('#firstname').val(\"\");\n                 $('#email').val(\"\");\n                 $('#emailconfirm').val(\"\");\n                 $('#mobileNo').val(\"\");\n             } else {\n                 $('#firstname').prop('required', false);\n                 $('#email').prop('required', false);\n                 $('#mobileNo').prop('required', false);\n\n                 getData();\n\n             }\n\n         } else {\n             $('#firstname').prop('required', true);\n             $('#email').prop('required', true);\n             $('#mobileNo').prop('required', true);\n         }\n     });\n\n     $('#email').on('blur', function() {\n\n         if ($('#email').val() != $('#emailconfirm').val()) {\n            $('#email').removeClass('alert-danger');\n             $('#emailconfirm').removeClass('alert-danger');\n             \n             $(\"font\").remove();\n             $('#email').addClass('alert-danger');\n             $('#emailconfirm').addClass('alert-danger');\n             $('#submit').prop(\"type\", \"button\");\n             $(\"#email\").after(\"<font  style='color:red'>* These email address don't match.</font>\");\n             $(\"#emailconfirm\").after(\"<font  style='color:red'>* These email address don't match.</font>\");\n         } else {\n             $('#email').removeClass('alert-danger');\n             $('#emailconfirm').removeClass('alert-danger');\n             $('#submit').prop(\"type\", \"submit\");\n             $(\"font\").remove();\n         }\n\n     });\n     $('#emailconfirm').on('blur', function() {\n\n         if ($('#email').val() != $('#emailconfirm').val()) {\n            $('#email').removeClass('alert-danger');\n             $('#emailconfirm').removeClass('alert-danger');\n             \n             $(\"font\").remove();\n             $('#email').addClass('alert-danger');\n             $('#emailconfirm').addClass('alert-danger');\n             $('#submit').prop(\"type\", \"button\");\n             $(\"#email\").after(\"<font  style='color:red'>* These email address don't match.</font>\");\n             $(\"#emailconfirm\").after(\"<font  style='color:red'>* These email address don't match.</font>\");\n         } else {\n             $('#email').removeClass('alert-danger');\n             $('#emailconfirm').removeClass('alert-danger');\n             $('#submit').prop(\"type\", \"submit\");\n             $(\"font\").remove();\n         }\n\n     });\n\n     function getData() {\n         $.ajax({\n             url: {!! json_encode(url('/getUserData')) !!},\n             type: 'GET',\n             contentType: 'application/json',\n             success: function(data) {\n                console.log(data);\n                 var mnum1 = data['mobile_number'].indexOf(\" \");\n                 var mnum = data['mobile_number'].substring(mnum1);\n                 var mnumcode = data['mobile_number'].substring(-mnum1, mnum1);\n                 $('#mobileNo').val(mnum);\n                 $('#mobile-number').val(\" \");\n                 $('#mobile-number').html(mnumcode);\n                 $('#mobile-number').val(mnumcode);\n                 $('#firstname').val(data['first_name'] +' '+ data['middle_name'] +' '+ data['surname']);\n                 $('#email').val(data['email']);\n                 $('#emailconfirm').val(data['email']);\n             }\n         });\n     }\n     });\n    </script>\n@stop\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/booking_details.blade.php",
+			"file_size": 12561,
+			"file_write_time": 131324013749457370,
+			"settings":
+			{
+				"buffer_size": 12259,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\nRoute::group(['namespace'=>'Front'], function()\n{\n    Route::get('/', ['as'=>'homepage','uses'=>'HomeController@indexComingSoon']);\n    // Route::post('/newsletter', ['as'=>'newsletter','uses'=>'HomeController@newsletterPost']);\n    Route::get('/', ['as'=>'homepage','uses'=>'HomeController@index']);\n    Route::post('/login', ['as'=>'login','uses'=>'HomeController@loginPost']);\n    Route::get('logout', array('as' => 'logout', 'uses' => 'HomeController@logoutGet'));\n    Route::post('/signup', ['as'=>'signup','uses'=>'HomeController@signupPost']);\n\n    // hotel availability search\n    Route::get('/search', ['as'=>'search', 'uses'=>'SearchController@index']);\n    // destination search filter\n    Route::get('/search/destination', ['as'=>'search destination', 'uses'=>'SearchController@destination_filter']);\n    // hotel search filter\n    Route::get('/search/hotel', ['as'=>'search hotel', 'uses'=>'SearchController@getHotels']);\n\n    Route::group(['middleware'=>'member'], function()\n    {\n        Route::get('booking', ['as'=>'booking.index', 'uses'=>'BookingController@index']);\n        Route::get('profits', ['as'=>'rebates.index', 'uses'=>'RebatesController@index']);\n        Route::get('setting', ['as'=>'setting.index', 'uses'=>'SettingController@index']);\n    });\n\n    // reviews\n    // Route::get('/reviews', ['as'=>'reviews.index', 'uses'=>'Front\\HomeController@review']);\n    // reviews\n    // Route::get('/reviews/cancel', ['as'=>'reviews.canel', 'uses'=>'Front\\HomeController@cancel']);\n\n});\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/FrontRoute.php",
+			"file_size": 1548,
+			"file_write_time": 131323960970430583,
+			"settings":
+			{
+				"buffer_size": 1517,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\n/*\n * |--------------------------------------------------------------------------\n * | Application Routes\n * |--------------------------------------------------------------------------\n * |\n * | Here is where you can register all of the routes for an application.\n * | It's a breeze. Simply tell Laravel the URIs it should respond to\n * | and give it the controller to call when that URI is requested.\n * |\n */\n/*\nRoute::get ( 'auth/login', function () {\n\treturn view ( 'login.form' );\n} );\n*/\n\ninclude_once 'FrontRoute.php';\n// start guests section\nRoute::get ( 'promo', [\n'uses' => 'PromoFrontController@index'\n]);\n\n\n// hotel info\nRoute::get('/hotel/info', ['as'=>'search', 'uses'=>'HotelController@index']);\n\n\n// hotel books\nRoute::get('/destination/{code}/book', ['as'=>'destination.book', 'uses'=>'DestinationController@book']);\nRoute::post('/destination/{code}/book', ['as'=>'destination.book', 'uses'=>'DestinationController@book']);\nRoute::post('/destination/{code}/book/confirm', ['as'=>'destination.book.confirm', 'uses'=>'DestinationController@book_confirm']);\n\nRoute::post('/makePDF',['as'=> 'makePDF', 'uses'=> 'DestinationController@makePDF']);\n\nRoute::post('/makePDFReceipt',['as'=> 'makePDFReceipt', 'uses'=> 'DestinationController@makePDFReceipt']);\nRoute::get('/getUserData',['as'=>'getUserData', 'uses' => 'DestinationController@getUserDetails']);\n// hotel\nRoute::get('/destination/{code}-{slug}', ['as'=>'destination.show', 'uses'=>'DestinationController@show']);\n\n\nRoute::group(['prefix' => 'about'], function() {\n    Route::get('/', ['as'=>'about.index', 'uses'=>'AboutController@index']);\n    Route::get('/terms', ['as'=>'about.terms', 'uses'=>'AboutController@terms']);\n    Route::get('/faq', ['as'=>'about.faq', 'uses'=>'AboutController@faq']);\n    Route::get('/career', ['as'=>'about.career', 'uses'=>'AboutController@career']);\n    Route::get('/contact', ['as'=>'about.contact', 'uses'=>'AboutController@contact']);\n    Route::get('/privacy-policy', ['as'=>'about.privacypolicy', 'uses'=>'AboutController@privacypolicy']);\n});\n\n/*\nRoute::group(['prefix' => 'help'], function() {\n    Route::get('/', ['as'=>'help.index', 'uses'=>'HelpController@index']);\n});\n*/\n\n// start members section\nRoute::get ('members', [\n'uses' => 'MembersController@index'\n])->where('name', '[A-Za-z]+');\n// end members section\n\n\n//start static pages\nRoute::get ('contact', [\n'uses' => 'StaticPageController@contact'\n])->where('name', '[A-Za-z]+');\n\n// Route::get ('about', [\n// 'uses' => 'StaticPageController@about'\n// ])->where('name', '[A-Za-z]+');\n\nRoute::get ('terms', [\n'uses' => 'StaticPageController@terms'\n])->where('name', '[A-Za-z]+');\n\nRoute::get ('privacy', [\n'uses' => 'StaticPageController@privacy'\n])->where('name', '[A-Za-z]+');\n\nRoute::get ('faq', [\n'uses' => 'StaticPageController@about'\n])->where('name', '[A-Za-z]+');\n\nRoute::post('/about/email',['uses'=>'AboutController@sendEmail']);\n\n// end static pages\n\n\n#admin start\n\t\t\t// admin\nRoute::group(['prefix'=>'admin', 'middleware'=>'admin'], function ()\n{\n\t\n\t\t\tRoute::get ( '/', ['uses' => 'AdminController@index']);\n\n\t\t\n\t\t\tRoute::get( '/sales',['uses' => 'SalesController@index']);\n\t\t\tRoute::get('/sales/{id}/verify',['uses'=>'SalesController@verify']);\n\t\t\tRoute::get('/sales/{id}/delete',['uses'=>'SalesController@deleting']);\n\t\t\tRoute::get('/disapprove', 'SalesController@UserDisapprove');\n\t\t\t\n\t\t\t\n\t\t\tRoute::get('/sales/{id}/generateRefCode',['uses'=>'SalesController@generateRefCode']);\n\t\t\tRoute::get( '/accounting',['uses' => 'AccountingController@index']);\n\t\t\tRoute::get('/accounting/{id}/paid',['uses'=>'AccountingController@paid']);\n\t\t\tRoute::get('/accounting/{id}/delete',['uses'=>'AccountingController@deleting']);\n\t\t\tRoute::get('/accounting/transaction/{id}', [\n\t\t\t\t'uses' => 'AccountingController@transactionmember']);\n\t\t\t/*\n\t\t\tRoute::get( '/users',['uses' => 'AdminController@userIndex']);\n\t\t\tRoute::get('/users/create',['uses'=>'AdminController@userCreate']);\n\t\t\tRoute::get('/users/{id}/edit',['uses'=>'AdminController@userEdit']);\n\t\t\tRoute::put('/users/{id}/update',['uses'=>'AdminController@userUpdate']);\n\t\t\tRoute::get('/users/{id}/delete',['uses'=>'AdminController@userDelete']);\n\t\t\t*/\nRoute::get('/getProfits/{id}',['as'=>'getProfits', 'uses' => 'AccountingController@getProfits']);\n\t\t\tRoute::post('/accounting/addpayment',[\n\t\t\t\t'as' => 'admin.accounting.addpayment',\n\t\t\t\t'uses' => 'AccountingController@addPayment'\n\t\t\t\t]);\n\t\t\tRoute::resource('members','MemberController');\n\t\t\t\tRoute::get('/members/{id}/delete',['uses'=>'MemberController@deleting']);\n\t\t\t\tRoute::get('/members/{id}/activate',['uses'=>'MemberController@activate']);\n\t\t\t\tRoute::get('/members/{id}/unactive',['uses'=>'MemberController@unactive']);\n\t\t\t\tRoute::get('/members/{id}/verify',['uses'=>'MemberController@verify']);\n\t\t\t\tRoute::get('/members/{id}/unverify',['uses'=>'MemberController@unverify']);\n\t\t\t\tRoute::get('/member/bookings/{id}', [\n\t\t\t\t\t'as' =>'/members/bookings',\n\t\t\t\t\t'uses' =>'BookingController@bookingMember']);\n\t\t\t\tRoute::get('/member/bookings/modify/{id}', [\n\t\t\t\t\t'as' =>'/members/bookings/modify',\n\t\t\t\t\t'uses' =>'BookingController@modifyBooking']);\n\n\t\t\t\tRoute::get('/member/bookings/track/{id}', [\n\t\t\t\t\t'as' =>'/members/bookings/track',\n\t\t\t\t\t'uses' =>'BookingController@trackChanges']);\n\t\t\t\tRoute::post('/member/bookings/modify/save/{id}', ['as'=>'member.bookings.modify.save', 'uses'=>'BookingController@saveModifyBooking']);\n\t\t\t\tRoute::DELETE('/delete/Bookings/{id}',['as' => '/members/delete/Bookings','uses' => 'MemberController@cancelBooking']);\n\t\t\t\tRoute::get('changeProfits',['uses'=> 'MemberController@getRebates']);\n\t\t\t\tRoute::post('changeProfits/Save', ['as'=>'changeProfits.Save','uses'=>'MemberController@saveRebates']);\n\t\t\t\tRoute::get('/bookings','BookingController@index');\n\t\t\t\tRoute::get('/member/referral/{id}', ['uses'=>'MemberController@referral']);\n\t\t\t\tRoute::get('/member/profits/{id}', ['uses' => 'MemberController@rebates']);\n\t\t\t\tRoute::resource('/audit', 'AuditController');\n\t\t\t\tRoute::get('/audit', ['as'=>'admin.audit', 'uses' =>'AuditController@index']);\n});\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/routes.php",
+			"file_size": 6217,
+			"file_write_time": 131323961214914567,
+			"settings":
+			{
+				"buffer_size": 6069,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/front/userjs/userapp.js",
+			"settings":
+			{
+				"buffer_size": 7999,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/dealerprofile.blade.php",
+			"settings":
+			{
+				"buffer_size": 3636,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/front/contents/dealerindex.blade.php",
+			"settings":
+			{
+				"buffer_size": 127,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -592,42 +632,53 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1473,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Front/HomeController.php",
-			"settings":
-			{
-				"buffer_size": 2785,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/front/userjs/userapp.js",
-			"settings":
-			{
-				"buffer_size": 7698,
+				"buffer_size": 1825,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/Http/Controllers/Front/SearchController.php",
+			"file": "app/Http/Controllers/Front/DealerController.php",
 			"settings":
 			{
-				"buffer_size": 2763,
+				"buffer_size": 2511,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/search.blade.php",
+			"contents": "<div class=\"destination-info-box\">\n    <div class=\"row\">\n    \n    @if($hotel == 1 || $hotel == 2 )\n    \n       <div class=\"col-lg-12 text-center\">\n             @if(isset($status))\n               <div class=\"alert alert-danger\">                           \n                    {{$status}}\n                   </div>\n                @endif   \n        </div>    \n        @else\n\n        <div class=\"col-xs-3\">\n            <div class=\"destination-picture\">\n             @if (isset($hotel['availability']['images']['thumbnail']))\n                 {!!HTML::image(\n                    $hotel['availability']['images']['thumbnail'],\n                    $hotel['name'],\n                    array('class'=>'img-square img-responsive','style'=>'height:165px'))!!}\n                    @endif\n            </div>\n        </div>\n        <div class=\"col-xs-9 destination-description\">\n            <div class=\"row\">\n                <div class=\"col-xs-8\">\n                    <div class=\"destination-name\">\n                        <h3 class=\"green-color\">\n                            <a href=\"{{ (isset($hotel['availability']['_self']['href'])) ? $hotel['availability']['_self']['href'] : '#' }}\">\n                                {{ (isset($hotel['name'])) ? $hotel['name'] : 'Undefined'  }}\n                            </a>\n                        </h3>\n                    </div>\n                    <div class=\"destination-rating\">\n                        @if (isset($hotel['availability']['rating']['rating']))\n                            @for ($i=0; $i<=$hotel['availability']['rating']['rating']-1; $i++)\n                                <i class=\"fa fa-star rating\"></i>\n                            @endfor\n                        @else\n                            No Rating\n                        @endif\n                    </div>\n                    <div class=\"destination-location\">\n                        {{ (isset($hotel['availability']['address'])) ? $hotel['availability']['address'] : 'Undefined'  }}\n                    </div>\n                    <div class=\"destination-item\">\n                        <div class=\"wifi\">\n                            <!-- <i class=\"fa fa-wifi green-color\"></i> FREE WIFI -->\n                        </div>\n                        <!--\n                        <div class=\"breakfast\">\n                            Breakfast Included\n                        </div>\n                        -->\n                    </div>\n                </div>\n                <div class=\"col-xs-4\">\n                    <div class=\"destination-price\">\n                        Rates from\n                        <div class=\"money-badge\">\n                            <span class=\"currency\">{{ $hotel['currency'] }}</span>\n                            <span class=\"nominal\">{{ number_format($hotel['minRate']) }}</span>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row bottom-section\">\n                <div class=\"col-xs-12\">\n                    <div class=\"row\">\n                        <div class=\"col-xs-3 viewer-count \">\n                            <br/>\n                            <!-- <small>\n                                2 Queen Room Beds Only\n                                <br/>\n                                <span class=\"red-color\">\n                                    <b>Our last 2 rooms!</b>\n                                </span>\n                            </small> -->\n                        </div>\n                        <div class=\"col-xs-7 image-area\">\n                            <div class=\"row\">\n                                @if (isset($hotel['availability']['images']))\n\n                                    <?php $thumbs = array_slice($hotel['availability']['images']['images'], 0, 4); ?>\n\n                                    @foreach($thumbs as $thumb)\n                                    <div class=\"col-xs-3\">\n                                        <div class=\"image-block\">\n                                            {!!HTML::image($thumb['sd'], $hotel['name'], array('class'=>'img-square img-responsive'))!!}\n                                        </div>\n                                    </div>\n                                    @endforeach\n                                @endif\n                            </div>\n                        </div>\n                        <div class=\"col-xs-2 green-color viewer-count text-center\">\n                            <br/>\n                            <i class=\"fa fa-eye\"></i> 2000 <br/>\n                            300 Reviews\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n         \n              <!--  <a href=\"{{ Request::getPathInfo() . Request::getQueryString() .'&page=2'  }}\">prev</a> <a href=\"\">next</a> -->\n        @endif\n    </div>\n</div>\n\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/search_result.blade.php",
+			"file_size": 5001,
+			"file_write_time": 131323882895200800,
 			"settings":
 			{
-				"buffer_size": 2704,
+				"buffer_size": 4890,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<script src=\"{{ asset(\"/bower_components/bootstrap3-typeahead/bootstrap3-typeahead.min.js\")}}\"></script>\n<script>\n    $(document).ready(function() {\n        var timeoutID = null;\n        var $input = $('.typeahead');\n        var $inputhotel = $('.hotelnames');\n        var content;\n      //  $input.prop('disabled',true);\n        $.get($input.data('url'), function(data){\n         /*   if(data.length > 0){\n                content = data;\n                $input.prop('disabled',false);\n            }*/\n content = data;\n$(document).ajaxComplete(function(){\n   console.log(content);\n});\n        },'json');\n\n\n\n        function searchDestination(str,content) {\n         $input.typeahead({\n            source:content,\n            updater : function(item) {\n                setTimeout(function() {\n                    $('.typeahead').val(item.destination_display_name);\n                    $('#dc').val(item.code);\n                     $('#zone').val(item.zone);\n                      $('#country_code').val(item.country_code);\n                }, 200);\n            }\n        });\n     }\n\n     function searchHotels(str) {\n        \n         $.get($inputhotel.data('url')+str+'&zone='+$('#zone').val(), function(data){\n           \n            $inputhotel.typeahead({\n            source:data,\n            updater : function(item) {\n                setTimeout(function() {\n                   $('.hotelnames').val(item.name);\n                   $('#hc').val(item.code);\n               }, 200);\n            }\n        });\n        },'json');\n     }\n\n\n\n     $input.keyup(function() {\n     \n            console.log(content);\n          clearTimeout(timeoutID);\n          var $target = $(this);\n          timeoutID = setTimeout(function() { searchDestination($target.val(),content); }, 500);\n   \n\n\n     });\n\n\n     $inputhotel.keyup(function() {\n        clearTimeout(timeoutID);\n        var $target = $(this);\n        timeoutID = setTimeout(function() { searchHotels($target.val()+'`'+$('#dc').val()); }, 10);\n\n    });\n\n     $('#event_period').datepicker({\n        inputs: $('.datetimepicker'),\n        format: \"yyyy-mm-dd\",\n        startDate: \"today\",\n        autoclose: true,\n        todayHighlight: true\n    });\n });\n</script>",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/search_script.blade.php",
+			"file_size": 2289,
+			"file_write_time": 131323929068632577,
+			"settings":
+			{
+				"buffer_size": 2209,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"well destination-search-area\">\n\n    {!!Form::open(array('url'=>URL::to('/search'), 'method'=>'GET'))!!}\n        <div class=\"row\" style=\"margin-bottom:0%;padding-bottom:0%\">\n            <div class=\"col-xs-4 no-padding\">\n                <div class=\"destination_icon flight_icon\"></div>\n            </div>\n            <div class=\"col-xs-8\">\n                <h3>Find Hotel Deals</h3>\n                {!!Form::text('destination', Input::get('destination', (!isset($destination_choose))? null :$destination_choose), array('class'=>'form-control typeahead', 'placeholder'=>'Enter Destination', 'required'=>'required', 'data-url'=>URL::to('search/destination?query='), 'autocomplete'=>'off','style'=>'font-size:12px'))!!}\n                {!!Form::hidden('dc', Input::get('dc'), array('id'=>'dc'))!!}\n\n            </div>\n {!!Form::hidden('zone', (!isset($_GET['zone']))? null :$_GET['zone'], array('id'=>'zone'))!!}\n  {!!Form::hidden('country_code', (!isset($_GET['country_code']))? null :$_GET['country_code'], array('id'=>'country_code'))!!}\n            <div>&nbsp;</div>\n\n            <div class=\"col-xs-4 no-padding\">\n                <div class=\"destination_icon hotel_icon\"></div>\n            </div>\n            <div class=\"col-xs-8\">\n                {!!Form::text('hotel', Input::get('hotel', (!isset($hotel_choose))? null :$hotel_choose), array('class'=>'form-control hotelnames', 'placeholder'=>'Enter Hotel Name', 'data-url'=>URL::to('search/hotel?query='), 'autocomplete'=>'off','style'=>'font-size:12px'))!!}\n                {!!Form::hidden('hc', Input::get('hc'), array('id'=>'hc'))!!}\n            </div>\n        </div>\n        \n        <div id=\"event_period\" style=\"margin-top:0%;padding-top:0%\">\n            <div class=\"row\" style=\"padding:0% ;margin:0%\">\n               <div class=\"col-xs-3  text-left\" style=\"padding-left:1%\"><br><h3>Check in</h3></div>\n            <div class=\"col-xs-6\" style=\"padding:0%;margin:0%\">\n            <label for=\"check_in\"> <br> </label>\n                    {!!Form::text('check_in', Input::get('check_in', (!Session::has('query_check_in'))? null :Session::get('query_check_in')), array('class'=>'form-control datetimepicker', 'placeholder'=>'Choose Check in Date', 'required'=>'required', 'pattern'=>'\\d{4}-\\d{1,2}-\\d{1,2}','id'=>'in','style'=>'font-size:12px' ))!!}\n                </div>\n                  <div class=\"col-xs-3\" style=\"padding:0% 1% 0% 1%;margin:0% \">       \n                       <label for=\"rooms\" style=\"color:white\">Rooms</label>       \n                {!!Form::select('rooms', $rooms, array(Session::get('query_rooms')), array('class'=>'form-control'))!!}\n            </div>\n            </div>\n            <div class=\"row\" style=\"padding:0% ;margin:0%\">\n               \n                <div class=\"col-xs-3 text-left\" style=\"padding-left:0%;margin:0%;\"><br><h3>Check out</h3></div>\n               \n                <div class=\"col-xs-6\" style=\"padding:0% ;margin:0%\"> \n                 <label for=\"check_out\" > <br> </label>\n                    {!!Form::text('check_out', Input::get('check_out', (!Session::has('query_check_out'))? null :Session::get('query_check_out')), array('class'=>'form-control datetimepicker', 'placeholder'=>'Choose Check out Date', 'required'=>'required', 'pattern'=>'\\d{4}-\\d{1,2}-\\d{1,2}', 'id' => 'out','style'=>'font-size:12px'))!!}\n                </div>\n                   <div class=\"col-xs-3\" style=\"padding:0% 1% 0% 1%;margin:0%\">\n                      <label for=\"adults\" style=\"color:white\">Adults</label>\n                         {!!Form::select('adults', $guests, array(Session::get('query_adults')), array('class'=>'form-control','style'=>'font-size:12px'))!!}\n                    </div>\n            </div>\n\n              <div class=\"row\" style=\"padding:0% ;margin:0%\">             \n                  <div class=\"col-xs-3 text-left\"  style=\"padding-left:1%\"><br><h3>Referral Code</h3></div>\n                <div class=\"col-xs-6\" style=\"padding:0%;margin:0%\">\n                          <label for=\"ref_code\"> <br> </label>\n                @if(Auth::guest())\n                 {!!Form::text('ref_code',Input::get('ref_code', (!Session::has('query_refer'))? null :Session::get('query_refer')),array('class'=>'form-control','placeholder'=>'Enter Referral Code','required' => 'required','id'=>'ref_code','style'=>'font-size:12px')) !!}\n                 {!!Form::label('email', '* Referral Code is required', array('style'=>'color:rgb(224, 0, 0);font-size:12px'))!!}\n                 @else\n                   {!!Form::text('ref_code',Input::get('ref_code', (!Session::has('query_refer'))? null :Session::get('query_refer')),array('class'=>'form-control','placeholder'=>'Enter Referral Code','id'=>'ref_code','style'=>'font-size:12px')) !!}\n                  @endif\n                </div>\n                  <div class=\"col-xs-3\" style=\"padding:0% 0% 0% 1%;margin:0%\">\n                   <label for=\"childrens\" style=\"color:white\"> Child </label>\n                    {!!Form::select('childrens',$kids, array(Session::get('query_children')), array('class'=>'form-control'))!!}\n                       \n                    </div>\n            </div>\n          \n        </div>\n        <div class=\"row text-center\">\n        {!! Form::hidden('price_check', null, array('id'=>'price_check')) !!}\n          {!! Form::hidden('rating_check', null, array('id'=>'rating_check')) !!}\n            {!! Form::hidden('district_check', null, array('id'=>'district_check')) !!}\n            <br/>\n            {!!Form::submit('Search', array('class'=>'btn btn-white btn-lg','style' => 'border-radius: 10px'))!!}\n        </div>\n    {!!Form::close()!!}\n</div>\n\n<script type=\"text/javascript\">\n\n    $('#in').on('blur',function(){    \n    if($(this).val() != \"\"){\n        if($(this).val() != $('#out').val()){\n      var date = $(this).datepicker('getDate');\n        date.setDate(date.getDate()+1);\n        $('#out').datepicker('setDate', date);\n    }\n\n    }\n  });\n\n    $('#out').on('mouseleave',function(){ \n    if($('#in').val() != \"\"){   \n    if($(this).val() == $('#in').val()){\n      var date = $('#in').datepicker('getDate');\n        date.setDate(date.getDate()+1);\n        $(this).datepicker('setDate', date);\n    }\n  }\n  });\n    setInterval(check_checkin, 1000);\n\n    function check_checkin(){\n      if($('#in').val() != \"\"){\n        if($('#in').val() == $('#out').val()){\n      var date = $('#in').datepicker('getDate');\n        date.setDate(date.getDate()+1);\n        $('#out').datepicker('setDate', date);\n    }\n    }\n  }\n\n</script>\n@include('front.hotel.component.search_script')\n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/sidebar_search.blade.php",
+			"file_size": 6684,
+			"file_write_time": 131323943085827024,
+			"settings":
+			{
+				"buffer_size": 6567,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -688,32 +739,89 @@
 	],
 	"file_history":
 	[
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/base.blade.php",
+		"/C/Users/user/Desktop/patravelnew/2-22/SearchController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/SettingController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SettingController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_script.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade 2.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade 2.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/index.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade.php",
+		"/C/wamp64/www/peza/app/Models/Smr.php",
+		"/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
+		"/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
+		"/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
+		"/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
+		"/C/Users/user/Desktop/patravelnew/hotel_rooms.sql",
+		"/C/Users/user/Desktop/patravelnew/SearchController.php",
+		"/C/Users/user/Desktop/patravelnew/search_script.blade.php",
+		"/C/Users/user/Desktop/patravelnew/search_result_blade.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/LoginController.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/DealerController.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/dealerprofile.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/requestcontent.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/search.blade.php",
+		"/C/wamp64/www/library_system/app/Http/routes.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/HomeController.php",
+		"/C/wamp64/www/library_system/app/Http/Kernel.php",
+		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
+		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/login.blade.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/DealerMiddleware.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/UserMiddleware.php",
+		"/C/wamp64/www/library_system/resources/views/errors/404.blade.php",
+		"/C/wamp64/www/library_system/resources/views/index.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/404.blade.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/AdminMiddleware.php",
+		"/C/wamp64/www/library_system/app/Http/adminRoutes.php",
+		"/C/wamp64/www/library_system/app/Http/Middleware/Authenticate.php",
+		"/C/wamp64/www/library_system/resources/views/front/404.html",
+		"/C/wamp64/www/library_system/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfunddetails.blade.php",
+		"/C/wamp64/www/library_system/app/User.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/BookFundController.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/SearchController.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/RequestController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/MemberController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/bookings.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/changerebates.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/BookingController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SalesController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/listing.blade 2.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/transactions.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/add_payment.blade.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/listing.blade.php",
+		"/C/wamp64/www/ipmstest/application/views/admin/downloadexcel.php",
+		"/C/wamp64/www/ipmstest/application/views/admin/annual_report.php",
+		"/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
+		"/C/wamp64/www/ipmstest/application/controllers/admin.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/HomeController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/SearchController.php",
+		"/C/wamp64/www/testipms/application/views/admin/annual_report.php",
+		"/C/wamp64/www/testipms/application/controllers/admin.php",
+		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
+		"/C/Users/user/Desktop/adminsample/examples/dashboard.html",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
 		"/C/wamp64/www/peza/app/Models/Sximo/Menu.php",
 		"/C/wamp64/www/peza/app/Models/Sximo/Module.php",
-		"/C/wamp64/www/peza/app/Models/Smr.php",
 		"/C/wamp64/www/peza/app/Models/Locator.php",
 		"/C/wamp64/www/peza/app/Http/pageroutes.php",
-		"/C/Users/user/Desktop/patravelnew/SearchController.php",
-		"/C/Users/user/Desktop/patravelnew/search_result_blade.php",
 		"/C/wamp64/www/peza/resources/views/haulercompany/public/form.blade.php",
 		"/C/wamp64/www/peza/app/Http/moduleroutes.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/footer.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/frontfooter.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/search.blade.php",
-		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
-		"/C/wamp64/www/library_system/app/Http/Controllers/Front/SearchController.php",
 		"/C/wamp64/www/peza/app/Http/routes.php",
-		"/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
-		"/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
-		"/C/wamp64/www/ipmstest/application/views/admin/downloadexcel.php",
-		"/C/wamp64/www/ipmstest/application/controllers/admin.php",
-		"/C/wamp64/www/ipmstest/application/views/admin/annual_report.php",
-		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
 		"/C/wamp64/www/ipmstest/application/views/nurse/rme.php",
 		"/C/wamp64/www/ipmstest/application/views/includes.php",
 		"/C/wamp64/www/ipmstest/application/views/index.php",
 		"/C/wamp64/www/peza/app/Http/Controllers/Controller.php",
-		"/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/report-acknowledgement-receipt.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/report-acknowledgement-receipt-excel.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Pmis.php",
@@ -758,68 +866,11 @@
 		"/C/wamp64/www/ipmsn/application/views/nurse/viewrme.php",
 		"/C/wamp64/www/ipmsn/application/controllers/nurse.php",
 		"/C/wamp64/www/ipmsn/application/controllers/laboratorist.php",
-		"/C/wamp64/www/ipmsn/application/views/laboratorist/laboratory.php",
-		"/C/wamp64/www/ipmsn/application/views/radiologist/radiology.php",
-		"/C/wamp64/www/ipmsn/application/controllers/radiologist.php",
-		"/C/wamp64/www/ipmsn/application/controllers/medical.php",
-		"/C/wamp64/www/ipmsn/application/views/medical/physicalexam.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/database.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
-		"/C/Users/user/Desktop/newfront/index.html",
-		"/C/wamp64/www/library_system/resources/views/front/includes/header.blade.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/Front/BookFundController.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/requestcontent.blade.php",
-		"/C/wamp64/www/library_system/app/Http/routes.php",
-		"/C/Users/user/Desktop/newfront/shortcodes.html",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_script.blade.php",
-		"/C/wamp64/www/ipmsn/application/views/accountant/dashboard.php",
-		"/C/wamp64/www/ipmsn/application/views/accountant/view_payment.php",
-		"/C/wamp64/www/ipmsn/application/controllers/accountant.php",
-		"/C/wamp64/www/library_system/resources/views/front/front.blade.php",
-		"/C/Users/user/Desktop/newfront/pricing.html",
-		"/C/Users/user/Desktop/newfront/blog-item.html",
-		"/C/Users/user/Desktop/newfront/services.html",
-		"/C/wamp64/www/library_system/resources/views/front/includes/fronthead.blade.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/Front/RequestController.php",
-		"/C/wamp64/www/library_system/app/User.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/RequestController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/search_script.blade.php",
-		"/C/wamp64/www/library_system/public/front/sweetalert/dist/sweetalert2.css",
-		"/C/wamp64/www/library_system/public/front/sweetalert/dist/sweetalert2.min.css",
-		"/C/wamp64/www/library_system/public/front/css/bootstrap.css",
-		"/C/wamp64/www/library_system/public/front/css/font-awesome.min.css",
-		"/C/wamp64/www/library_system/public/front/sweetalert/dist/sweetalert.css",
-		"/C/wamp64/www/library_system/public/front/css/main.css",
-		"/C/wamp64/www/library_system/public/front/css/prettyPhoto.css",
-		"/C/wamp64/www/library_system/public/front/css/responsive.css",
-		"/C/wamp64/www/library_system/public/front/css/animate.min.css",
-		"/C/wamp64/www/library_system/public/front/css/bootstrap.min.css",
-		"/C/Users/user/Desktop/newfront/about-us.html",
-		"/C/Users/user/Desktop/newfront/blog.html",
-		"/C/wamp64/www/ipmsn/application/views/nurse/dailylist.php",
-		"/C/payara41/glassfish/domains/domain1/applications/CA-PSALM/CA-PSALM-bio_war/resources/js/guidely/guidely.min.js",
-		"/C/Bitnami/wampstack-5.6.30-0/imagemagick/include/Magick++/Drawable.h",
-		"/C/wamp64/www/library_system/resources/views/front/contents/indexcontent.blade.php",
-		"/C/Users/user/Desktop/newfront/portfolio.html",
-		"/C/wamp64/www/library_system/resources/views/front/index.blade.php",
-		"/C/Users/user/Desktop/frontsample/blog-details.html",
-		"/C/Users/user/Desktop/frontsample/contact.html",
-		"/C/wamp64/www/library_system/app/Http/Controllers/BookFundController.php",
-		"/C/wamp64/www/library_system/resources/views/admin/contents/admindashboard.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/login.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/HotelContentTransformer.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Hotels.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/Availabilities.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/head.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/master.blade.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/base.blade.php"
+		"/C/wamp64/www/ipmsn/application/views/laboratorist/laboratory.php"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -833,6 +884,76 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"name",
+			" @endforeach",
+			"getUserData",
+			"dd",
+			"dd(",
+			"dd",
+			"getData",
+			"2",
+			"getData",
+			"data",
+			"getData",
+			"destination",
+			"removerow",
+			"remove",
+			"codelist",
+			"make_hotel_availabilities",
+			"requestHotel",
+			"dd(",
+			"dd",
+			"availabity",
+			"Guzzle",
+			"guzzle",
+			"codeList",
+			"parana",
+			"$data[\"hotels\"]",
+			"$data['hotels']",
+			"destinationName",
+			" $from = 33001;\n            $to = 34000;",
+			"zonecode\": ",
+			"zonecode\":  ",
+			"zonecode\": 0",
+			"zonecode",
+			"hotels",
+			"dd",
+			"facility_province_id",
+			"facility_province",
+			"facility_province_id",
+			"required=\"required\"",
+			"\"form-control\"",
+			"required=\"required\"",
+			"form-control",
+			"getdetails",
+			"value=\"",
+			"form-group",
+			"form",
+			"form-group",
+			"form-control",
+			"has",
+			"return",
+			"seemsg",
+			"has",
+			"search",
+			"base_uri",
+			"guzzle",
+			"option1",
+			"optio1",
+			"classification",
+			"menu1_classification",
+			"dashboard",
+			"data[0]",
+			"id",
+			"datepicker",
+			"autosave",
+			"quarter",
+			"getDe",
+			"isset",
+			"quarter",
+			"quarter_year",
+			"quarter",
+			"save",
 			"facility_brg",
 			"quarter ",
 			"quarter_year",
@@ -890,77 +1011,7 @@
 			"<button type=\"submit\" name=\"apply\" class=\"btn btn-info btn-sm\" ><i class=\"fa  fa-check-circle\"></i> {{ Lang::get('core.sb_apply') }}</button>",
 			"insertRow",
 			"ID",
-			"'))",
-			"locator_psic_description",
-			"locator_psic",
-			"locator_psic_description",
-			"acq",
-			"var",
-			"soliare",
-			"view",
-			"return",
-			"printbypackage",
-			"package",
-			"var",
-			"form",
-			"id=\"submit",
-			"permitted",
-			"$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\\-\\=';",
-			"compname",
-			"excel",
-			"dvData3",
-			"data3",
-			"';?>\n",
-			"download",
-			"ReportAcknowledgementReceipt",
-			"printdiv",
-			"ReportAcknowledgementReceipt",
-			"annual",
-			"psic",
-			"region",
-			"facility_id",
-			"facil",
-			"data-toggle",
-			"facility",
-			"form",
-			"comboselect",
-			"form",
-			"locator",
-			"el",
-			"getposition",
-			">\\\n",
-			"resultsearch",
-			"CHEST XRAY",
-			"CXR PA;",
-			"findings",
-			"blood chemistry",
-			"blood ch",
-			"blood",
-			"hdl",
-			"bchdl",
-			"pregnancy test",
-			"others",
-			"pregnancy",
-			"physical_exam",
-			"physical()",
-			"hr>",
-			"hr",
-			"laboratory",
-			"rme()",
-			"sum",
-			"packamt",
-			"$sum",
-			"$daily",
-			"save",
-			"function labora",
-			"laboratory",
-			"radiology",
-			"tab",
-			"id=\"6",
-			"id",
-			"resclass",
-			"resnotes",
-			"resclass"
+			"'))"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -978,198 +1029,82 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/SearchController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12744,
+						"buffer_size": 22415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12052,
-								12052
+								1954,
+								1954
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 333.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/wamp64/www/peza/app/Http/Controllers/LocatorController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								393,
-								393
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19085,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7778,
-								7778
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6979.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/wamp64/www/peza/app/Models/Smr.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 532,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								195,
-								195
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 88420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								75278,
-								75278
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 49373.0,
+						"translation.y": 1273.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/C/wamp64/www/peza/app/Http/Controllers/HomeController.php",
+					"buffer": 1,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/show.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6392,
+						"buffer_size": 5447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								4500,
+								5328
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 960.0,
+						"translation.y": 207.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
+					"buffer": 2,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/choose_room.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6341,
+						"buffer_size": 8624,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1527,
-								1527
+								2187,
+								2187
 							]
 						],
 						"settings":
@@ -1179,7 +1114,126 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 716.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/DestinationController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43744,
+								43733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22113.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/booking_details.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9573,
+								9573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4747.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/FrontRoute.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								739
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1355,
+								1369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 361.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
@@ -1187,108 +1241,19 @@
 				},
 				{
 					"buffer": 7,
-					"file": "resources/views/front/contents/indexcontent.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1293,
-								1293
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/Http/routes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1220,
-								1220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/Http/Controllers/Front/HomeController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								900,
-								900
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
 					"file": "public/front/userjs/userapp.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7698,
+						"buffer_size": 7999,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5586,
-								5586
+								3991,
+								3976
 							]
 						],
 						"settings":
@@ -1296,28 +1261,116 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.x": -0.0,
+						"translation.y": 1753.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "app/Http/Controllers/Front/SearchController.php",
+					"buffer": 8,
+					"file": "resources/views/front/contents/dealerprofile.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2763,
+						"buffer_size": 3636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								761,
-								1638
+								3566,
+								3601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1593.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/views/front/contents/dealerindex.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1446,
+								1446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/Http/Controllers/Front/DealerController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								967,
+								701
 							]
 						],
 						"settings":
@@ -1327,39 +1380,104 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 798.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "resources/views/front/contents/search.blade.php",
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/search_result.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2704,
+						"buffer_size": 4890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								61,
+								61
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/search_script.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-3/sidebar_search.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							],
+							[
+								936,
+								936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1367,7 +1485,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -1404,7 +1522,7 @@
 	"project": "library.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
