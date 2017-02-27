@@ -13,7 +13,7 @@
             </blockquote>
               </div>
               <div class="col-md-4 pull-right" style="padding: 0;">               
-               <img src="frontimage/logo2.png" height="10" class="img-responsive pull-right">
+               <img src="{{url('/frontimage/logo2.png')}}" height="10" class="img-responsive pull-right">
               </div>
             </div>
             

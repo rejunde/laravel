@@ -13,7 +13,7 @@
 					<a href="" data-toggle="collapse">Book Dealers form</a>
 
 				</div>
-				
+
 				<div class="col-md-8">					
 					<table class="table table-hover" >
 						<thead>
@@ -33,7 +33,7 @@
 								</td>
 								
 								
-								<td  data-toggle="collapse" data-target="#batch{{$key+1}}">
+								<td colspan="2"  data-toggle="collapse" data-target="#batch{{$key+1}}">
 
 									<?php
 									$formatter = new NumberFormatter('en_US', NumberFormatter::SPELLOUT);
@@ -41,10 +41,9 @@
 										"%spellout-ordinal");
 										?>
 										{{ucwords($formatter->format($number) . PHP_EOL)}} Batch of Request
-										
 										<div id="batch{{$key+1}}" class="collapse">
-											From {{$value->department_name}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" class="btn btn-info btn-xs">See Details</a>
-											
+										<font color="red">From {{$value->department_name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="{{url('/details/' . $value->materialrequest_id)}}" class="btn btn-info btn-xs">See Details</a>
+
 										</div>
 									</td>
 								</tr>
@@ -56,7 +55,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</main>
 
 	@stop

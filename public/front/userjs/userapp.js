@@ -238,6 +238,10 @@ $(document).ready(function(){
 		});
 		$('#'+$('#'+ele).data('value')).addClass('active');
 	}
+
+	$('#savePrice').on('click',function(){
+		swal("Good job!", "You clicked the button!", "success");
+	});
 		/*window.onbeforeunload = function() {
 			return 'You have unsaved changes!';
 		}*/

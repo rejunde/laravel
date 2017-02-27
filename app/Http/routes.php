@@ -30,23 +30,24 @@ Route::group(array('middleware'=>array('auth','user')),function(){
 	Route::get('/request',['uses'=>'Front\RequestController@index']);
 	Route::get('/bookfund/getdata','Front\BookFundController@getFundData');	
 	Route::get('/bookfund/bookfunddetails/{id}', [
-    'as'   => 'bookfund/bookfunddetails',
-    'uses' => 'Front\BookFundController@bookFundDetails'
-	]);
+		'as'   => 'bookfund/bookfunddetails',
+		'uses' => 'Front\BookFundController@bookFundDetails'
+		]);
 	Route::get('/search',['uses'=>'Front\SearchController@index']);
 	Route::get('/search/searchresult/{searchdata}/{filterdata}', [
-    'as'   => 'search/searchresult',
-    'uses' => 'Front\HomeController@searchResult'
-	]);
+		'as'   => 'search/searchresult',
+		'uses' => 'Front\HomeController@searchResult'
+		]);
 });
 
 Route::group(array('middleware'=>array('auth','dealer')),function(){
 	Route::get('/dealer',['uses'=>'Front\DealerController@index']);
-		Route::get('/profile',['uses'=>'Front\DealerController@dealerProfile']);
-		Route::post('/dealer/updateprofile', [
-    'as'   => '/dealer/updateprofile',
-    'uses' => 'Front\DealerController@updateProfile'
-	]);
+	Route::get('/profile',['uses'=>'Front\DealerController@dealerProfile']);
+	Route::post('/dealer/updateprofile', [
+		'as'   => '/dealer/updateprofile',
+		'uses' => 'Front\DealerController@updateProfile'
+		]);
+	Route::get('/details/{id}',['uses'=>'Front\DealerController@dealermaterialdetails']);
 
 });
 

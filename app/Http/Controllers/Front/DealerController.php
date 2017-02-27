@@ -24,8 +24,7 @@ class DealerController extends Controller
 
         $school_year = DB::table('school_year')->orderBy('year_id', 'desc')->first();
         $batch = DB::table('dealer_material_request')
-                        ->join('dealer_book_fund', 'dealer_material_request.bookfund_id','=','dealer_book_fund.bookfund_id')
-                        ->join('school_year','dealer_book_fund.year_id','=','school_year.year_id')
+                        ->join('school_year','dealer_material_request.year_id','=','school_year.year_id')
                         ->join('department','dealer_material_request.department_id','=','department.department_id')
                         ->where('school_year.year','=',$school_year->year)
                         ->orderBy('dealer_material_request.materialrequest_date_requested','desc')
@@ -55,6 +54,18 @@ class DealerController extends Controller
         ->update(['dealer_name' => $request->dealer_name,'dealer_contact_fullname'=>$request->dealer_contact_fullname,'dealer_contact_no'=>$request->dealer_contact_no,'dealer_address'=>$request->dealer_address,'dealer_flag'=>1]);         
         return \Redirect::back()->with('success', ['msg' => "Success"]);
         
+    }
+
+    public function dealermaterialdetails($id){
+
+          $detailrequest = DB::table('dealer_material_request')
+                        ->join('school_year','dealer_material_request.year_id','=','school_year.year_id')
+                        ->join('department','dealer_material_request.department_id','=','department.department_id')
+                         ->join('dealer_book_details','dealer_material_request.materialrequest_id','=','dealer_book_details.bookrequest_id')
+                        ->where('dealer_material_request.materialrequest_id','=',$id)
+                        ->orderBy('dealer_material_request.materialrequest_date_requested','desc')
+                        ->get();
+         return view('front/contents/dealermaterialdetails',array('data'=>$detailrequest));
     }
 
     public function create()
