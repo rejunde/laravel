@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"texa",
+				"textarea"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"cx",
+				"cxname"
+			],
+			[
+				"for",
+				"for\tfor …"
+			],
+			[
+				"owner",
+				"owner_street"
+			],
+			[
+				"provin",
+				"provinces"
+			],
+			[
+				"fac",
+				"facility_brgy"
+			],
+			[
+				"faci",
+				"facility_city"
+			],
+			[
+				"facil",
+				"facility_province"
+			],
+			[
 				"th",
 				"th\tTag"
 			],
@@ -34,10 +74,6 @@
 			[
 				"data",
 				"datahotel"
-			],
-			[
-				"for",
-				"foreach\tforeach …"
 			],
 			[
 				"im",
@@ -100,24 +136,12 @@
 				"user_email"
 			],
 			[
-				"fac",
-				"facility_street"
-			],
-			[
 				"fa",
 				"facility_brgy"
 			],
 			[
-				"faci",
-				"facility_name"
-			],
-			[
 				"tbl",
 				"tbl_locator_company"
-			],
-			[
-				"facil",
-				"facility_id"
 			],
 			[
 				"smr",
@@ -134,10 +158,6 @@
 			[
 				"mat",
 				"materialtype"
-			],
-			[
-				"s",
-				"selected\tAttr"
 			],
 			[
 				"img",
@@ -162,10 +182,6 @@
 			[
 				"jsone",
 				"json_decode"
-			],
-			[
-				"owner",
-				"owner_brgy"
 			],
 			[
 				"city",
@@ -424,10 +440,6 @@
 				"margin-left"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"margin",
 				"margin-left"
 			],
@@ -502,92 +514,94 @@
 			[
 				"val",
 				"val"
-			],
-			[
-				"packa",
-				"packagedate"
-			],
-			[
-				"resother",
-				"resothers2"
-			],
-			[
-				"pxreques",
-				"pxrequesthdr"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/SettingController.php",
+			"file": "/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
 			"settings":
 			{
-				"buffer_size": 4002,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
-			"settings":
-			{
-				"buffer_size": 22415,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Front/DealerController.php",
-			"settings":
-			{
-				"buffer_size": 3924,
+				"buffer_size": 20080,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/dealerindex.blade.php",
+			"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
 			"settings":
 			{
-				"buffer_size": 1948,
+				"buffer_size": 148709,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/bookfund.blade.php",
+			"contents": "<style>\n\t#wrapper{\n\n\t}\n\n\t.wizard{\n\t\tfont-size: 30px;\n\t}\n\n\t.snackbar{\n\t\tposition: fixed;\n\t\tleft: 50%;\n\t\tbottom: 0px;\n\t\tmargin-left: -250px;\n\t\tpadding: 20px;\n\t\theight: 60px;\n\t\twidth: 500px;\n\t\tz-index: 99999;\n\n\t\tbackground: rgba(0, 0, 0, 0.85);\n\t\tborder-radius: 4px 4px 0px 0px;\n\t\tcolor: #FFF;\n\n\t\ttransition: hover 0.3s ease;\n\t\t-webkit-transition: hover 0.3s ease;\n\t\t-moz-transition: hover 0.3s ease;\n\t\t-ms-transition: hover 0.3s ease;\n\t\t-o-transition: hover 0.3s ease;\n\t}\n\t\t.snackbar:hover{\n\t\t\tbackground: rgba(0, 0, 0, 0.9);\n\n\t\t\ttransition: hover 0.3s ease;\n\t\t\t-webkit-transition: hover 0.3s ease;\n\t\t\t-moz-transition: hover 0.3s ease;\n\t\t\t-ms-transition: hover 0.3s ease;\n\t\t\t-o-transition: hover 0.3s ease;\n\t\t}\n\n\t.snackbar a.btn-snackbar-dismiss{\n\t\tdisplay: inline-block;\n\t}\n\n\t.snackbar span.snackbar-msg{\n\t\tdisplay: inline-block;\n\t\tfloat: left;\n\t\tmargin-bottom: 0px;\n\t\twidth: 85%;\n\t}\n\n\t.snackbar span.snackbar-msg i.fa{\n\t\tmargin-right: 10px;\n\n\t\tfont-size: 20px;\n\t}\n\n\t@media(max-width: 500px){\n\t\t.snackbar{\n\t\t\tleft: 0;\n\t\t\tmargin-left: 0px;\n\t\t\twidth: 100%;\n\n\t\t\tborder-radius: 0px;\n\t\t}\n\n\t\t.snackbar span.snackbar-msg{\n\t\t\twidth: 80%;\n\t\t}\n\t}\n\n\t.nav-pills > li.active > a,\n\t.nav-pills > li.active > a:focus,\n\t.nav-pills > li.active > a:hover{\n\t\tbackground-color: #F07057;\n\t}\n\n\t.select2{\n\t\twidth: 100%;\n\t}\n\n\t.locating-icon{\n\t\tposition: absolute;\n\t\ttop: 9px;\n\t\tright: 17px;\n\t}\n\n\t.located-icon{\n\t\tposition: absolute;\n\t\ttop: 9px;\n\t\tright: 25px;\n\t}\n\n\t.autosave{\n\t\tposition: fixed;\n\t\ttop: 0;\n\t\tleft: 0;\n\t\twidth: 100%;\n\t\theight: 10px;\n\t\tz-index: 99999;\n\t}\n\t\t.autosave .autosave-bar{\n\t\t\tdisplay: block;\n\t\t\theight: 5px;\n\t\t\twidth: 0px;\n\n\t\t\tbackground: #F07057;\n\n\t\t\ttransition: 0.3s ease;\n\t\t\t-webkit-transition: 0.3s ease;\n\t\t\t-moz-transition: 0.3s ease;\n\t\t\t-ms-transition: 0.3s ease;\n\t\t\t-o-transition: 0.3s ease;\n\t\t}\n\n\t.wiz{\n\t\tposition: relative;\n\t}\n\n\t.wiz.fixed{\n\t\tposition: fixed;\n\t\ttop: 18%;\n\t\twidth: 255px;\n\t}\n\n\ttable.table{\n\t\tbackground: #FFF;\n\n\t\tfont-size: 12px !important;\n\t}\n\t\ttable.table thead th{\n\t\t\ttext-align: center !important;\n\t\t}\n\t\ttable.table tbody td label.radio,\n\t\ttable.table tbody td label.checkbox{\n\t\t\tmargin-left: 15px;\n\t\t}\n\n\tul.nav li ul{\n\t\tlist-style-type: none;\n\t\tdisplay: none;\n\t}\n\t\tul.nav li.active ul{\n\t\t\tdisplay: inline-block;\n\t\t}\n\n\tul.nav li.active ul li a{\n\t\tbackground: none;\n\t}\n\n\t.dropdown-menu{\n\t\tmargin: -34px -140px 0 !important;\n\t\tmin-width: 125px !important;\n\t\tpadding: 0px !important;\n\n\t\tborder: none !important;\n\t\tborder-radius: 0px !important;\n\t\tbox-shadow: 0 3px 6px rgba(0, 0, 0, 0.3) !important;\n\t}\n\n\t.dropdown-menu > li > a{\n\t\tpadding: 10px 20px !important;\n\t}\n\n\t.dropdown-menu > li > a > i.fa{\n\t\tmargin-right: 15px;\n\t}\n\n\t.btn-sm.dropdown-toggle{\n\t\tpadding: 0px 10px !important;\n\n\t\tfont-size: 15px !important;\n\t}\n\n\t.btn-sm.dropdown-toggle > i.fa{\n\t\tpadding: 0 !important;\n\t}\n\n\tul.dropdown-menu > li:first-child:after {\n\t\tcontent: \" \";\n\t\twidth: 0;\n\t\theight: 0;\n\t\tposition: absolute;\n\t\tright: -15px;\n\t\ttop: 10px;\n\n\t\tborder-top: 10px solid transparent;\n\t\tborder-bottom: 10px solid transparent;\n\t\tborder-left: 15px solid #FFF;\n\n\t\tfilter: drop-shadow(2px 0px 1px rgba(0, 0, 0, 0.15));\n\t\t-webkit-filter: drop-shadow(2px 0px 1px rgba(0, 0, 0, 0.15));\n\t}\n\t\tul.dropdown-menu > li:first-child:hover:after{\n\t\t\tborder-left: 15px solid #F5F5F5;\n\t\t}\n</style>\n\n<div class=\"snackbar\" style=\"display: none;\">\n\t<span class=\"snackbar-msg\"><i class=\"fa fa-circle-o-notch fa-fw fa-3x fa-spin\"></i> Saving...</span>\n\t<a href=\"#\" class=\"btn-snackbar-dismiss\" style=\"display: none;\">DISMISS</a>\n</div>\n\n<div class=\"autosave\"><span class=\"autosave-bar\"></span></div>\n\n{!! Form::open(array('url' => 'smr/savepublic', 'class' => 'form-horizontal', 'files' => true, 'parsley-validate' => '', 'novalidate' => ' ')) !!}\n\t@if(Session::has('messagetext'))\n\t\t{!! Session::get('messagetext') !!}\n\t@endif\n\n\t<ul class=\"parsley-error-list\">\n\t\t@foreach($errors->all() as $error)\n\t\t\t<li>{{ $error }}</li>\n\t\t@endforeach\n\t</ul>\n\n\t<div class=\"col-md-12\">\n\t\t<fieldset>\n\t\t\t{!! Form::hidden('id', $row['id']) !!}\n\t\t\t<input type=\"hidden\" name=\"save_flag\" value=\"0\">\n\n\t\t\t<div class=\"col-md-3\">\n\t\t\t\t<ul class=\"nav nav-pills nav-stacked wiz\">\n\t\t\t\t\t<li class=\"active\"><a data-toggle=\"tab\" href=\"#menu1\">General Information</a></li>\n\t\t\t\t\t<li><a data-toggle=\"tab\" href=\"#menu2\">Module 1: Quarterly Self-Monitoring Report</a></li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a data-toggle=\"tab\" href=\"#menu3\">\n\t\t\t\t\t\t\tModule 2: RA 6969\n\n\t\t\t\t\t\t\t<ul class=\"sub-sidebar\">\n\t\t\t\t\t\t\t\t<li><a href=\"#mod2-a\">CCO Report</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#mod2-b\">HW Generator</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#mod2-c\">HW Treater/Recycler</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><a data-toggle=\"tab\" href=\"#menu4\">Module 3: RA 9275</a></li>\n\t\t\t\t\t<li><a data-toggle=\"tab\" href=\"#menu5\">Module 4: RA 8749</a></li>\n\t\t\t\t\t<li><a data-toggle=\"tab\" href=\"#menu6\">Module 5: P.D. 1586</a></li>\n\t\t\t\t\t<li><a data-toggle=\"tab\" href=\"#menu7\">Module 6: Others</a></li>\n\t\t\t\t\t<li><a href=\"#\" class=\"temp-save\"><i class=\"fa fa-save push-right\"></i> Apply Changes</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-md-9\">\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div id=\"menu1\" class=\"tab-pane fade in active\">\n\t\t\t\t\t\t<legend>Establishment Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Facility Name </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{{-- {!! Form::text('smr_company_name', $row['smr_company_name'], array('class' => 'form-control', 'placeholder' => '')) !!} --}}\n\t\t\t\t\t\t\t\t<select class=\"select2\" name=\"facility_id\" id=\"facility_id\"></select>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Establishment Address</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Street </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('facility_street', $row['facility_street'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Barangay </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('facility_brgy', $row['facility_brgy'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Province </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('facility_province', $row['facility_province'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> City/Municipality </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('facility_city', $row['facility_city'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Company/Owner Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name of Owner </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{{-- {!! Form::text('smr_company_name', $row['smr_company_name'], array('class' => 'form-control', 'placeholder' => '')) !!} --}}\n\t\t\t\t\t\t\t\t<select class=\"select2\" name=\"owner_name\" id=\"owner_name\"></select>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Company Address</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Street </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('owner_street', $row['owner_street'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Barangay </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('owner_brgy', $row['owner_brgy'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Province </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('owner_province', $row['owner_province'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> City/Municipality </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('owner_city', $row['owner_city'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Contact Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Phone Number </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('phone_no', $row['phone_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Fax Number </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('fax_no', $row['fax_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> E-mail Address </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('email', $row['email'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Type of Business/Industry</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Philippine Standard Industry Classification Code No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{{-- {!! Form::text('psi_class_code', $row['psi_class_code'], array('class' => 'form-control', 'placeholder' => '')) !!} --}}\n\t\t\t\t\t\t\t\t<select class=\"select2\" name=\"psi_class_code\" id=\"psi_class_code\"></select>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Philippine Standard Industry Descriptor </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('psi_descriptor', $row['psi_descriptor'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Classification </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::textarea('classification', $row['classification'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>CEO/President Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('ceo_name', $row['ceo_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Telephone No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('ceo_phone_no', $row['ceo_phone_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Fax No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('ceo_fax_no', $row['ceo_fax_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> E-mail Address </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('ceo_email', $row['ceo_email'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Plant Manager Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('plant_manager_name', $row['plant_manager_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Telephone No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('plant_manager_phone_no', $row['plant_manager_phone_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Fax No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('plant_manager_fax_no', $row['plant_manager_fax_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> E-mail Address </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('plant_manager_email', $row['plant_manager_email'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Pollution Control Officer Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('pol_ctrl_name', $row['pol_ctrl_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Telephone No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('pol_ctrl_phone_no', $row['pol_ctrl_phone_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Fax No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('pol_ctrl_fax_no', $row['pol_ctrl_fax_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> E-mail Address </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('pol_ctrl_email', $row['pol_ctrl_email'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Legal Classification</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<div class=\"col-md-5\">\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"legal_classification[option1]\" class=\"\"> Single Proprietorship\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"legal_classification[option2]\" class=\"\"> Private Domestic Corporation\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"legal_classification[option3]\" class=\"\"> Multi-national\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<div class=\"col-md-5\">\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"legal_classification[option4]\" class=\"\"> Partnership\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"legal_classification[option5]\" class=\"\"> Government Corporation\n\t\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"legal_classification[option6]\" class=\"cb-legal-class-others\"> Others\n\t\t\t\t\t\t\t\t{!! Form::text('legal_classification[others]', $row['legal_classification'], array('class' => 'form-control tb-legal-class-others', 'placeholder' => 'Others')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu2\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<legend>Plant Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name of Plant </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('plant_name', $row['plant_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Reference No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('plant_ref_no', $row['plant_ref_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Plant Information </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::textarea('plant_info', $row['plant_info'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t<code><em>Please provide necessary revised, corrected, or updated information not contained in your <strong>General Information Page</strong></em></code>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading\">DENR Permits/Licenses/Clearances <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-entry\" id=\"denr-permit\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th width=\"20%\">Environmental Laws</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Permits</th>\n\t\t\t\t\t\t\t\t\t\t\t<th width=\"15%\">Date of Issue</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\" width=\"15%\">Expiry Date</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td rowspan=\"2\">RA 9275</td>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"15%\">A/C No.</td>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"35%\">&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>PO. No.</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td rowspan=\"3\">PD 1586</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>ECC 1</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>ECC 2</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>ECC 3</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td rowspan=\"4\">RA 6969</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>DENR<br />Registry ID</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>COO Registry</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Importer<br />Clearance No.</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Permit to<br />Transport</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td rowspan=\"2\">RA 8749</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>A/C No.</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>PO No.</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading\">Operation <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-entry\" id=\"operation\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Operating hrs./day</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Operating days/week</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\"># of shift/day</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Average</td>\n\t\t\t\t\t\t\t\t\t\t\t<td><span>&nbsp;</span><input type=\"hidden\" name=\"ave_opt_hrs\" value=\"\"></td>\n\t\t\t\t\t\t\t\t\t\t\t<td><span>&nbsp;</span><input type=\"hidden\" name=\"ave_opt_days\" value=\"\"></td>\n\t\t\t\t\t\t\t\t\t\t\t<td><span>&nbsp;</span><input type=\"hidden\" name=\"ave_shift\" value=\"\"></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Maximum</td>\n\t\t\t\t\t\t\t\t\t\t\t<td><span>&nbsp;</span><input type=\"hidden\" name=\"max_opt_hrs\" value=\"\"></td>\n\t\t\t\t\t\t\t\t\t\t\t<td><span>&nbsp;</span><input type=\"hidden\" name=\"max_opt_days\" value=\"\"></td>\n\t\t\t\t\t\t\t\t\t\t\t<td><span>&nbsp;</span><input type=\"hidden\" name=\"max_shift\" value=\"\"></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Operation/Production/Capacity</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Daily Production Output </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('ave_daily_output', $row['ave_daily_output'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Output this Quarter </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('total_output', $row['total_output'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Water Consumption this Quarter <code>(m<sup>3</sup>)</code> </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('total_water', $row['total_water'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Electric Consumption this Quarter <code>(KwH)</code> </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('total_elec', $row['total_elec'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu3\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<legend id=\"mod2-a\">A. CCO Report</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Common Name/UPAC/CAS Index Name </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('cas_index_name', $row['cas_index_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> CAS No. </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('cas_no', $row['cas_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Trade Name </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('tradename', $row['tradename'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">For Importers Only <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"8\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Qty Requested</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Import Clearance No.</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Arrival</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Qty Received</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Port of Entry</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Country of Origin</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Country of Manufacture</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t<tfoot>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"3\">Total Quantity Requested (annual)</td>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\">Total Quantity Received (annual)</td>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tfoot>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">For Distributors (Importers/Non-importers) <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"5\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Name of Client</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>License No.</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Distribution</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t<tfoot>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"5\">Total Quantity Distributed</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tfoot>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">For Non-Importer Users <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Name of Distributor</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Purchase</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-29</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t<tfoot>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\">Total Quantity Purchased from Distributor</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tfoot>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">For Producers <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Daily Production Output </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('ave_daily_output', $row['ave_daily_output'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Output this Quarter </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('total_output', $row['total_output'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Quantity of Stock Inventory<br /><code>(Start of Quarter)</code> </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('qty_start_qtr', $row['qty_start_qtr'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Quantity of Stock Inventory<br /><code>(End of Quarter)</code> </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('qty_end_qtr', $row['qty_end_qtr'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Name of Distributor</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Purchase</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-29</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t<tfoot>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\">Total Quantity Sold</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tfoot>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Used in Production <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Daily Production Output </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('ave_daily_output', $row['ave_daily_output'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Quantity Used per month </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('ave_qty_used', $row['ave_qty_used'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Output this Quarter </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('total_output', $row['total_output'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Quantity Used this Quarter </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('total_qty_used', $row['total_qty_used'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Name of Distributor</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Purchase</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-29</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t<tfoot>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\">Total Quantity Purchased from Distributor</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tfoot>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Stock Inventory/Waste Chemical Generated <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Quantity of Waste Chemical Generated per month </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('ave_wc_qty', $row['ave_wc_qty'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Quantity of Waste Chemical Generated this quarter </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('total_wc_qty', $row['total_wc_qty'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Quantity of Stock Inventory<br /><code>(Start of Quarter)</code> </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('qty_start_qtr', $row['qty_start_qtr'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Quantity of Stock Inventory<br /><code>(End of Quarter)</code> </label>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('qty_end_qtr', $row['qty_end_qtr'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Other Information <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive\">\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"30%\">Manner of handling hazardous wastes</td>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"70%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"checkbox\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"manner[]\"> Storage on-site\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"checkbox\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"manner[]\"> Storage off-site\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"checkbox\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"manner[]\"> Treatment on-site\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"checkbox\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"manner[]\"> Treatment off-site\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"30%\">Changes in Safety Management System</td>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"70%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"radio\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" class=\"with-event\" value=\"1\" name=\"sms_changes\"> Yes\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"file\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<code style=\"display: none;\"><em>Please attach copy of revised plan</em></code>\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"radio\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" class=\"with-event\" value=\"0\" name=\"sms_changes\"> No\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"30%\">Chemical Substitute Plan</td>\n\t\t\t\t\t\t\t\t\t\t\t<td width=\"70%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"radio\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" class=\"with-event\" value=\"1\" name=\"chem_sub_plan\"> Yes\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"file\" style=\"display: none;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<code style=\"display: none;\"><em>Please attach copy if not submitted/included in previous report/s or had been revised</em></code>\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t\t<label class=\"radio\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" class=\"with-event\" value=\"0\" name=\"chem_sub_plan\"> No\n\t\t\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend id=\"mod2-b\">B. Hazardous Wastes Generator</legend>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">HW Generation <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"9\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW#</th>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW Class</th>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW Nature</th>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW Cataloguing</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Remaining HW from Previous Report</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"3\">HW Generated</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Unit</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Unit</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Waste Storage, Treatment and Disposal <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"9\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW#</th>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW Class</th>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW Nature</th>\n\t\t\t\t\t\t\t\t\t\t\t<th rowspan=\"2\">HW Cataloguing</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Remaining HW from Previous Report</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"3\">HW Generated</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Unit</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Unit</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">On-Site Self Inspection of Storage Area <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"5\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date Conducted</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Premises/Area Inspected</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Findings & Observations</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Corrective Actions Taken (if any)</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend id=\"mod2-c\">C. Hazardous Wastes Treater/Recycler</legend>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">HW Stored and/or Untreated as of End of Quarter <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"9\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>HW Number</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Wastes Generator</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Transport</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Transport Permit/<br />Date of Issue</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Valid Until</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Qty</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Type of Storage Container/<br /># of Containers</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Time Table for<br />Treatment</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">HW Treated and/or Recycled as of End of Quarter <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"9\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Type of Wastes</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>HW Number</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Wastes Generator</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date of Transport</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Transport Permit/<br />Date of Issue</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Qty</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Type of Treatment or<br />Recycling Process</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Type & Quantity of<br />Recycled or Treated Product</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Residual Wastes Generated from the Treatment and/or Recycling Operation <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"8\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Type of Wastes</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>HW Number</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Process by which<br />the Wastes are Generated</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Type of Storage Container/<br /># of Containers</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Disposal Option</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Time Table for Disposal</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-12-28</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu4\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<legend>Water Pollution Data</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Domestic Wastewater (m<sup>3</sup>/day) </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('domestic', $row['domestic'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Process Wastewater (m<sup>3</sup>/day) </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('process', $row['process'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Cooling water (m<sup>3</sup>/day)<br />Wash water, equipment </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('cooling', $row['cooling'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Others (m<sup>3</sup>/day)<br />Wash water, floor </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('others', $row['others'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Record of Cost of Treatment <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th width=\"15%\">Month 1</th>\n\t\t\t\t\t\t\t\t\t\t\t<th width=\"15%\">Month 2</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\" width=\"15%\">Month 3</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Person employed <code>(# of employees)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Person employed <code>(cost)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Cost of Chemicals used by WTP</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Utility Costs of WTP <code>(electricity & water)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Administrative and Overhead Cost</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Costs of operation in house laboratory</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>New/Additional Investment in WTP <code>(Description)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Costs of New/Add Investment</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">WTP Discharge Location <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Outlet Number</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Location of the Outlet</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Name of Receiving Water Body</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Detailed Report of Wastewater Characteristics for Conventional Pollutants <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label class=\"control-label col-md-4 text-left\">Outlet No.</label><div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('outlet_no', $row['outlet_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"10\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Effluent<br />Flow Rate<br />(m<sup>3</sup>/day)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>BOD<br />(mg/L)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>TSS<br />(mg/L)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Color</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>pH</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Oil &<br />Grease<br />(mg/L)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Temperature<br />rise (<sup>o</sup>C)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Black</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>5</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>6</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>7</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Detailed Report of Wastewater Characteristics for Other Pollutants <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label class=\"control-label col-md-4 text-left\">Outlet No.</label><div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('outlet_no', $row['outlet_no'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"10\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Effluent<br />Flow Rate<br />(m<sup>3</sup>/day)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 2</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 3</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 4</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 5</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 6</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 7</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 8</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu5\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<legend>Summary of APSE/APCF</legend>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Process Equipment <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Process Equipment</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Location</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\"># of hrs of operations</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Fuel Burning Equipment <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"6\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Fuel Burning Equipment</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Location</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Fuel Used</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Quantity Consumeed</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\"># of hrs of operations</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Pollution Control Facility <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Pollution Control Facility</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Location</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\"># of hrs of operations</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Cost of Treatment <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th width=\"15%\">Month 1</th>\n\t\t\t\t\t\t\t\t\t\t\t<th width=\"15%\">Month 2</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\" width=\"15%\">Month 3</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Cost of Person employed <code>(salary)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Total Consumption of Water <code>(m<sup>3</sup>)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Total Cost of chemicals used <code>(e.g., activated carbon, KMnO<sub>4</sub>)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Total Consumption of Electricity <code>(KwH)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Administrative and Overhead Cost</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Costs of operation in house laboratory, if any</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Improvement or modification, if any. <code>(Description)</code></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Cost of Improvement of modification</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>&nbsp;</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Detailed Report of Air Emmision Characteristics <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label class=\"control-label col-md-4 text-left\">Description/Location of PCF</label><div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('pcf_location', $row['pcf_location'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"10\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Flow Rate<br />(Ncm/day)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>CO<br />(mg/Ncm)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>NOx<br />(mg/Ncm)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Particulates<br />(mg/Ncm)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 5</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 6</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 7</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 8</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu6\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Ambient Air Quality Monitoring <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label class=\"control-label col-md-4 text-left\">Description/Location of Monitoring Station</label><div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('monitoring_station_location', $row['monitoring_station_location'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"10\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Noise Level<br />(dB)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>CO<br />(mg/Ncm)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>NOx<br />(mg/Ncm)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Particulates<br />(mg/Ncm)</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 5</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 6</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 7</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 8</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Ambient Water Quality Monitoring <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t\t\t<label class=\"control-label col-md-4 text-left\">Description/Location of Sampling Station</label><div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t{!! Form::text('sampling_station_location', $row['sampling_station_location'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"10\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 1</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 2</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 3</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 4</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 5</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 6</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 7</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Lipsum 8</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Other ECC Conditions <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>ECC Condition/s</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Status of Compliance</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Actions Taken</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Sample ECC Condition</td>\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\"><input type=\"checkbox\"></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Sample Actions Taken</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Environmental Management Plan/Program <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Enhancement/Mitigation Measures</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Status of Implementation</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Actions Taken</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>Sample Enhancement/Mitigation Measures</td>\n\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\"><input type=\"checkbox\"></td>\n\t\t\t\t\t\t\t\t\t\t\t<td>Sample Actions Taken</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Solid Waste Characterization/Information</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Quantity of Solid Wastes Generated per month </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Average Quantity of Solid Wastes Collected per month </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Quantity of Solid Wastes Generated per month </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Total Quantity of Solid Wastes Collected per month </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Entity in charge of collecting solid wastes </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Brief description of Solid Waste Management Plan<br /><code>(e.g., waste reduction, segregation, recycling)</code> </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::textarea('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu7\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Accidents & Emergency Records <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"6\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Area/Location</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Findings and Observation</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Actions Taken</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\">Remarks</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"panel panel-primary\">\n\t\t\t\t\t\t\t<div class=\"panel-heading active\">Personnel/Staff Training <i class=\"fa fa-window-minimize pull-right\"></i></div>\n\n\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t<table class=\"table table-responsive with-add-entry\">\n\t\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td colspan=\"4\" align=\"right\"><a href=\"#\" class=\"btn btn-sm btn-primary btn-add-entry\"><i class=\"fa fa-plus\"></i> Add New Entry</a></td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<th>Date Conducted</th>\n\t\t\t\t\t\t\t\t\t\t\t<th>Course/Training Description</th>\n\t\t\t\t\t\t\t\t\t\t\t<th colspan=\"2\"># of Personnel Trained</th>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>qwe</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>123</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t<td>2016-01-03</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>asd</td>\n\t\t\t\t\t\t\t\t\t\t\t<td>456</td>\n\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<legend>Certification</legend>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Date </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('date', $row['date'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name of PCO </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('pco_name', $row['pco_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Name of CEO </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('ceo_name', $row['ceo_name'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div id=\"menu9\" class=\"tab-pane fade in\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created By\" class=\"control-label col-md-4 text-left\"> Created By </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('created_by', $row['created_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Created Date\" class=\"control-label col-md-4 text-left\"> Created Date </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"input-group m-b\" style=\"width:150px !important;\">\n\t\t\t\t\t\t\t\t\t{!! Form::text('created_date', $row['created_date'], array('class' => 'form-control datetime', 'style' => 'width:150px !important;')) !!}\n\t\t\t\t\t\t\t\t\t<span class=\"input-group-addon\"><i class=\"fa fa-calendar\"></i></span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Modified By\" class=\"control-label col-md-4 text-left\"> Modified By </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t{!! Form::text('modified_by', $row['modified_by'], array('class' => 'form-control', 'placeholder' => '')) !!}\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t\t<label for=\"Modified Date\" class=\"control-label col-md-4 text-left\"> Modified Date </label>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<div class=\"input-group m-b\" style=\"width:150px !important;\">\n\t\t\t\t\t\t\t\t\t{!! Form::text('modified_date', $row['modified_date'], array('class' => 'form-control datetime', 'style' => 'width:150px !important;')) !!}\n\t\t\t\t\t\t\t\t\t<span class=\"input-group-addon\"><i class=\"fa fa-calendar\"></i></span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</fieldset>\n\t</div>\n\n\t<div style=\"clear: both;\"></div>\n\n\t<div id=\"myModal\" class=\"modal fade\" role=\"dialog\">\n\t\t<div class=\"modal-dialog\" style=\"margin-top: -70px;\">\n\t\t\t<div class=\"modal-content\">\n\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\"><i class=\"fa fa-angle-down\"></i></button>\n\t\t\t\t\t<h4 class=\"modal-title\">Modal Header</h4>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"modal-body\" align=\"center\">&nbsp;</div>\n\n\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t<a href=\"#\" class=\"btn btn-primary btn-modal-submit\"><i class=\"fa fa-check\"></i> Submit</a>\n\t\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<!-- <div class=\"form-group\">\n\t\t<label class=\"col-sm-4 text-right\">&nbsp;</label>\n\t\t<div class=\"col-sm-8\">\n\t\t\t<button type=\"submit\" name=\"apply\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-check-circle\"></i> {{ Lang::get('core.sb_apply') }}</button>\n\t\t\t<button type=\"submit\" name=\"submit\" class=\"btn btn-primary btn-sm\"><i class=\"fa fa-save\"></i> {{ Lang::get('core.sb_save') }}</button>\n\t\t</div>\n\t</div> -->\n{!! Form::close() !!}\n\n<script type=\"text/javascript\">\n\t$(function(){\n\t\t$('.select2').select2();\n\n\t\t/*$('ul.nav > li > a').click(function(){\n\t\t\tvar $active = $('ul.nav > li.active > a').attr('href').replace('#menu', '');\n\t\t\tvar $target = $(this).attr('href').replace('#menu', '');\n\t\t\tvar $beforetarget = parseInt($target) - 1;\n\t\t\tvar $ret = true;\n\t\t\tvar $str = 0;\n\n\t\t\tif(($beforetarget) == 0){\n\t\t\t\t$str = $str;\n\t\t\t} else{\n\t\t\t\tfor(var $i = 1; $i <= $beforetarget; $i++){\n\t\t\t\t\t$('#menu' + $i).find('input[type!=\"file\"], textarea, select').each(function(){\n\t\t\t\t\t\t$str += $(this).val() == \"\" ? 1 : 0;\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tif($str > 0){\n\t\t\t\t$ret = false;\n\t\t\t}\n\n\t\t\tif($ret){\n\t\t\t\t$('.snackbar').slideUp(200);\n\t\t\t\t$('html, body').animate({\n\t\t\t\t\tscrollTop: 170\n\t\t\t\t}, 500);\n\t\t\t} else{\n\t\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-warning fa-3x text-danger\"></i> Please fill-up the fields to continue.');\n\t\t\t\t$('.btn-snackbar-dismiss').show();\n\t\t\t\t$('.snackbar').slideDown(200);\n\n\t\t\t\treturn false;\n\t\t\t}\n\t\t});*/\n\n\t\t$(document).on('click', '.btn-edit-entry', function(){\n\t\t\t$('#myModal').find('.modal-body').html('');\n\n\t\t\t$(this).closest('tr').find('input').each(function(){\n\t\t\t\t$('#myModal').find('.modal-body').append('\\\n\t\t\t\t\t<div class=\"form-group\"> \\\n\t\t\t\t\t\t<label class=\"control-label col-md-4 text-left\"> ' + $(this).prop('name').replace(/_/g, ' ') + ' </label> \\\n\t\t\t\t\t\t<div class=\"col-md-6\"> \\\n\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control\" name=\"' + $(this).prop('name') + '\"> \\\n\t\t\t\t\t\t</div> \\\n\t\t\t\t\t\t<div class=\"col-md-2\">&nbsp;</div> \\\n\t\t\t\t\t</div>');\n\t\t\t});\n\t\t});\n\n\t\t$('.btn-modal-submit').click(function(){\n\t\t\t$('#myModal').find('input').each(function(){\n\t\t\t\tvar $inputid = $(this).prop('id');\n\t\t\t\tvar $inputval = $(this).val();\n\n\t\t\t\t$('input[name=\"' + $inputid + '\"]').val($inputval);\n\t\t\t\t$('input[name=\"' + $inputid + '\"]').closest('td').find('span').html($inputval);\n\t\t\t});\n\n\t\t\t$('#myModal').modal('toggle');\n\n\t\t\treturn false;\n\t\t});\n\n\t\t$('.tab-pane').find('input, textarea, select').each(function(){\n\t\t\tvar $thisname = $(this).prop('name');\n\t\t\tvar $thisid = $(this).closest('.tab-pane').prop('id');\n\n\t\t\t$(this).prop('name', $thisid + \"_\" + $thisname);\n\t\t});\n\n\t\t$(\"#owner_name\").change(function(){\n\t\t\tvar $thisval = $(this).val();\n\n\t\t\tif($thisval != \"\"){\n\t\t\t\t$.ajax({\n\t\t\t\t\turl: \"{{ url('smr/fetchinfo') }}\",\n\t\t\t\t\tdata: {\n\t\t\t\t\t\tval: $thisval,\n\t\t\t\t\t\ttype: \"locator\"\n\t\t\t\t\t},\n\t\t\t\t\tcache: false,\n\t\t\t\t\ttype: \"POST\",\n\t\t\t\t\tsuccess: function(json){\n\t\t\t\t\t\tvar $obj = $.parseJSON(json);\n\n\t\t\t\t\t\t$('[name=\"menu1_owner_province\"]').val($obj.loc[0].provname);\n\t\t\t\t\t\t$('[name=\"menu1_owner_city\"]').val($obj.loc[0].cityname);\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t} else{\n\t\t\t\t// CLEAR ADDRESS FIELDS\n\t\t\t\t$('[name=\"menu1_owner_province\"]').val('');\n\t\t\t\t$('[name=\"menu1_owner_city\"]').val('');\n\t\t\t}\n\t\t}).jCombo(\"{!! url('smr/comboselect?filter=tbl_locator_company:ID:locator_enterprise_name') !!}\", {\n\t\t\tselected_value: '{{ $row[\"owner_name\"] }}'\n\t\t});\n\n\t\t$('#psi_class_code').jCombo(\"{!! url('smr/comboselect?filter=dropdown_psic:psic_code:psiccode') !!}\", {\n\t\t\tselected_value: '{{ $row[\"psi_class_code\"] }}'\n\t\t});\n\n\t\t$(\"#facility_id\").change(function(){\n\t\t\tvar $thisval = $(this).val();\n\n\t\t\tif($thisval != \"\"){\n\t\t\t\t$.ajax({\n\t\t\t\t\turl: \"{{ url('smr/fetchinfo') }}\",\n\t\t\t\t\tdata: {\n\t\t\t\t\t\tval: $thisval,\n\t\t\t\t\t\ttype: \"facility\"\n\t\t\t\t\t},\n\t\t\t\t\tcache: false,\n\t\t\t\t\ttype: \"POST\",\n\t\t\t\t\tsuccess: function(json){\n\t\t\t\t\t\tvar $obj = $.parseJSON(json);\n\n\t\t\t\t\t\t$('[name=\"menu1_facility_province\"]').val($obj.loc[0].provname);\n\t\t\t\t\t\t$('[name=\"menu1_facility_city\"]').val($obj.loc[0].cityname);\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t} else{\n\t\t\t\t// CLEAR ADDRESS FIELDS\n\t\t\t\t$('[name=\"menu1_facility_province\"]').val('');\n\t\t\t\t$('[name=\"menu1_facility_city\"]').val('');\n\t\t\t}\n\t\t}).jCombo(\"{!! url('smr/comboselect?filter=tbl_master_facilities:id:facility_name') !!}\", {\n\t\t\tselected_value: '{{ $row[\"facility_id\"] }}'\n\t\t});\n\n\t\t$('.cb-legal-class-others').click(function(){\n\t\t\tif($(this).prop('checked')){\n\t\t\t\t$('.tb-legal-class-others').slideDown(300);\n\t\t\t} else{\n\t\t\t\t$('.tb-legal-class-others').slideUp(300);\n\t\t\t}\n\t\t});\n\n\t\t$('.with-event').click(function(){\n\t\t\tvar $val = $(this).val();\n\n\t\t\tif($val == 1){\n\t\t\t\t$(this).closest('td').find('input[type=\"file\"], code').slideDown(200);\n\t\t\t} else{\n\t\t\t\t$(this).closest('td').find('input[type=\"file\"], code').slideUp(200);\n\t\t\t}\n\t\t});\n\n\t\t$(document).find('table.with-entry tbody tr').each(function(){\n\t\t\t$(this).append('\\\n\t\t\t\t<td width=\"1%\"> \\\n\t\t\t\t\t<div class=\"dropdown\"> \\\n\t\t\t\t\t\t<button class=\"btn btn-sm dropdown-toggle\" type=\"button\" id=\"menu1\" data-toggle=\"dropdown\"><i class=\"fa fa-ellipsis-v\"></i></button> \\\n\t\t\t\t\t\t<ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"menu1\"> \\\n\t\t\t\t\t\t\t<li role=\"presentation\"><a role=\"menuitem\" class=\"btn-edit-entry\" data-toggle=\"modal\" data-target=\"#myModal\" tabindex=\"-1\" href=\"#\"><i class=\"fa fa-pencil\"></i> Edit</a></li> \\\n\t\t\t\t\t\t</ul> \\\n\t\t\t\t\t</div> \\\n\t\t\t\t</td>');\n\t\t});\n\n\t\t$(document).find('table.with-add-entry tbody tr').each(function(){\n\t\t\t$(this).append('\\\n\t\t\t\t<td width=\"1%\"> \\\n\t\t\t\t\t<div class=\"dropdown\"> \\\n\t\t\t\t\t\t<button class=\"btn btn-sm dropdown-toggle\" type=\"button\" id=\"menu1\" data-toggle=\"dropdown\"><i class=\"fa fa-ellipsis-v\"></i></button> \\\n\t\t\t\t\t\t<ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"menu1\"> \\\n\t\t\t\t\t\t\t<li role=\"presentation\"><a role=\"menuitem\" class=\"btn-edit-entry\" data-toggle=\"modal\" data-target=\"#myModal\" tabindex=\"-1\" href=\"#\"><i class=\"fa fa-pencil\"></i> Edit</a></li> \\\n\t\t\t\t\t\t\t<li role=\"presentation\"><a role=\"menuitem\" class=\"btn-remove-entry\" tabindex=\"-1\" href=\"#\"><i class=\"fa fa-trash-o\"></i> Delete</a></li> \\\n\t\t\t\t\t\t</ul> \\\n\t\t\t\t\t</div> \\\n\t\t\t\t</td>');\n\t\t});\n\n\t\t$(document).on('click', '.btn-remove-entry', function(){\n\t\t\tvar $check = $(this).closest('tbody').find('tr').length;\n\n\t\t\tif($check > 1)\n\t\t\t\t$(this).closest('tr').remove();\n\n\t\t\treturn false;\n\t\t});\n\n\t\t$('.btn-add-entry').click(function(){\n\t\t\tvar $row = $(this).closest('table').find('tbody tr:last').html();\n\t\t\t$(this).closest('table').find('tbody').append(\"<tr>\" + $row + \"</tr>\");\n\n\t\t\treturn false;\n\t\t});\n\n\t\t$('ul.sub-sidebar li a').click(function(){\n\t\t\tvar $href = $(this).attr('href');\n\t\t\tvar $loc = $href.replace('#', '');\n\n\t\t\t$('html, body').animate({\n\t\t\t\tscrollTop: ($('#' + $loc).offset().top - 120)\n\t\t\t}, 500);\n\t\t});\n\n\t\t$(window).scroll(function(){\n\t\t\tvar $offset = $('footer').offset();\n\n\t\t\t$offset = (parseFloat($offset.top) * 0.9) - (parseFloat($('ul.nav').offset().top) * 0.1);\n\n\t\t\tif(($(this).scrollTop() > 165) && ($(this).scrollTop() <= $offset)){\n\t\t\t\t$('.wiz').addClass('fixed');\n\t\t\t\t$('.wiz').css('top', \"18%\");\n\t\t\t} else if($(this).scrollTop() <= 165){\n\t\t\t\t$('.wiz').removeClass('fixed');\n\t\t\t\t$('.wiz').css('position', \"initial\");\n\t\t\t} else{\n\t\t\t\t$('.wiz').removeClass('fixed');\n\t\t\t\t$('.wiz').css('position', \"relative\");\n\t\t\t\t$('.wiz').css('top', (parseFloat($offset) - 200) + \"px\");\n\t\t\t}\n\t\t});\n\n\t\t$('.panel-heading').click(function(){\n\t\t\tif($(this).hasClass('active')){\n\t\t\t\t$(this).removeClass('active');\n\t\t\t\t$(this).find('i').prop('class', 'fa fa-window-maximize pull-right');\n\t\t\t\t$(this).closest('.panel').find('.panel-body').slideUp(300);\n\t\t\t} else{\n\t\t\t\t$(this).addClass('active');\n\t\t\t\t$(this).find('i').prop('class', 'fa fa-window-minimize pull-right');\n\t\t\t\t$(this).closest('.panel').find('.panel-body').slideDown(300);\n\t\t\t}\n\t\t});\n\n\t\t$('.btn-notify').click(function(){\n\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-circle-o-notch fa-fw fa-3x fa-spin\"></i> Saving...');\n\t\t\t$('.btn-snackbar-dismiss').hide();\n\t\t\t$('.snackbar').slideDown(200);\n\n\t\t\tsetTimeout(function(){\n\t\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-check fa-3x text-success\"></i> Saved!');\n\t\t\t\t$('.btn-snackbar-dismiss').show();\n\t\t\t}, 2000);\n\n\t\t\treturn false;\n\t\t});\n\n\t\tvar $width = 0;\n\t\t$(document).on('click', '.temp-save', function(){\n\t\t\t$width = 0;\n\t\t\t$('input[name=\"save_flag\"]').val('0');\n\t\t\tautosave(0);\n\n\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-circle-o-notch fa-fw fa-3x fa-spin\"></i> Saving...');\n\t\t\t$('.btn-snackbar-dismiss').hide();\n\t\t\t$('.snackbar').slideDown(200);\n\n\t\t\tsetTimeout(function(){\n\t\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-check fa-3x text-success\"></i> Auto-Save Successful!');\n\t\t\t\t$('.btn-snackbar-dismiss').show();\n\t\t\t}, 2000);\n\t\t\t$('.autosave-bar').css('width', $width + '%');\n\n\t\t\treturn false;\n\t\t});\n\n\t\twindow.setInterval(function(){\n\t\t\t$width += 1;\n\n\t\t\tif($width >= 100){\n\t\t\t\t$width = 0;\n\t\t\t\tautosave(0);\n\n\t\t\t\t// AUTO-SAVE FUNCTION :: START\n\t\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-circle-o-notch fa-fw fa-3x fa-spin\"></i> Saving...');\n\t\t\t\t$('.btn-snackbar-dismiss').hide();\n\t\t\t\t$('.snackbar').slideDown(200);\n\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\t$('.snackbar-msg').html('<i class=\"fa fa-check fa-3x text-success\"></i> Auto-Save Successful!');\n\t\t\t\t\t$('.btn-snackbar-dismiss').show();\n\t\t\t\t}, 2000);\n\t\t\t\t// AUTO-SAVE FUNCTION :: END\n\t\t\t} else{\n\t\t\t\t$width = $width;\n\t\t\t}\n\n\t\t\t$('.autosave-bar').css('width', $width + '%');\n\t\t}, 3000);\n\n\t\tfunction autosave($saveflag){\n\t\t\t$('.temp-save').find('i.fa').prop('class', 'fa fa-circle-o-notch fa-fw fa-spin push-right');\n\t\t\t$('.temp-save').prop('class', 'temp-save-disabled');\n\n\t\t\t$.ajax({\n\t\t\t\turl: \"{{ url('smr/smrsave') }}\",\n\t\t\t\tdata: $('.form-horizontal').find('input, textarea, select').serialize(),\n\t\t\t\tcache: false,\n\t\t\t\ttype: \"POST\",\n\t\t\t\tsuccess: function(json){\n\t\t\t\t\tvar $obj = $.parseJSON(json);\n\n\t\t\t\t\t$('input[name=\"id\"]').val($obj.id);\n\n\t\t\t\t\tsetTimeout(function(){\n\t\t\t\t\t\t$('.temp-save-disabled').prop('class', 'temp-save');\n\t\t\t\t\t\t$('.temp-save').find('i.fa').prop('class', 'fa fa-save push-right');\n\t\t\t\t\t}, 5000);\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\n\t\t$('.removeCurrentFiles').on('click', function(){\n\t\t\tvar removeUrl = $(this).attr('href');\n\n\t\t\t$.get(removeUrl, function(response){});\n\t\t\t$(this).parent('div').empty();\n\n\t\t\treturn false;\n\t\t});\n\t});\n\n\t$('.btn-snackbar-dismiss').click(function(){\n\t\t$('.snackbar').slideUp(200);\n\n\t\treturn false;\n\t});\n</script>",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/form.blade.php",
+			"file_size": 84653,
+			"file_write_time": 131327379335990304,
 			"settings":
 			{
-				"buffer_size": 1888,
+				"buffer_size": 82196,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/Http/routes.php",
+			"contents": "\n\n\t\t {!! Form::open(array('url'=>'locator/savepublic', 'class'=>'form-horizontal','files' => true , 'parsley-validate'=>'','novalidate'=>' ')) !!}\n\n\t@if(Session::has('messagetext'))\n\t  \n\t\t   {!! Session::get('messagetext') !!}\n\t   \n\t@endif\n\t<ul class=\"parsley-error-list\">\n\t\t@foreach($errors->all() as $error)\n\t\t\t<li>{{ $error }}</li>\n\t\t@endforeach\n\t</ul>\t\t\n\n\n<div class=\"col-md-12\">\n\t\t\t\t\t\t<fieldset><legend> Locator </legend>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"ID\" class=\" control-label col-md-4 text-left\"> ID </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('ID', $row['ID'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Company Code\" class=\" control-label col-md-4 text-left\"> Company Code </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_company_code', $row['locator_company_code'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Enterprise Name\" class=\" control-label col-md-4 text-left\"> Enterprise Name </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_enterprise_name', $row['locator_enterprise_name'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Operating Status\" class=\" control-label col-md-4 text-left\"> Operating Status </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_operating_status', $row['locator_operating_status'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Enterprise Type\" class=\" control-label col-md-4 text-left\"> Enterprise Type </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='locator_enterprise_type' rows='5' id='locator_enterprise_type' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Economic Zone\" class=\" control-label col-md-4 text-left\"> Economic Zone </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='locator_zone_id' rows='5' id='locator_zone_id' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Address\" class=\" control-label col-md-4 text-left\"> Address </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_address', $row['locator_address'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Region \" class=\" control-label col-md-4 text-left\"> Region  </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='region_code' rows='5' id='region_code' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Province \" class=\" control-label col-md-4 text-left\"> Province  </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='province_code' rows='5' id='province_code' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"City/Municipality\" class=\" control-label col-md-4 text-left\"> City/Municipality </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='city_code' rows='5' id='city_code' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Barangay\" class=\" control-label col-md-4 text-left\"> Barangay </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='psgc_code' rows='5' id='psgc_code' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Location Coordinates\" class=\" control-label col-md-4 text-left\"> Location Coordinates </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_coordinates', $row['locator_coordinates'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Contact Details\" class=\" control-label col-md-4 text-left\"> Contact Details </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_contact_details', $row['locator_contact_details'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Tel Number\" class=\" control-label col-md-4 text-left\"> Tel Number </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_tel_number', $row['locator_tel_number'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Fax Number\" class=\" control-label col-md-4 text-left\"> Fax Number </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_fax_number', $row['locator_fax_number'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Contact Person\" class=\" control-label col-md-4 text-left\"> Contact Person </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_contact_person', $row['locator_contact_person'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Designation\" class=\" control-label col-md-4 text-left\"> Designation </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_contact_designation', $row['locator_contact_designation'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Email\" class=\" control-label col-md-4 text-left\"> Email </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_contact_email', $row['locator_contact_email'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Principal Officer\" class=\" control-label col-md-4 text-left\"> Principal Officer </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_principal_officer', $row['locator_principal_officer'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\" Designation\" class=\" control-label col-md-4 text-left\">  Designation </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_designation_principal', $row['locator_designation_principal'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Registered Activity\" class=\" control-label col-md-4 text-left\"> Registered Activity </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  {!! Form::text('locator_registered_activity', $row['locator_registered_activity'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"PSIC Code\" class=\" control-label col-md-4 text-left\"> PSIC Code </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='Locator_psic_code' rows='5' id='Locator_psic_code' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"PSIC Description\" class=\" control-label col-md-4 text-left\"> PSIC Description </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  <select name='locator_psic_description' rows='5' id='locator_psic_description' class='select2 '   ></select> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> \t\t\t\t\t\n\t\t\t\t\t\t\t\t\t  <div class=\"form-group  \" >\n\t\t\t\t\t\t\t\t\t\t<label for=\"Category\" class=\" control-label col-md-4 text-left\"> Category </label>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t<label class='radio radio-inline'>\n\t\t\t\t\t<input type='radio' name='locator_category' value ='S'  @if($row['locator_category'] == 'S') checked=\"checked\" @endif > Small </label>\n\t\t\t\t\t<label class='radio radio-inline'>\n\t\t\t\t\t<input type='radio' name='locator_category' value ='M'  @if($row['locator_category'] == 'M') checked=\"checked\" @endif > Medium </label>\n\t\t\t\t\t<label class='radio radio-inline'>\n\t\t\t\t\t<input type='radio' name='locator_category' value ='L'  @if($row['locator_category'] == 'L') checked=\"checked\" @endif > Large </label> \n\t\t\t\t\t\t\t\t\t\t </div> \n\t\t\t\t\t\t\t\t\t\t <div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\t </div>\n\t\t\t\t\t\t\t\t\t  </div> </fieldset>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\n\t\t\t<div style=\"clear:both\"></div>\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t  <div class=\"form-group\">\n\t\t\t\t\t<label class=\"col-sm-4 text-right\">&nbsp;</label>\n\t\t\t\t\t<div class=\"col-sm-8\">\t\n\t\t\t\t\t<button type=\"submit\" name=\"apply\" class=\"btn btn-info btn-sm\" ><i class=\"fa  fa-check-circle\"></i> {{ Lang::get('core.sb_apply') }}</button>\n\t\t\t\t\t<button type=\"submit\" name=\"submit\" class=\"btn btn-primary btn-sm\" ><i class=\"fa  fa-save \"></i> {{ Lang::get('core.sb_save') }}</button>\n\t\t\t\t  </div>\t  \n\t\t\t\n\t\t</div> \n\t\t \n\t\t {!! Form::close() !!}\n\t\t \n   <script type=\"text/javascript\">\n\t$(document).ready(function() { \n\t\t\n\t\t\n\t\t$(\"#locator_enterprise_type\").jCombo(\"{!! url('locator/comboselect?filter=ref_enterprise_type:enterprise_type:enterprise_type') !!}\",\n\t\t{  selected_value : '{{ $row[\"locator_enterprise_type\"] }}' });\n\t\t\n\t\t$(\"#locator_zone_id\").jCombo(\"{!! url('locator/comboselect?filter=tbl_master_zones:id:zone_name') !!}\",\n\t\t{  selected_value : '{{ $row[\"locator_zone_id\"] }}' });\n\t\t\n\t\t$(\"#region_code\").jCombo(\"{!! url('locator/comboselect?filter=regions:region_code:description') !!}\",\n\t\t{  selected_value : '{{ $row[\"region_code\"] }}' });\n\t\t\n\t\t$(\"#province_code\").jCombo(\"{!! url('locator/comboselect?filter=provinces:province_code:description') !!}&parent=region_code:\",\n\t\t{  parent: '#region_code', selected_value : '{{ $row[\"province_code\"] }}' });\n\t\t\n\t\t$(\"#city_code\").jCombo(\"{!! url('locator/comboselect?filter=municipalities:city_code:description') !!}&parent=province_code:\",\n\t\t{  parent: '#province_code', selected_value : '{{ $row[\"city_code\"] }}' });\n\t\t\n\t\t$(\"#psgc_code\").jCombo(\"{!! url('locator/comboselect?filter=barangay:psgc_code:description') !!}&parent=city_code:\",\n\t\t{  parent: '#city_code', selected_value : '{{ $row[\"psgc_code\"] }}' });\n\t\t\n\t\t$(\"#Locator_psic_code\").jCombo(\"{!! url('locator/comboselect?filter=psic:psic_code:psic_code') !!}\",\n\t\t{  selected_value : '{{ $row[\"Locator_psic_code\"] }}' });\n\t\t\n\t\t$(\"#locator_psic_description\").jCombo(\"{!! url('locator/comboselect?filter=psic:psic_code:psic_code|psic_description') !!}\",\n\t\t{  selected_value : '{{ $row[\"locator_psic_description\"] }}' });\n\t\t \n\n\t\t$('.removeCurrentFiles').on('click',function(){\n\t\t\tvar removeUrl = $(this).attr('href');\n\t\t\t$.get(removeUrl,function(response){});\n\t\t\t$(this).parent('div').empty();\t\n\t\t\treturn false;\n\t\t});\t\t\n\t\t\n\t});\n\t</script>\t\t \n",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/form.blade 2.php",
+			"file_size": 13039,
+			"file_write_time": 131327387866373526,
 			"settings":
 			{
-				"buffer_size": 1901,
+				"buffer_size": 13039,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
+			"settings":
+			{
+				"buffer_size": 13653,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/user/Downloads/ironhide.sql",
+			"settings":
+			{
+				"buffer_size": 294476936,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/user/Desktop/company.sql",
+			"settings":
+			{
+				"buffer_size": 1373,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/front/contents/dealermaterialdetails.blade.php",
+			"contents": "INSERT INTO `cxinfo` (`recno`, `cxname`, `cxdesc`, `cxcat`) VALUES\n(1, 'A & G Nuthouse Corporation', 'A & G Nuthouse Corporation', ''),\n(2, 'ADSIA Eurobakers Marketing', 'ADSIA Eurobakers Marketing Corporation', ''),\n(3, 'Aeroplus, Inc.', 'Aeroplus, Inc.', ''),\n(4, 'Aggy’s Bakeshop', 'Aggy’s Bakeshop', ''),\n(5, 'Agility International Logistics Inc.', 'Agility International Logistics Inc.', ''),\n(6, 'Air force One Digital KTV', 'Air force One Digital KTV', ''),\n(7, 'Allegro Pacific Philippines, Inc.                 ', 'Allegro Pacific Philippines, Inc.                 ', ''),\n(8, 'Amalia’s Restaurant', 'Amalia’s Restaurant', ''),\n(9, 'Angel’s Burger', 'Angel’s Burger', ''),\n(10, 'ANR Unlimited', 'ANR Unlimited', ''),\n(11, 'APAC Customer Service', 'APAC Customer Service', ''),\n(12, 'Area 51', 'Area 51', ''),\n(13, 'Asian Entertainment KTV', 'Asian Entertainment KTV', ''),\n(14, 'Belmonte Movers', 'Belmonte Movers', ''),\n(15, 'Bernardo Maintenance Services', 'Bernardo Maintenance Services', ''),\n(16, 'BF Citi Farms Inc', 'BF Citi Farms Inc', ''),\n(17, 'Binibini KTV', 'Binibini KTV', ''),\n(18, 'Café Niro/Nemoso', 'Café Niro/Nemoso', ''),\n(19, 'Carbel Logistics', 'Carbel Logistics', ''),\n(20, 'Central BBQ', 'Central BBQ', ''),\n(21, 'Classmates Digital KTV', 'Classmates Digital KTV', ''),\n(22, 'COMPASS Group Philippines, Inc.', 'COMPASS Group Philippines, Inc.', ''),\n(23, 'Concepcion Carrier Airconditioning Corporation', 'Concepcion Carrier Airconditioning Corporation', ''),\n(24, 'Corinthian Tracking Incorporated', 'Corinthian Tracking Incorporated', ''),\n(25, 'Culinary Central Inc. (Serye)', 'Culinary Central Inc. (Serye)', ''),\n(26, 'D’Robe Security Agency', 'D’Robe Security Agency', ''),\n(27, 'Dan Eric’s Ice cream', 'Dan Eric’s Ice cream', ''),\n(28, 'Evisan Logistics', 'Evisan Logistics', ''),\n(29, 'Excellent People’s Multi-purpose Cooperative ', 'Excellent People’s Multi-purpose Cooperative ', ''),\n(30, 'Flight 168 Spa', 'Flight 168 Spa', ''),\n(31, 'Franciscan Sisters of Sacred Heart', 'Franciscan Sisters of Sacred Heart', ''),\n(32, 'Gloria’s Goto', 'Gloria’s Goto', ''),\n(33, 'Golden Beret Security and Allied Services', 'Golden Beret Security and Allied Services', ''),\n(34, 'Goldilock’s', 'Goldilock’s', ''),\n(35, 'Hanakazu Restaurant', 'Hanakazu Restaurant', ''),\n(36, 'Health Certificate', 'Health Certificate', ''),\n(37, 'Holy Cross Memorial Park', 'Holy Cross Memorial Park', ''),\n(38, 'Human Integrated Resources (HIRE)', 'Human Integrated Resources (HIRE)', ''),\n(39, 'Insular Life Assurance Co. Ltd.', 'Insular Life Assurance Co. Ltd.', ''),\n(40, 'International Christian Academy', 'International Christian Academy', ''),\n(41, 'Johnny Elorde Management International', 'Johnny Elorde Management International', ''),\n(42, 'Jollibee, Inc.', 'Jollibee, Inc.', ''),\n(43, 'KK Converter', 'KK Converter', ''),\n(44, 'Kraft Foods Philippines, Inc.', 'Kraft Foods Philippines, Inc.', ''),\n(45, 'La Funeraria Paz', 'La Funeraria Paz', ''),\n(46, 'La Suerte Cigar Factory', 'La Suerte Cigar Factory', ''),\n(47, 'Lamoiyan Corporation', 'Lamoiyan Corporation', ''),\n(48, 'Leslie’s Corporation', 'Leslie’s Corporation', ''),\n(49, 'Let`s Face It', 'Let`s Face It', ''),\n(50, 'Little Quiapo Restaurant', 'Little Quiapo Restaurant', ''),\n(51, 'Logistics Cargo Forwarders', 'Logistics Cargo Forwarders', ''),\n(52, 'Lola Idang’s Restaurant', 'Lola Idang’s Restaurant', ''),\n(53, 'M & H Food Corporation (Henlin)', 'M & H Food Corporation (Henlin)', ''),\n(54, 'Manila Memorial Park', 'Manila Memorial Park', ''),\n(55, 'Master Finish Concrete Specialist Contractor, Inc.', 'Master Finish Concrete Specialist Contractor, Inc.', ''),\n(56, 'Mister Water', 'Mister Water', ''),\n(57, 'National Bookstore', 'National Bookstore', ''),\n(58, 'New Beginning Foundation', 'New Beginning Foundation', ''),\n(59, 'Nuevo Presco Marine', 'Nuevo Presco Marine', ''),\n(60, 'Omniworx, Inc.', 'Omniworx, Inc.', ''),\n(61, 'ON Semiconductors Philippines', 'ON Semiconductors Philippines', ''),\n(62, 'One Stop Mart', 'One Stop Mart', ''),\n(63, 'Outsource Multitasking Services Company', 'Outsource Multitasking Services Company', ''),\n(64, 'Pagecom Incorporated', 'Pagecom Incorporated', ''),\n(65, 'Paranaque Anti-Drug Abuse Center', 'Paranaque Anti-Drug Abuse Center', ''),\n(66, 'Paranaque City Health Department', 'Paranaque City Health Department', ''),\n(67, 'Paranaque Doctor’s Hospital', 'Paranaque Doctor’s Hospital', ''),\n(68, 'Philippine Special Services Corporation', 'Philippine Special Services Corporation', ''),\n(69, 'Power Zaver', 'Power Zaver', ''),\n(70, 'Promo Result Manpower Agency', 'Promo Result Manpower Agency', ''),\n(71, 'Proximity', 'Proximity', ''),\n(72, 'PSP Manufacturing Co. (Seamaster)', 'PSP Manufacturing Co. (Seamaster)', ''),\n(73, 'Reyes Haircutters', 'Reyes Haircutters', ''),\n(74, 'RGentech Corp.', 'RGentech Corp.', ''),\n(75, 'S & R Membership Shopping', 'S & R Membership Shopping', ''),\n(76, 'Sagawa Express Philippines', 'Sagawa Express Philippines', ''),\n(77, 'San Antonio Shopping Center', 'San Antonio Shopping Center', ''),\n(78, 'Sara Lee Personal Product Phils.', 'Sara Lee Personal Product Phils.', ''),\n(79, 'Serye Restaurant and Café', 'Serye Restaurant and Café', ''),\n(80, 'Seven Eleven', 'Seven Eleven', ''),\n(81, 'Shopwise', 'Shopwise', ''),\n(82, 'Sinangag Express', 'Sinangag Express', ''),\n(83, 'Sol Manpower Agency', 'Sol Manpower Agency', ''),\n(84, 'Sole to Sole Reflexology', 'Sole to Sole Reflexology', ''),\n(85, 'Sonia Trading', 'Sonia Trading', ''),\n(86, 'South Foods Incorporated', 'South Foods Incorporated', ''),\n(87, 'South Star Distributor Corp.', 'South Star Distributor Corp.', ''),\n(88, 'St. Augustine School of Nursing', 'St. Augustine School of Nursing', ''),\n(89, 'Starfleet Reflex Zone', 'Starfleet Reflex Zone', ''),\n(90, 'Sucat Evangelical Christian Academy', 'Sucat Evangelical Christian Academy', ''),\n(91, 'Telephilippines, Inc (Teleperformance)', 'Telephilippines, Inc (Teleperformance)', ''),\n(92, 'The Kremlin Health Spa', 'The Kremlin Health Spa', ''),\n(93, 'Thousand Oaks', 'Thousand Oaks', ''),\n(94, 'TOBI’s Manufacturing Inc.', 'TOBI’s Manufacturing Inc.', ''),\n(95, 'Topserve Manpower Solutions, Inc.', 'Topserve Manpower Solutions, Inc.', ''),\n(96, 'Tradesphere, Inc.', 'Tradesphere, Inc.', ''),\n(97, 'Transorient Manpower Services', 'Transorient Manpower Services', ''),\n(98, 'Unilogix, Inc.', 'Unilogix, Inc.', ''),\n(99, 'Via Mare', 'Via Mare', ''),\n(100, 'Wildcard Gym', 'Wildcard Gym', ''),\n(101, 'Zilog Electronics Philippines, Inc.', 'Zilog Electronics Philippines, Inc.', ''),\n(102, '--', '--', ''),\n(103, 'Paranaque City Hall', 'Paranaque City Hall', ''),\n(104, 'Toplis', 'Toplis', ''),\n(105, 'Getwell', 'Getwell', ''),\n(106, 'Social Hygiene', 'Social Hygiene', ''),\n(107, 'Jolliant', 'Jolliant', ''),\n(108, 'AMDATEX Las Pinas Services, Inc.', 'AMDATEX Las Pinas Services, Inc.', ''),\n(109, 'AMDATEX Services Corp.', 'AMDATEX Services Corp.', ''),\n(110, 'PSSC-LE BUFFET', 'PSSC-LE BUFFET', ''),\n(111, 'GIGATECH', 'GIGATECH', ''),\n(112, 'BABY CATS', 'BABY CATS', ''),\n(113, 'DIWA ASIA PUBLISHING', 'DIWA ASIA PUBLISHING', ''),\n(114, 'MIGUELITOS', 'MIGUELITOS', ''),\n(115, 'Testing', 'Testing', ''),\n(116, 'Greenwich', 'Greenwich', ''),\n(117, '---ER', '', ''),\n(118, 'Skill Power Inst.', 'Skill Power Inst.', ''),\n(119, 'Super 8', 'Super 8', ''),\n(120, 'JM Velasco Construction', 'JM Velasco Construction', ''),\n(121, 'Almaleen Trucking Inc.', 'Almaleen Trucking Inc.', ''),\n(122, 'David Salon', 'David Salon', ''),\n(123, 'Puregold', 'Puregold', ''),\n(124, 'Department of Education', 'Department of Education', ''),\n(125, 'Immaculate Heart of Mary College', 'Immaculate Heart of Mary College', ''),\n(126, 'Princess Carol', 'Princess Carol', ''),\n(127, 'Ville St. John Academy', 'Ville St. John Academy', ''),\n(128, '---ER', '---ER', ''),\n(129, 'Elorde', 'Elorde', ''),\n(130, 'Berjaya Pizza', 'Berjaya Pizza', ''),\n(131, '888 Citifoods', '888 Citifoods', ''),\n(132, 'TESDA CATFABS', 'TESDA CATFABS', ''),\n(133, 'Kraft Canteen', 'Kraft Canteen', ''),\n(134, 'Meditation Spa', 'Meditation Spa', ''),\n(135, 'Cypress Manufacturing Ltd.', 'Cypress Manufacturing Ltd.', ''),\n(136, 'Le Buffet', 'Le Buffet', ''),\n(137, 'BJMP', 'BJMP', ''),\n(138, 'Kraft Pre-employment', 'Kraft Pre-employment', ''),\n(139, 'TOP', 'A & G Nuthouse Corp.', ''),\n(140, 'Orich International Traders Inc.', 'Orich International Traders Inc.', ''),\n(141, 'IPMS', 'IPMS', ''),\n(142, 'MANRESA APE', '', ''),\n(143, 'Manresa School', 'Manresa School', ''),\n(144, 'Bakemasters Inc.', 'Bakemasters Inc.', ''),\n(145, 'JT International', 'JT International', ''),\n(146, 'Colombo Merchant Phil.', 'Colombo Merchant Phil.', ''),\n(147, 'AMA Group of Companies', 'AMA Group of Companies', ''),\n(148, 'Noble Security Agency', 'Noble Security Agency', ''),\n(149, 'Best Ride Transport Services', 'Best Ride Transport Services', ''),\n(150, 'Pito & Mita', 'Pito & Mita', ''),\n(151, 'Soliman Security Services, Inc.', 'Soliman Security Services, Inc.', ''),\n(152, 'Walter Mart', 'Walter Mart', ''),\n(153, 'RD PAWNSHOP', 'RD PAWNSHOP', ''),\n(154, 'Current Way Manufacturing Services', 'Current Way Manufacturing Services', ''),\n(155, 'Valucare-PNB', 'Valucare-PNB', ''),\n(156, 'Fairlift International Logistics', 'Fairlift International Logistics', ''),\n(157, 'Fairlift Logistics', 'Fairlift Logistics', ''),\n(158, 'Philippine Seven Corporation', 'Philippine Seven Corporation', ''),\n(159, 'Behrouz', 'Behrouz', ''),\n(160, 'Whap Chan Food Services Inc.', 'Whap Chan Food Services Inc.', ''),\n(161, 'Jaric Marketing', 'Jaric Marketing', ''),\n(162, 'Chowking', 'Chowking', ''),\n(163, 'Atlantica Fire Safety Systems, Inc.', 'Atlantica Fire Safety Systems, Inc.', ''),\n(164, 'Julie`s Bakeshop', 'Julie`s Bakeshop', ''),\n(165, 'ISS Facility Services Phils, Inc.', 'ISS Facility Services Phils, Inc.', ''),\n(166, 'Rustans Coffee (Starbucks)', 'Rustans Coffee (Starbucks)', ''),\n(167, 'Going Straight', 'Going Straight', ''),\n(168, 'IHI Turbo International Trade, Inc.', 'IHI Turbo International Trade, Inc.', ''),\n(169, 'GLOBAL BUSINESS SUPPORT', 'GLOBAL BUSINESS SUPPORT', ''),\n(170, 'Benstone Builders & Supplies Corp.', 'Benstone Builders & Supplies Corp.', ''),\n(171, 'Carla`s Bakeshop', 'Carla`s Bakeshop', ''),\n(172, 'St. Andrew`s School', 'St. Andrew`s School', ''),\n(173, 'MANDARIN PALACE RESTAURANT', 'MANDARIN PALACE RESTAURANT', ''),\n(174, 'Lamuan Shell Gas Station', 'Lamuan Shell Gas Station', ''),\n(175, 'Greenwich SM Sucat', 'Greenwich SM Sucat', ''),\n(176, 'Industramach Incorporated', 'Industramach Incorporated', ''),\n(177, 'Nutech Equipment Specialist', 'Nutech Equipment Specialist', ''),\n(178, 'NewTech Equipment Specialist, Co.', 'NewTech Equipment Specialist, Co.', ''),\n(179, 'Argentechs, Inc.', 'Argentechs, Inc.', ''),\n(180, 'CATFABS', 'CATFABS', ''),\n(181, 'DVMS Marketing', 'DVMS Marketing', ''),\n(182, 'Shell - Doña Soledad', 'Shell - Doña Soledad', ''),\n(183, 'Mandarin Palace Restaurant', 'Mandarin Palace Restaurant', ''),\n(184, 'WINGS Institute of Global Careers, Inc.', 'WINGS Institute of Global Careers, Inc.', ''),\n(185, 'FAYRE-KAD CORPORATION', 'FAYRE-KAD CORPORATION', ''),\n(186, 'A.T. Frontline Manpower Outsourcing', 'A.T. Frontline Manpower Outsourcing', ''),\n(187, 'Federated Distributors, Inc.', 'Federated Distributors, Inc.', ''),\n(188, 'Dong Juan', 'Dong Juan', ''),\n(189, 'Hungry Hippo', 'Hungry Hippo', ''),\n(190, 'Eurofuel', 'Eurofuel', ''),\n(191, 'Mr. Amber', 'Mr. Amber', ''),\n(192, 'Lampara Trends, Inc.', 'Lampara Trends, Inc.', ''),\n(193, 'Asiancare', 'Asiancare', ''),\n(194, 'Fuel King', 'Fuel King', ''),\n(195, 'Federated Distributor, Inc.', 'Federated Distributor, Inc.', ''),\n(196, 'Gourdo`s, Inc.', 'Gourdo`s, Inc.', ''),\n(197, 'Manly Plastics, Inc.', 'Manly Plastics, Inc.', ''),\n(198, 'OCCOS', 'OCCOS', ''),\n(199, 'Japan Home Center', 'Japan Home Center  ', ''),\n(200, 'Perfect Movers, Incorporated', 'Perfect Movers, Incorporated', ''),\n(201, 'Japan Home Center', 'Japan Home Center', ''),\n(202, 'Metropolitan Trial Court - Parañaque', 'Metropolitan Trial Court - Parañaque', ''),\n(203, 'Avida Towers', 'Avida Towers', ''),\n(204, 'Hap Chan', 'Hap Chan', ''),\n(205, 'Pronto Express Distribution, Inc.', 'Pronto Express Distribution, Inc.', ''),\n(206, 'Gas Rite Fuel Service Center', 'Gas Rite Fuel Service Center', ''),\n(207, 'Hokaben', 'Hokaben', ''),\n(208, 'Jeffig Printing Corporation', 'Jeffig Printing Corporation', ''),\n(209, 'FVM Skin Basics Cosmetics Corporation', 'FVM Skin Basics Cosmetics Corporation', ''),\n(210, 'JIE Janitorial & General Services, Inc.', 'JIE Janitorial & General Services, Inc.', ''),\n(211, 'FMV Skin Basics Cosmetics Corporation', 'FMV Skin Basics Cosmetics Corporation', ''),\n(212, 'Pre Employment', 'Pre Employment', ''),\n(213, 'LBC', 'LBC', ''),\n(214, 'American Data Exchange Corporation', 'American Data Exchange Corporation', ''),\n(215, 'PPLM Industrial, Corporation', 'PPLM Industrial, Corporation', ''),\n(216, 'Philippine Airport Ground Support Solutions, Inc.', 'Philippine Airport Ground Support Solutions, Inc.', ''),\n(217, 'RZC Power Build Corp.', 'RZC Power Build Corp.', ''),\n(218, 'Sakura Suzuki', 'Sakura Suzuki', ''),\n(219, 'DRACC', 'DRACC', ''),\n(220, 'GBZ Stone Works Services', 'GBZ Stone Works Services', ''),\n(221, 'Ryo Aki', 'Ryo Aki', ''),\n(222, 'International Consolidation Philippines, Inc.', 'International Consolidation Philippines, Inc.', ''),\n(223, 'Hinduja Global Solutions, Ltd.', 'Hinduja Global Solutions, Ltd.', ''),\n(224, 'Amber Golden Chain of Restaurants', 'Amber Golden Chain of Restaurants', ''),\n(225, 'Lee Commercial Equipment, Inc.', 'Lee Commercial Equipment, Inc.', ''),\n(226, 'OPD', 'OPD', ''),\n(227, 'Homeland Security & Investigation Agency', 'Homeland Security & Investigation Agency', ''),\n(228, 'EliteAir Climate Control, Inc.', 'EliteAir Climate Control, Inc.', ''),\n(229, 'Seven Stars Bingo', 'Seven Stars Bingo', ''),\n(230, 'Evergreen Asia', 'Evergreen Asia', ''),\n(231, 'Franzworks, Inc.', 'Franzworks, Inc.', ''),\n(232, 'Cocolife', 'Cocolife', ''),\n(233, 'Mondelez International', 'Mondelez International', ''),\n(234, 'Servicio Filipino, Inc.', 'Servicio Filipino, Inc.', ''),\n(235, 'LRM Constructions', 'LRM Constructions', ''),\n(236, 'Pad Services & Construction, Corp.', 'Pad Services & Construction, Corp.', ''),\n(237, 'Instrumentation & Control Specialist', 'Instrumentation & Control Specialist', ''),\n(238, 'Princess Jolliant', 'Princess Jolliant', ''),\n(239, 'Parañaque Meat Processing & Slaughterhouse', 'Parañaque Meat Processing & Slaughterhouse', ''),\n(240, 'IBEX Global Philippines', 'IBEX Global Philippines', ''),\n(241, 'Lutong Pinoy', 'Lutong Pinoy', ''),\n(242, 'Victor Mejia Construction', 'Victor Mejia Construction', ''),\n(243, 'MHE-DEMAG', 'MHE-DEMAG', ''),\n(244, 'The Premier Medical Center', 'The Premier Medical Center', ''),\n(245, 'Abante - Tonite', 'Abante - Tonite', ''),\n(246, 'Elitex Logistics Corporation', 'Elitex Logistics Corporation', ''),\n(247, 'Customstrade Advocates Co.', 'Customstrade Advocates Co.', ''),\n(248, 'Power Edge Staffing and General Services', 'Power Edge Staffing and General Services', ''),\n(249, 'SSI Group of Companies', 'SSI Group of Companies', ''),\n(250, 'Kitchencare', 'Kitchencare', ''),\n(251, 'D & J Builders', 'D & J Builders', ''),\n(252, 'Facilities Managers, Inc.', 'Facilities Managers, Inc.', ''),\n(253, 'Kumpares', 'Kumpares', ''),\n(254, 'FPMTI', 'FPMTI', ''),\n(255, 'AD-JED', 'AD-JED', ''),\n(256, 'Jardine Energy Control Company, Inc.', 'Jardine Energy Control Company, Inc.', ''),\n(257, 'Sir Romeo Carias', 'Sir Romeo Carias', ''),\n(258, 'Monterey', 'Monterey', ''),\n(259, 'J.G. Manpower Corporation', 'J.G. Manpower Corporation', ''),\n(260, 'EPC&I Corporation', 'EPC&I Corporation', ''),\n(261, 'Saventh Corporation', 'Saventh Corporation', ''),\n(262, 'TOMS - Acacia', 'TOMS - Acacia', ''),\n(263, 'TOMS - Bellevue', 'TOMS - Bellevue', ''),\n(264, 'TOMS - B-Hotel', 'TOMS - B-Hotel', ''),\n(265, 'TOMS - Crimson', 'TOMS - Crimson', ''),\n(266, 'K-Lift Industrial Corporation', 'K-Lift Industrial Corporation', ''),\n(267, 'Beauchem Industries International, Inc.', 'Beauchem Industries International, Inc.', ''),\n(268, 'Beauchem Thermtech Group, Inc.', 'Beauchem Thermtech Group, Inc.', ''),\n(269, 'Advance Construction, Inc.', 'Advance Construction, Inc.', ''),\n(270, 'Starking, Inc.', 'Starking, Inc.', ''),\n(271, 'D`Archangels` Ark Academy', 'D`Archangels` Ark Academy', ''),\n(272, 'TOMS - AMICASSA', 'TOMS - AMICASSA', ''),\n(273, 'TOMS - BHI (Marikina)', 'TOMS - BHI (Marikina)', ''),\n(274, 'St. Francis Academy', 'St. Francis Academy', ''),\n(275, 'TOMS - SEDA', 'TOMS - SEDA', ''),\n(276, 'John `N Belinda Hair with Flare Salon', 'John `N Belinda Hair with Flare Salon', ''),\n(277, 'Ramen Kuroda', 'Ramen Kuroda', ''),\n(278, 'TOMS - The Food Club', 'TOMS - The Food Club', ''),\n(279, 'Camayo Manpower', 'Camayo Manpower', ''),\n(280, 'Health Center - SAV-8', 'Health Center - SAV-8', ''),\n(281, 'Health Center - Fourth Estate', 'Health Center - Fourth Estate', ''),\n(282, 'Corporate Vision, Inc.', 'Corporate Vision, Inc.', ''),\n(283, 'Inter-Island Security Services, Inc.', 'Inter-Island Security Services, Inc.', ''),\n(284, 'Transteam Incorporated', 'Transteam Incorporated', ''),\n(285, 'Danlilia Construction Corp.', 'Danlilia Construction Corp.', ''),\n(286, 'Miascor Aviation Group', 'Miascor Aviation Group', ''),\n(287, 'People Movers, Inc.', 'People Movers, Inc.', ''),\n(288, 'ACPC - Miascor', 'ACPC - Miascor', ''),\n(289, 'Wexpress Corporation', 'Wexpress Corporation', ''),\n(290, 'Goodline', 'Goodline', ''),\n(291, 'Longhorn Transport Services, Inc.', 'Longhorn Transport Services, Inc.', ''),\n(292, 'Micromatic Industries, Inc.', 'Micromatic Industries, Inc.', ''),\n(293, 'Algena Specialist Builders, Inc.', 'Algena Specialist Builders, Inc.', ''),\n(294, 'Urban Scope Designs', 'Urban Scope Designs', ''),\n(295, 'TUFF Trading and Services', 'TUFF Trading and Services', ''),\n(296, 'Solaire Resort & Casino', 'Solaire Resort & Casino', ''),\n(297, 'RAM Resources', 'RAM Resources', ''),\n(298, 'FRS Construction', 'FRS Construction', ''),\n(299, 'Tractor Hub Logistics', 'Tractor Hub Logistics', '');",
 			"settings":
 			{
-				"buffer_size": 1092,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 18148,
+				"line_ending": "Windows",
+				"name": "INSERT INTO `cxinfo` (`recno`, `cxname`, `cxdesc`,"
 			}
 		},
 		{
-			"file": "public/front/userjs/userapp.js",
+			"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/nurse.php",
 			"settings":
 			{
-				"buffer_size": 8104,
+				"buffer_size": 38449,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -647,13 +661,27 @@
 	],
 	"file_history":
 	[
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin 3.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/physicalexam.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/medical.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratory.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/laboratorist.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/admin 2.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/radiology.php",
+		"/C/wamp64/www/library_system/app/Http/Controllers/Front/DealerController.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/dealerindex.blade.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
+		"/C/wamp64/www/library_system/app/Http/routes.php",
+		"/C/wamp64/www/library_system/resources/views/front/contents/dealermaterialdetails.blade.php",
+		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SettingController.php",
 		"/C/wamp64/www/library_system/resources/views/front/includes/navigation.blade.php",
 		"/C/wamp64/www/library_system/app/Http/Controllers/LoginController.php",
-		"/C/wamp64/www/library_system/app/Http/routes.php",
 		"/C/wamp64/www/library_system/app/Http/Middleware/DealerMiddleware.php",
 		"/C/$Recycle.Bin/S-1-5-21-1482466577-4001309387-2000568852-1001/$R2CSOHE/mareis-system/app/assets/css/bootstrap.css",
 		"/C/wamp64/www/library_system/resources/views/front/contents/bookfunddetails.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/bookfund.blade.php",
 		"/C/wamp64/www/library_system/app/Http/Controllers/Front/BookFundController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/SearchController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/show.blade.php",
@@ -662,22 +690,17 @@
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/booking_details.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/FrontRoute.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/routes.php",
-		"/C/wamp64/www/library_system/public/front/userjs/userapp.js",
 		"/C/wamp64/www/library_system/resources/views/front/contents/dealerprofile.blade.php",
-		"/C/wamp64/www/library_system/resources/views/front/contents/dealerindex.blade.php",
-		"/C/wamp64/www/library_system/app/Http/Controllers/Front/DealerController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/search_result.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/search_script.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/sidebar_search.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/base.blade.php",
 		"/C/Users/user/Desktop/patravelnew/2-22/SearchController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/SettingController.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SettingController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/HomeController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_script.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade 2.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/index.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/sidebar_search.blade.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-2/search_result.blade.php",
@@ -765,16 +788,7 @@
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology 2.php",
 		"/C/wamp64/www/library_system/app/Http/Controllers/SearchController.php",
 		"/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratory 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratorist 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiologist 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/medical 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/rme 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/viewrme 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/nurse 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/physicalexam 2.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/viewrme.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiologist.php",
-		"/C/Users/user/AppData/Local/Temp/fz3temp-3/radiology.php"
+		"/C/Users/user/AppData/Local/Temp/fz3temp-3/laboratorist 2.php"
 	],
 	"find":
 	{
@@ -792,6 +806,50 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"update",
+			"savereqmedexam",
+			"uploads/",
+			"update",
+			"misc",
+			"miscellaneous",
+			"textarea",
+			"checkdata",
+			"sugar",
+			"resothers2",
+			"resothers",
+			"resothers2",
+			"significant findings",
+			"skin",
+			"hav",
+			"anti hav",
+			"dashboard",
+			"db",
+			"dashboard",
+			"'',",
+			"(",
+			"pack",
+			"locator_enterprise_type",
+			"zone",
+			"locator_enterprise_type",
+			"locator_enterprise_name",
+			" {!! Form::text('locator_enterprise_name', $row['locator_enterprise_name'],array('class'=>'form-control', 'placeholder'=>'',   )) !!} ",
+			"if(($beforetarget) == 0){\n                $str = $str;",
+			"datepicker",
+			"quarter",
+			"datepicker",
+			"#myModal",
+			"#menu1",
+			"menu1",
+			"permits",
+			"psi_class_code",
+			"owner_province",
+			"facility_province_id",
+			"owner",
+			"select2",
+			"id",
+			"province_id",
+			"facility_province_id",
+			"console.log",
 			"$",
 			"cavite",
 			"Philippines",
@@ -875,51 +933,7 @@
 			"savepublic",
 			"save",
 			"form",
-			"ajax",
-			"savepublic",
-			"form",
-			"postSmrsave",
-			"save",
-			"$this->model",
-			"save",
-			"smr_main_id",
-			"id",
-			"street",
-			"beforetarget",
-			"menu",
-			"wiz",
-			"id",
-			"name='id",
-			"name=\"id",
-			"\t\n",
-			"session",
-			"facility_id",
-			"facil",
-			"json_encode",
-			"json",
-			"jsone",
-			"timer",
-			"facility_id",
-			"owner_province",
-			"menu1_owner_province",
-			"owner_name",
-			"owner_b",
-			"jcombo",
-			"{!! Form::text('owner_brgy', $row['owner_brgy'], array('class' => 'form-control', 'placeholder' => '')) !!}",
-			"getDetails",
-			"savepublic",
-			"smr.public",
-			"public.form",
-			"public ",
-			"getdetail",
-			"getview",
-			"getcrea",
-			".form",
-			"form.",
-			"form",
-			"facility_id",
-			"wiz",
-			"<button type=\"submit\" name=\"apply\" class=\"btn btn-info btn-sm\" ><i class=\"fa  fa-check-circle\"></i> {{ Lang::get('core.sb_apply') }}</button>"
+			"ajax"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -937,114 +951,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/SettingController.php",
+					"file": "/C/wamp64/www/peza/app/Http/Controllers/SmrController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4002,
+						"buffer_size": 20080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								476,
-								476
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2337.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/SearchController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2452,
-								2452
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 757.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/Front/DealerController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								370,
-								370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/front/contents/dealerindex.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1500,
-								1500
+								18874,
+								18874
 							]
 						],
 						"settings":
@@ -1052,7 +976,94 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 627.0,
+						"translation.y": 10029.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp64/www/peza/resources/views/smr/public/form.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126254,
+								126308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48418.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/form.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73131,
+								73131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3986.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/form.blade 2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11508,
+								11309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -1060,19 +1071,19 @@
 				},
 				{
 					"buffer": 4,
-					"file": "resources/views/front/contents/bookfund.blade.php",
+					"file": "/C/wamp64/www/peza/resources/views/locator/public/form.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1888,
+						"buffer_size": 13653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1833,
-								1854
+								11473,
+								11473
 							]
 						],
 						"settings":
@@ -1081,97 +1092,123 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.y": 6093.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/user/Downloads/ironhide.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 294476936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13331736,
+								13382927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2275730.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/user/Desktop/company.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								1373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/Http/routes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1901,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1257,
-								1257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "resources/views/front/contents/dealermaterialdetails.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1092,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1086,
-								1086
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 456.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 7,
-					"file": "public/front/userjs/userapp.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8104,
+						"buffer_size": 18148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7914,
-								7882
+								0,
+								18148
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "INSERT INTO `cxinfo` (`recno`, `cxname`, `cxdesc`,",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 4262.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/user/AppData/Local/Temp/fz3temp-2/nurse.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13505,
+								13505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8775.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

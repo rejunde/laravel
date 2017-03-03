@@ -95,12 +95,24 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Email Us!</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <form>
+  <div class="">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="">
+    <label for="pwd">Message:</label>
+    <textarea class="form-control" rows="5" cols="10"></textarea>
+  </div>
+ 
+  
+</form>
       </div>
       <div class="modal-footer">
+      <button type="submit" class="btn btn-info">Send</button>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>

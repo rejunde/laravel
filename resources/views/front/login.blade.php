@@ -17,7 +17,7 @@
     <style type="text/css">
       body {
         width: 98%;
-        height: 80%;
+        height: 100%;
         background-image: url('front/images/bg.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -26,7 +26,7 @@
 </style>
 </head>
 
-<body >
+<body style="background-color: white">
 
 
     <div class="wrapper" >     
@@ -115,9 +115,30 @@
 
                     </div>
                     </div>
-                </div>
-            </div>
 
+            	  <div class="col-md-10 col-md-offset-1" >
+            	  <div class="col-md-3" >
+            	  	
+            		<img  src="frontimage/1.png" class="img-responsive">
+            		
+            	  </div>
+            	  <div class="col-md-3">
+            	  	<img  src="frontimage/2.png" class="img-responsive">
+            		
+            	  </div>
+            	  <div class="col-md-3">
+            	  	<img  src="frontimage/3.png" class="img-responsive">
+            		
+            	  </div>
+            	  <div class="col-md-3">
+            	  	<img   src="frontimage/4.png"  height="115px">
+            	  </div>
+                	
+                </div>
+                </div>
+              
+            </div>
+         
 
             <!--   Core JS Files   -->
             <script type="text/javascript" src="{!! asset('adminassets/js/jquery-3.1.0.min.js') !!}"></script>
