@@ -104,7 +104,7 @@ public function save_request(Request $request)
     $data['materialrequest_flag']=1;
     $data['bookfund_id']=1;
     // $insert_request=$this->db->insert('material_request', $data);
-    $insert_id= DB::table('material_request')->insertGetId(
+    $insert_id = DB::table('material_request')->insertGetId(
         $data);
 
 

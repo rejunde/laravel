@@ -254,8 +254,9 @@ $("#submit_request").on("click", function() {
 	
 });
 
-$(".mymodal").click( function(){
-	var id = $(this).parent().find('.for_edit').val();
+$("body").on('click','.mymodal', function(){
+	var id = $(this).closest('tr').find('input').val();
+	// alert(id);	
 	$.ajax({
 		type: "POST",
 		url: base_url+'/administrator/request/get_bookdetails',
@@ -277,18 +278,18 @@ $(".mymodal").click( function(){
 			$('#mod_contact').text(data.book[0].faculty_contact_no);
 			$('#mod_processed').text(data.book[0].materialrequest_date_requested);
 			$('#mod_current').text(data.book[0].booksteps_position+' '+data.book[0].booksteps_header+'('+data.book[0].boksteps_details_1+' '+data.book[0].boksteps_details_2+")");
-		    $('#mod_remarks').val(data.book[0].bookdetails_remarks);
-		    $('#opt_steps option[value="'+data.book[0].booksteps_id+'"]').attr('selected', 'selected');
+			$('#mod_remarks').val(data.book[0].bookdetails_remarks);
+			$('#opt_steps option[value="'+data.book[0].booksteps_id+'"]').attr('selected', 'selected');
 		}
 	});	
 	$('#bookmodal').appendTo("body").modal('show');
 }); 
 
 $('#update_book').click(function(){
-var bookID=$('#mod_bookid').val();
-var remarks=$('#mod_remarks').val();
-var steps=$('#opt_steps').val();
-$.ajax({
+	var bookID=$('#mod_bookid').val();
+	var remarks=$('#mod_remarks').val();
+	var steps=$('#opt_steps').val();
+	$.ajax({
 		type: "POST",
 		url: base_url+'/administrator/request/update_bookdetails',
 		data:{_token:$('#csrf').val(), bookID:bookID, remarks:remarks, steps:steps },
@@ -303,4 +304,144 @@ $.ajax({
 			
 		}
 	});
+});
+
+$("#save_admin_user").on("click", function() {
+	var full_name=$('#full_name').val();
+	var contact=$('#contact_number').val();
+	var email=$('#email').val();
+	var password=$('#password').val();
+	var re_password=$('#re_password').val();
+
+	if(full_name == '' || contact == '' || email == ''|| password == '' || re_password=='')
+	{
+		Prevent('Please fill up all user details');	
+	}
+	else if (password != re_password)
+	{
+		$('#password').closest('div').addClass("has-error");
+		$('#re_password').closest('div').addClass("has-error");
+		Prevent("Password don't match");	
+	}
+	else
+	{
+
+		$.ajax({
+			type: "POST",
+			url: base_url+'/administrator/appusers/save_new_admin',
+			data:{_token:$('#csrf').val(), full_name:full_name, contact:contact, email:email, password:password },
+			dataType: "json",
+			success:function(data){
+				console.log(data);
+				if(data==1)
+				{
+					Success_no_confirm('New Admin Added!');	
+				}
+
+				window.location.href = base_url+'/administrator/appusers/appusers_add_admin'
+			}
+		});
+	}
+
+	
+});
+
+$("#save_faculty_user").on("click", function() {
+	var full_name=$('#full_name').val();
+	var email=$('#email').val();
+	var institute_id=$('#institute_id').val();
+	var password=$('#password').val();
+	var re_password=$('#re_password').val();
+
+	if(full_name == '' || institute_id=='' || email == ''|| password == '' || re_password=='')
+	{
+		Prevent('Please fill up all user details');	
+	}
+	else if (password != re_password)
+	{
+		$('#password').closest('div').addClass("has-error");
+		$('#re_password').closest('div').addClass("has-error");
+		Prevent("Password don't match");	
+	}
+	else
+	{
+
+		$.ajax({
+			type: "POST",
+			url: base_url+'/administrator/appusers/save_new_faculty',
+			data:{_token:$('#csrf').val(), full_name:full_name, dept:institute_id, email:email, password:password },
+			dataType: "json",
+			success:function(data){
+				console.log(data);
+				if(data==1)
+				{
+
+					Success_no_confirm('New Faculty Added!');	
+				}
+
+				window.location.href = base_url+'/administrator/appusers/appusers_add_faculty'
+			}
+		});
+	}
+
+	
+});
+
+$('#institute_id_budget').on('change',function(){
+	$('#tbody_budget').find('tr').remove();
+	institute_id=$('#institute_id_budget').val();
+	$.ajax({
+		type: "POST",
+		url: base_url+'/administrator/budgetfund/get_budgetfund_records',
+		data:{_token:$('#csrf').val(), institute_id:institute_id},
+		dataType: "json",
+		success:function(data){
+			console.log(data);
+			if(data.length!=0)
+			{
+				$.each(data, function(i, str) {
+
+					var active = str.bookfund_flag==1?'Active':' ';
+					$('#tbody_budget').append('<tr>\
+						<td>'+str.year+'</td>\
+						<td>P '+str.bookfund_base+'</td>\
+						<td>P '+str.bookfund_total+'</td>\
+						<td>P '+str.bookfund_rem+'</td>\
+						<td>'+str.bookfund_date_created+'</td>\
+						<td>'+str.bookdun_update_date+'</td>\
+						<td stye="text-align:center;"><strong style="text-color:green">'+active+'</strong></td>\
+						');
+				});
+				$("#result_institute_budget").css('display', '');
+			}
+			else
+			{
+				$('#tbody_budget').append('<tr>\
+					<td colspan="7" style="text-align:center"><strong>NO RECORDS FOUND</strong></td>\
+					');
+				$("#result_institute_budget").css('display', '');
+			}
+			
+			
+		}
+	});
+
+});
+
+$('#addbudget_modal').on('click',function(){
+	var institute_id=$('#institute_id_budget').val();
+
+	$.ajax({
+		type: "POST",
+		url: base_url+'/administrator/budgetfund/get_latest_budget_details',
+		data:{_token:$('#csrf').val(), institute_id:institute_id},
+		dataType: "json",
+		success:function(data){
+			console.log(data);
+					
+			
+		}
+	});
+
+	$('#budgetmodal').appendTo("body").modal('show');
 });

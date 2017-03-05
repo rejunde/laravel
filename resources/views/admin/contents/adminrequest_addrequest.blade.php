@@ -69,7 +69,7 @@ input.typeahead.tt-query{ /* This is optional */
     <ul class="nav nav-tabs">
       <li><a href="{{URL::to('/administrator/request/request_index')}}">Active Request</a></li>
       <li class="active"><a href="{{URL::to('/administrator/request/add_request')}}">Add Request</a></li>
-      <li class="dropdown">
+     <!--  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -79,7 +79,7 @@ input.typeahead.tt-query{ /* This is optional */
           </ul>
         </li>
 
-        <li><a href="#">Menu 3</a></li>
+        <li><a href="#">Menu 3</a></li> -->
       </ul>
 
 
@@ -107,7 +107,7 @@ input.typeahead.tt-query{ /* This is optional */
                       <select id="institute_id" name="institute_id" class="form-control">
                         <option value=""></option>
                         @foreach($department as $key => $value)
-                        <option value="{{$key}}">{{$value->department_name}}</option>
+                        <option value="{{$value->department_id}}">{{$value->department_name}}</option>
                         @endforeach
                       </select>
                     </div>

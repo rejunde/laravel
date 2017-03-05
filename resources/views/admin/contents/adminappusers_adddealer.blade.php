@@ -3,7 +3,7 @@
 
 <ul class="nav nav-tabs">
  <input type="hidden" id="csrf" value="{{ csrf_token() }}">
- <li class="dropdown active">
+ <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Admin Users
     <span class="caret"></span></a>
     <ul class="dropdown-menu">
@@ -19,7 +19,7 @@
       <li><a href="{{URL::to('/administrator/appusers/appusers_add_admin')}}">Add New Faculty User</a></li>
     </ul>
   </li>
-  <li class="dropdown ">
+  <li class="dropdown active">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dealer Users
     <span class="caret"></span></a>
     <ul class="dropdown-menu">

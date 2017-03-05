@@ -3,7 +3,7 @@
 <ul class="nav nav-tabs">
   <li class="active"><a href="{{URL::to('/administrator/request/request_index')}}">Active Request</a></li>
   <li><a href="{{URL::to('/administrator/request/add_request')}}">Add Request</a></li>
-  <li class="dropdown">
+  <!-- <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
       <span class="caret"></span></a>
       <ul class="dropdown-menu">
@@ -13,7 +13,7 @@
       </ul>
     </li>
     
-    <li><a href="#">Menu 3</a></li>
+    <li><a href="#">Menu 3</a></li> -->
   </ul>
   <div class="row">
     <div class="col-md-12">
@@ -27,10 +27,10 @@
           <table id="example" class="ui celled table" cellspacing="0" width="100%">
             <thead>
               <tr>
-                <th>Title</th>
-                <th>Author</th>
                 <th>Requestor</th>
                 <th>Department</th>
+                <th>Title</th>
+                <th>Author</th>
                 <th>Date Processed</th>
                 <th>Location</th>
                 <th>Action</th>
@@ -39,10 +39,10 @@
             <tbody>
               @foreach($books as $book)
               <tr>
-                <td>{{$book->bookdetails_title}}</td>
-                <td>{{$book->bookdetails_author}}</td>
                 <td>{{$book->faculty_fullname}}</td>
                 <td>{{$book->department_name}}</td>
+                <td>{{$book->bookdetails_title}}</td>
+                <td>{{$book->bookdetails_author}}</td>
                 <td>{{$book->materialrequest_date_requested}}</td>
                 <td>{{$book->booksteps_header}}</td>
                 <td><input type="hidden" value="{{$book->bookdetails_id}}" class="for_edit"> <input type="button" name="editbook" value="Edit Book" class="btn btn-primary btn-xs mymodal"></td>
@@ -57,54 +57,52 @@
 
   <!-- Modal -->
   <div id="bookmodal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-
-
+  <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header" data-background-color="orange">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title"><strong>Book Details</strong></h4>
+       <div class="card">
+        <div class="card-header" data-background-color="green">
+          <h4 class="title">Book Details</h4>
+          <!-- <p class="category">Update Materials Location </p> -->
         </div>
         <div class="modal-body">
-
           <div id="modal_book_details" style="color:black;">
             <strong>Title:  </strong><span id="mod_title"></span>
-            </br> 
+            <br> 
             <strong>Author:  </strong><span id="mod_author"></span>
-            </br> 
+            <br> 
             <strong>Publisher:  </strong><span id="mod_pub"></span>
-            </br>
+            <br>
             <strong>Year Published:  </strong><span id="mod_ypub"></span>
-            </br>
+            <br>
             <strong>ISBN/ISSN: </strong><span id="mod_isbn"> </span>
-            </br>
+            <br>
             <strong>Volume: </strong><span id="mod_vol"> </span>
-            </br>
+            <br>
             <strong>Type:  </strong><span id="mod_type"></span>
-            </br>
-            </br>
+            <br>
+            <br>
             <strong>Requestor:  </strong><span id="mod_requestor"></span>
-            </br>
+            <br>
             <strong>Institute:  </strong><span id="mod_institute"></span>
-            </br>
+            <br>
             <strong>Contact No:  </strong><span id="mod_contact"></span>
-            </br>
+            <br>
             <strong>Processed:  </strong><span id="mod_processed"></span>
-            </br>
-            </br>
+            <br>
+            <br>
             <strong>Current Location:  </strong>Step <span id="mod_current"></span>
-            </br>
+            <br>
             <input type="hidden" id="mod_bookid" value="">
-            <strong>Remarks</strong>
+            <strong>Remarks/Status</strong>
             <textarea style="margin-top:0px!important; padding-top:0px!important;" class="form-control" rows="3" id="mod_remarks"></textarea>
             <strong>Change Steps</strong>
             <select style="margin-top:0px!important; padding-top:0px!important;" id='opt_steps' class="form-control">
-            @foreach($steps as $step)
-            <option value="{{$step->booksteps_id}}">STEP {{$step->booksteps_position}} - {{$step->booksteps_header}}</option>
-            @endforeach
+              @foreach($steps as $step)
+              <option value="{{$step->booksteps_id}}">STEP {{$step->booksteps_position}} - {{$step->booksteps_header}}</option>
+              @endforeach
             </select>
-           
+
 
           </div>
           
@@ -115,8 +113,8 @@
           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
-
     </div>
   </div>
+</div>
 
-  @stop
+@stop

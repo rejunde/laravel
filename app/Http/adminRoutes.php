@@ -34,10 +34,19 @@ Route::group(array('middleware'=>array('auth','admin')),function(){
 	Route::get('/administrator/books/books_index', 'Admin_BooksController@index');  
 	
 	Route::get('/administrator/appusers/appusers_index', 'Admin_AppUsersController@index'); 
-	Route::get('/administrator/appusers/add_users', 'Admin_AppUsersController@add_users');
+	Route::get('/administrator/appusers/appusers_add_admin', 'Admin_AppUsersController@add_admin');
+	Route::get('/administrator/appusers/appusers_faculty', 'Admin_AppUsersController@faculty');
+	Route::get('/administrator/appusers/appusers_add_faculty', 'Admin_AppUsersController@add_faculty');
+	Route::get('/administrator/appusers/appusers_dealer', 'Admin_AppUsersController@dealer');
+	Route::get('/administrator/appusers/appusers_add_dealer', 'Admin_AppUsersController@add_dealer');
+	Route::post('/administrator/appusers/save_new_admin', 'Admin_AppUsersController@save_admin');
+	Route::post('/administrator/appusers/save_new_faculty', 'Admin_AppUsersController@save_faculty');
 	
-	Route::get('/administrator/budgetfund/budgetfund_index', 'Admin_BudgetFundController@index');  
-	
+	Route::get('/administrator/budgetfund/budgetfund_index', 'Admin_BudgetFundController@index');
+	Route::get('/administrator/budgetfund/budgetfund_add', 'Admin_BudgetFundController@add_budgetfund'); 
+	Route::post('/administrator/budgetfund/get_budgetfund_records', 'Admin_BudgetFundController@getBudgetfundRecords');
+	Route::post('/administrator/budgetfund/get_latest_budget_details', 'Admin_BudgetFundController@latestforadd');
+		
 	Route::get('/administrator/reports/reports_index', 'Admin_ReportsController@index'); 
 });
 
